@@ -1,0 +1,28 @@
+require 'rake/clean'
+require 'kramdown'
+
+MARKDOWN = FileList['*.md']
+
+HTML = MARKDOWN.ext '.html'
+
+# Tasks ├───────────────────────────────────────────────────────────────────────
+
+task :default => :html
+
+desc 'build HTMLs of all documents'
+task :html => HTML
+
+# Markdown → HTML ──────────────────────────────────────────────────────────────
+
+rule '.html' => '.md' do |file|
+  text = File.read file.source
+
+  doc = Kramdown::Document.new text, :template => 'template.erb'
+
+  File.write file.name, doc.to_html
+end
+
+# Clobber ──────────────────────────────────────────────────────────────────────
+
+# Clobber only HTMLs we’ve generated
+CLOBBER.include HTML
