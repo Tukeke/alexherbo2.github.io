@@ -1,5 +1,3 @@
-# Guardfile to expose Markdown with HTML
-
-guard :rake, :task => :html do
-  watch /.md$/
+guard :shell do
+  watch // { `make` }
 end
