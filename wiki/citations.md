@@ -33,3 +33,7 @@ amplement suffisant.  (Boris Vian)
 
 Le manque d’élégance est parfois indispensable à la crédibilité de l’insulte.
 (Pierre Desproges)
+
+
+Hâte-toi de bien vivre et songe que chaque jour est à lui seul une vie.
+(Sénèque)
