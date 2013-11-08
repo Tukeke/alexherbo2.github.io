@@ -25,3 +25,7 @@ Je ne vois aucun moyen,
 je ne vois aucune façon.
 
 [HIMYM717] (Florence + the Machine, Shake It Out)
+
+
+Je ne sais pas ce qui est beau, mais je sais ce que j’aime et je trouve ça
+amplement suffisant.  (Boris Vian)
