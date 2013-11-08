@@ -29,3 +29,7 @@ je ne vois aucune façon.
 
 Je ne sais pas ce qui est beau, mais je sais ce que j’aime et je trouve ça
 amplement suffisant.  (Boris Vian)
+
+
+Le manque d’élégance est parfois indispensable à la crédibilité de l’insulte.
+(Pierre Desproges)
