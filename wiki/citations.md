@@ -37,3 +37,19 @@ Le manque d’élégance est parfois indispensable à la crédibilité de l’in
 
 Hâte-toi de bien vivre et songe que chaque jour est à lui seul une vie.
 (Sénèque)
+
+
+– Pardon d’en être tombé amoureux.  Je voulais pas vous faire souffrir.
+– Vous appelez ça demander pardon ?  Enculé !
+– Pardon.  Si vous l’aimez, renoncez à elle.
+– Pour son bonheur.
+– Elle le fuit.
+– Tout le monde le cherche.
+– Les dépressifs veulent affirmer leur dépression.
+– Privés de leur dépression, ils devraient affronter la vie, qui est parfois déprimante.
+– Anna n'est pas dépressive.
+– Non ?
+– Je l’aime !
+– Moi aussi.
+
+(Closer – entre adultes consentants)
