@@ -53,3 +53,7 @@ Hâte-toi de bien vivre et songe que chaque jour est à lui seul une vie.
 – Moi aussi.
 
 (Closer – entre adultes consentants)
+
+
+Peut-être donnons-nous le meilleur de nous-mêmes à ceux qui de leur côté, ne
+nous accordent que rarement une de leurs pensées.  (Terence Hanbury White)
