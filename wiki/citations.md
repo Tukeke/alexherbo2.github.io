@@ -57,3 +57,7 @@ Hâte-toi de bien vivre et songe que chaque jour est à lui seul une vie.
 
 Peut-être donnons-nous le meilleur de nous-mêmes à ceux qui de leur côté, ne
 nous accordent que rarement une de leurs pensées.  (Terence Hanbury White)
+
+
+Un livre qu’on quitte sans en avoir extrait quelque chose est un livre qu’on n’a
+pas lu.  (Antoine Albalat)
