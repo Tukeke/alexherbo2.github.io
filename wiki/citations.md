@@ -61,3 +61,7 @@ nous accordent que rarement une de leurs pensées.  (Terence Hanbury White)
 
 Un livre qu’on quitte sans en avoir extrait quelque chose est un livre qu’on n’a
 pas lu.  (Antoine Albalat)
+
+
+La fatalité veut que l’on prenne toujours les bonnes résolutions trop tard.
+(Oscar Wilde, Le portrait de Dorian Gray)
