@@ -99,3 +99,7 @@ le reverra plus.  (Arthur Meurant, [Silent Hill 2, Critique Cruelle.](http://you
 Les Réplicateurs ne sont pas intrinsèquement bons ou mauvais ; ce sont leurs
 actes qui déterminent la façon dont nous les voyons.  (Stargate SG-1, Unnatural
 Selection, saison 6, épisode 12)
+
+
+Ce qui se conçoit bien s’énonce clairement… et les mots pour le dire arrivent
+aisément.  (Nicolas Boileau)
