@@ -73,3 +73,9 @@ l’on se contente de lire les réponses convenues.  (Albert Messiah)
 
 Il y a bien des manières de ne pas réussir, mais la plus sûre est de ne jamais
 prendre de risques.  (Benjamin Franklin)
+
+
+Au moment où j’avais signé les papiers de l’emprunt bancaire, je ne cessais de
+me répéter intérieurement que nous, les humains, sommes vraiment les architectes
+de notre propre geôle.  (Douglas Kennedy, L’homme qui voulait vivre sa vie,
+1997)
