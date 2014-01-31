@@ -94,3 +94,8 @@ totalement merdique.  (Bienvenue à Zombieland)
 Le propre de l’humanité, c’est de se battre, d’essayer de survivre, tout en
 étant confronté au souvenir du fait que chaque moment qu’on a déjà vécu, on ne
 le reverra plus.  (Arthur Meurant, [Silent Hill 2, Critique Cruelle.](http://youtu.be/TOdLRhbzpMk))
+
+
+Les Réplicateurs ne sont pas intrinsèquement bons ou mauvais ; ce sont leurs
+actes qui déterminent la façon dont nous les voyons.  (Stargate SG-1, Unnatural
+Selection, saison 6, épisode 12)
