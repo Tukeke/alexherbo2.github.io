@@ -85,3 +85,7 @@ L’Ombre est un pôle éblouissant de la Lumière.  L’Ombre ne cherche pas à
 éclipser la Lumière, mais à la sculpter, la souligner, la mettre en relief.
 Sans le fusain de l’Ombre, la page serait vierge et nos regards aveugles.
 (Ismaël Mérindol, Traité de Faërie, 1466)
+
+
+C’est fou la vitesse à laquelle une situation peut passer de problématique à
+totalement merdique.  (Bienvenue à Zombieland)
