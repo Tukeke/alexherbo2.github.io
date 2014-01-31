@@ -79,3 +79,9 @@ Au moment où j’avais signé les papiers de l’emprunt bancaire, je ne cessai
 me répéter intérieurement que nous, les humains, sommes vraiment les architectes
 de notre propre geôle.  (Douglas Kennedy, L’homme qui voulait vivre sa vie,
 1997)
+
+
+L’Ombre est un pôle éblouissant de la Lumière.  L’Ombre ne cherche pas à
+éclipser la Lumière, mais à la sculpter, la souligner, la mettre en relief.
+Sans le fusain de l’Ombre, la page serait vierge et nos regards aveugles.
+(Ismaël Mérindol, Traité de Faërie, 1466)
