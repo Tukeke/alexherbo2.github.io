@@ -69,3 +69,7 @@ La fatalité veut que l’on prenne toujours les bonnes résolutions trop tard.
 
 Lorsqu’on se pose vraiment les questions, on donne de meilleures réponses que si
 l’on se contente de lire les réponses convenues.  (Albert Messiah)
+
+
+Il y a bien des manières de ne pas réussir, mais la plus sûre est de ne jamais
+prendre de risques.  (Benjamin Franklin)
