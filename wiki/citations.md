@@ -65,3 +65,7 @@ pas lu.  (Antoine Albalat)
 
 La fatalité veut que l’on prenne toujours les bonnes résolutions trop tard.
 (Oscar Wilde, Le portrait de Dorian Gray)
+
+
+Lorsqu’on se pose vraiment les questions, on donne de meilleures réponses que si
+l’on se contente de lire les réponses convenues.  (Albert Messiah)
