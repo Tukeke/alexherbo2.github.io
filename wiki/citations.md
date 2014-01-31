@@ -89,3 +89,8 @@ Sans le fusain de l’Ombre, la page serait vierge et nos regards aveugles.
 
 C’est fou la vitesse à laquelle une situation peut passer de problématique à
 totalement merdique.  (Bienvenue à Zombieland)
+
+
+Le propre de l’humanité, c’est de se battre, d’essayer de survivre, tout en
+étant confronté au souvenir du fait que chaque moment qu’on a déjà vécu, on ne
+le reverra plus.  (Arthur Meurant, [Silent Hill 2, Critique Cruelle.](http://youtu.be/TOdLRhbzpMk))
