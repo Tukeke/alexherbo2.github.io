@@ -103,3 +103,8 @@ Selection, saison 6, épisode 12)
 
 Ce qui se conçoit bien s’énonce clairement… et les mots pour le dire arrivent
 aisément.  (Nicolas Boileau)
+
+
+Quand le dernier arbre aura été abattu.  Quand la dernière rivière aura été
+empoisonnée.  Quand le dernier poisson aura été péché.  Alors on saura que
+l’argent ne se mange pas.  (Geronimo)
