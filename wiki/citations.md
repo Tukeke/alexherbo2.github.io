@@ -108,3 +108,16 @@ aisément.  (Nicolas Boileau)
 Quand le dernier arbre aura été abattu.  Quand la dernière rivière aura été
 empoisonnée.  Quand le dernier poisson aura été péché.  Alors on saura que
 l’argent ne se mange pas.  (Geronimo)
+
+
+On est l’esclave de ce qu’on veut bien.
+
+J’aime observer mes pairs, les voir se débattre avec un jeu social qu’ils ne
+maîtrisent pas plus que moi.  J’en fais parfois trop.  Souvent pas assez.  Je ne
+sais pas être dans le ton.  Je n’arrive pas à exprimer la palette d’émotions qui
+m’animent, m’agitent.  Le personnage que j’interprète sonne toujours faux quand
+je me sens tellement mieux en spectateur de l’ombre, bien caché pour mieux
+décrypter les comportements, anticiper les réactions en chaîne, les orienter
+d’un mot, procéder par petites touches – Avec ce même recul que doit avoir Dieu.
+
+(Ingrid Desjours)
