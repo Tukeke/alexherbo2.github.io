@@ -1,10 +1,10 @@
 sources := $(wildcard *.md)
-PDFs    := $(sources:.md=.pdf)
+html    := $(sources:.md=.html)
 
-pdfs: $(PDFs)
+html: $(html)
 
-%.pdf : %.md
-	pandoc $< --output $@
+%.html : %.md
+	pandoc --template template.html $< --output $@
 
 clean:
-	rm $(PDFs)
+	rm $(html)
