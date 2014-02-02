@@ -121,3 +121,7 @@ décrypter les comportements, anticiper les réactions en chaîne, les orienter
 d’un mot, procéder par petites touches – Avec ce même recul que doit avoir Dieu.
 
 (Ingrid Desjours)
+
+
+Le doute est une composante essentielle de la nature humaine.  Les certitudes,
+ça me fait peur.  (Douglas Kennedy, Au pays de Dieu)
