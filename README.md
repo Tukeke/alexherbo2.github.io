@@ -13,7 +13,9 @@ cd alexherbo2
 git clone https://github.com/alexherbo2/wiki
 cd wiki
 git pull
-ranger wiki
+eval $EXPLORER wiki
 ```
+
+It tries to start `EXPLORER` (this is a non-standard variable).
 
 Selected files will be opened with your editor.
