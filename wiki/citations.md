@@ -140,3 +140,6 @@ c’est aussi s’autoriser à sortir des limites de la loi.  (Hugo Grotius)
 
 Même lorsque la cause et l’effet semblent éloignés l’un de l’autre, nous
 supposons quelque chose qui les relie.  (David Hume)
+
+
+Le meilleur moyen de résister à la tentation est d’y céder.  (Oscar Wilde)
