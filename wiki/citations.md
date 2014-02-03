@@ -132,3 +132,7 @@ de faire.  (Aldous Huxley)
 
 
 Tout est pour le mieux dans le meilleur des mondes possibles.  (Voltaire, Candide)
+
+
+La loi nous oblige à faire ce qui est dit et non ce qui est juste.  Réfléchir,
+c’est aussi s’autoriser à sortir des limites de la loi.  (Hugo Grotius)
