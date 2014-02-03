@@ -125,3 +125,10 @@ d’un mot, procéder par petites touches – Avec ce même recul que doit avoir
 
 Le doute est une composante essentielle de la nature humaine.  Les certitudes,
 ça me fait peur.  (Douglas Kennedy, Au pays de Dieu)
+
+
+C’est là qu’est le secret du bonheur et de la vertu, aimer ce qu’on est obligé
+de faire.  (Aldous Huxley)
+
+
+Tout est pour le mieux dans le meilleur des mondes possibles.  (Voltaire, Candide)
