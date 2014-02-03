@@ -148,3 +148,6 @@ Le meilleur moyen de résister à la tentation est d’y céder.  (Oscar Wilde)
 L’expérience est le seul moyen de connaissance ; à travers elle, nous ne voyons
 pas les choses en elles-mêmes, mais seulement les apparences ou les phénomènes.
 (Wilhelm Wundt)
+
+
+On ne fait bien que ce qu’on aime, c’est même essentiel pour réussir.
