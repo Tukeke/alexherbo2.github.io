@@ -176,3 +176,7 @@ recommandé.  [AVF] (André Méry, Utopie)
 
 
 Ce qu’on fait dans la vie est insignifiant.  Mais on doit le faire.  (Gandhi)
+
+
+La vie devient une chose délicieuse, aussitôt qu’on décide de ne plus la prendre
+au sérieux.  (H. De Montherlant)
