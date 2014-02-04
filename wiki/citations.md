@@ -180,3 +180,8 @@ Ce qu’on fait dans la vie est insignifiant.  Mais on doit le faire.  (Gandhi)
 
 La vie devient une chose délicieuse, aussitôt qu’on décide de ne plus la prendre
 au sérieux.  (H. De Montherlant)
+
+
+Ne vous blâmez pas ainsi, la perfection n'existe pas.  Ce monde est imparfait,
+vous le constatez tous les jours.  Et c’est pour ça qu’il est intéressant d’y
+vivre.  (Roy Mustang, Fullmetal Alchemist)
