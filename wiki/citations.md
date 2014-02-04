@@ -155,3 +155,7 @@ On ne fait bien que ce qu’on aime, c’est même essentiel pour réussir.
 
 Ce qui est évident est important.  C’est la première marche indispensable, une
 base qui permet d’organiser facilement les choses plus complexes.
+
+
+C’est bon parce que c’est interdit.  (Breaking Bad, Walter White après avoir
+excité sa femme pendant la réunion parents-profs)
