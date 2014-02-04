@@ -159,3 +159,11 @@ base qui permet d’organiser facilement les choses plus complexes.
 
 C’est bon parce que c’est interdit.  (Breaking Bad, Walter White après avoir
 excité sa femme pendant la réunion parents-profs)
+
+
+Cherchons une base.  La chimère ou le rêve ne sont pas des synonymes d’utopie.
+Au sens premier, « utopie » désigne un pays imaginaire où un gouvernement idéal
+règne sur un peuple heureux.  Imaginaire, oui, tant qu’on n’a pas essayé de le
+concrétiser.  Par conséquent, rien n’empêche de chercher à construire une
+utopie…  Et, au vu de notre actuelle société, je dirais même que c’est plutôt
+recommandé.  [AVF] (André Méry, Utopie)
