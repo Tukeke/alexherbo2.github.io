@@ -167,3 +167,9 @@ règne sur un peuple heureux.  Imaginaire, oui, tant qu’on n’a pas essayé d
 concrétiser.  Par conséquent, rien n’empêche de chercher à construire une
 utopie…  Et, au vu de notre actuelle société, je dirais même que c’est plutôt
 recommandé.  [AVF] (André Méry, Utopie)
+
+
+– Comment ça se passe derrière Elliot ?
+– Mouais.  Je suis en train d’étudier la portée symbolique de ma place dans la voiture.
+
+(Another Happy Day)
