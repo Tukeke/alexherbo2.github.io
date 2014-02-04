@@ -5,7 +5,7 @@ La Conscience ?
 Elle n’empêche jamais de commettre un péché.  
 Elle empêche seulement d’en jouir en paix !  
 
-[FMA] (Theodore Dreiser)
+[FMA] (Theodore Dreiser)
 
 
 La liberté consiste à faire tout ce que permet la longueur de la chaîne.
@@ -26,7 +26,7 @@ Je ne pourrai jamais laisser le passé derrière moi.
 Je ne vois aucun moyen,  
 je ne vois aucune façon.  
 
-[HIMYM717] (Florence + the Machine, Shake It Out)
+[HIMYM717] (Florence + the Machine, Shake It Out)
 
 
 Je ne sais pas ce qui est beau, mais je sais ce que j’aime et je trouve ça
@@ -168,7 +168,7 @@ Au sens premier, « utopie » désigne un pays imaginaire où un gouvernement id
 règne sur un peuple heureux.  Imaginaire, oui, tant qu’on n’a pas essayé de le
 concrétiser.  Par conséquent, rien n’empêche de chercher à construire une
 utopie…  Et, au vu de notre actuelle société, je dirais même que c’est plutôt
-recommandé.  [AVF] (André Méry, Utopie)
+recommandé.  [AVF] (André Méry, Utopie)
 
 
 – Comment ça se passe derrière Elliot ?
