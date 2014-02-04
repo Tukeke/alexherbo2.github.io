@@ -172,8 +172,8 @@ utopie…  Et, au vu de notre actuelle société, je dirais même que c’est pl
 recommandé.  [AVF] (André Méry, Utopie)
 
 
-– Comment ça se passe derrière Elliot ?
-– Mouais.  Je suis en train d’étudier la portée symbolique de ma place dans la voiture.
+– Comment ça se passe derrière Elliot ?  
+– Mouais.  Je suis en train d’étudier la portée symbolique de ma place dans la voiture.  
 
 (Another Happy Day)
 
