@@ -11,6 +11,7 @@ Elle empêche seulement d’en jouir en paix !
 La liberté consiste à faire tout ce que permet la longueur de la chaîne.
 (François Cavanna)
 
+
 Un auteur est peu propre à corriger les feuilles de ses propres ouvrages : il
 lit toujours comme il a écrit et non comme il est imprimé.  (Voltaire)
 
