@@ -185,3 +185,9 @@ au sérieux.  (H. De Montherlant)
 Ne vous blâmez pas ainsi, la perfection n'existe pas.  Ce monde est imparfait,
 vous le constatez tous les jours.  Et c’est pour ça qu’il est intéressant d’y
 vivre.  (Roy Mustang, Fullmetal Alchemist)
+
+
+Il n’y a pas de vérités en sciences.  (H. Reeves)
+
+
+Les idées ont du goût.  Il y en a qu’on aime et d’autres pas.  (H. Reeves)
