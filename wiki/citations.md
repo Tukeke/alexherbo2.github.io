@@ -173,3 +173,6 @@ recommandé.  [AVF] (André Méry, Utopie)
 – Mouais.  Je suis en train d’étudier la portée symbolique de ma place dans la voiture.
 
 (Another Happy Day)
+
+
+Ce qu’on fait dans la vie est insignifiant.  Mais on doit le faire.  (Gandhi)
