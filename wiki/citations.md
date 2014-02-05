@@ -194,3 +194,7 @@ Il n’y a pas de vérités en sciences.  (H. Reeves)
 
 
 Les idées ont du goût.  Il y en a qu’on aime et d’autres pas.  (H. Reeves)
+
+
+Les seules lois qu’un physicien est tenu de respecter sont les lois physiques.
+(Roger Laverriere)
