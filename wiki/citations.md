@@ -227,3 +227,6 @@ Le rêve semble vrai quand on y est.  Ce n’est qu’au réveil qu’on remarqu
 
 
 Aujourd’hui est le premier jour du reste de ma vie.  (Victor Hugo)
+
+
+Do one thing and do it well.  (Unix)
