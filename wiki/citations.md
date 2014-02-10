@@ -213,3 +213,10 @@ Une pensée n’existe vraiment que si elle est comprise.  (Christian Godin)
 
 Si l’on ne donne pas sa vie pour quelque chose, on finira par la donner pour
 rien.  (Jean-Paul Sartre)
+
+
+Chaque nouvelle étape nous oblige à plus de responsabilités, avec plus de
+gratifications sociales, et de moins en moins de temps pour vivre.  Jusqu’à ce
+qu’un jour, la coupe bien pleine, nous décidons de nous en aller cultiver notre
+jardin, au propre comme au figuré, comme un petit bouchon, au fil de l’eau, au
+fil du temps…  (chatlibre.blog.lemonde.fr)
