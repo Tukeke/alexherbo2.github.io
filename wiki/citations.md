@@ -244,3 +244,7 @@ mourant pas, tout simplement.  (Woody Allen)
 
 
 Le futur est déjà là.  Simplement, il est inégalement distribué.  (Paul Saffo)
+
+
+L’amour s’est évanoui […] mais le passé m’est douloureusement cher.  Sache-le
+pour toujours.  (Dostoïevski, Les Frères Karamazov)
