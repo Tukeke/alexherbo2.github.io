@@ -248,3 +248,10 @@ Le futur est déjà là.  Simplement, il est inégalement distribué.  (Paul Saf
 
 L’amour s’est évanoui […] mais le passé m’est douloureusement cher.  Sache-le
 pour toujours.  (Dostoïevski, Les Frères Karamazov)
+
+
+I am the Bad Wolf.  I create myself.  
+I take the words.  I scatter them in time and space.  
+A message to lead myself here.  
+
+– Rose, Doctor Who
