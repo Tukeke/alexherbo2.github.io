@@ -202,3 +202,7 @@ Les seules lois qu’un physicien est tenu de respecter sont les lois physiques.
 
 On nous laissait seulement en face du néant, car il est notoire qu’aucune chose
 au monde n’oppresse davantage l’âme humaine.  (Stefan Zweig)
+
+
+J’aime mieux être un homme à paradoxes qu’un homme à préjugés.  (Jean-Jacques
+Rousseau, Émile, ou De l’éducation, 1762)
