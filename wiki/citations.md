@@ -224,3 +224,6 @@ fil du temps…  (chatlibre.blog.lemonde.fr)
 
 Le rêve semble vrai quand on y est.  Ce n’est qu’au réveil qu’on remarque son
 étrangeté.  (Inception)
+
+
+Aujourd’hui est le premier jour du reste de ma vie.  (Victor Hugo)
