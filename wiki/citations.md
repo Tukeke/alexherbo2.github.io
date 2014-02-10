@@ -230,3 +230,17 @@ Aujourd’hui est le premier jour du reste de ma vie.  (Victor Hugo)
 
 
 Do one thing and do it well.  (Unix)
+
+
+L’âge de la découverte s’achève; voici venir l’âge de la maîtrise.  (Kaku)
+
+
+C’est la connaissance.  Ni le bien, ni le mal.  La seule connaissance.  (Feancis
+Collins)
+
+
+Je ne veux pas vivre à jamais par mes œuvres, je veux vivre à jamais en ne
+mourant pas, tout simplement.  (Woody Allen)
+
+
+Le futur est déjà là.  Simplement, il est inégalement distribué.  (Paul Saffo)
