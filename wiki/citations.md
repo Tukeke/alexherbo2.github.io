@@ -198,3 +198,7 @@ Les idées ont du goût.  Il y en a qu’on aime et d’autres pas.  (H. Reeves)
 
 Les seules lois qu’un physicien est tenu de respecter sont les lois physiques.
 (Roger Laverriere)
+
+
+On nous laissait seulement en face du néant, car il est notoire qu’aucune chose
+au monde n’oppresse davantage l’âme humaine.  (Stefan Zweig)
