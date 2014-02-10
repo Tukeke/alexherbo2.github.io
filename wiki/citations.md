@@ -209,3 +209,7 @@ Rousseau, Émile, ou De l’éducation, 1762)
 
 
 Une pensée n’existe vraiment que si elle est comprise.  (Christian Godin)
+
+
+Si l’on ne donne pas sa vie pour quelque chose, on finira par la donner pour
+rien.  (Jean-Paul Sartre)
