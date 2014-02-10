@@ -259,3 +259,17 @@ A message to lead myself here.
 
 Go ahead and experiment.  Don’t think too much.  Let intuition be your guide.
 (Baten Kaitos – Eternal Wings, in the Moonguile Forest)
+
+
+– RULE #1  Cardio  
+– RULE #2  Double tap  
+– RULE #3  Beware of bathrooms  
+– RULE #4  Seatbelts  
+– RULE #7  Travel light  
+– RULE #17 Don’t be a hero  
+– RULE #18 Limber up  
+– RULE #22 When in doubt know your way out  
+– RULE #31 Check the back seat  
+– RULE #32 Enjoy the little things  
+
+– Bienvenue à Zombieland
