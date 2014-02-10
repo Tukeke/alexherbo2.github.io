@@ -255,3 +255,7 @@ I take the words.  I scatter them in time and space.
 A message to lead myself here.  
 
 – Rose, Doctor Who
+
+
+Go ahead and experiment.  Don’t think too much.  Let intuition be your guide.
+(Baten Kaitos – Eternal Wings, in the Moonguile Forest)
