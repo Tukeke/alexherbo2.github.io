@@ -206,3 +206,6 @@ au monde n’oppresse davantage l’âme humaine.  (Stefan Zweig)
 
 J’aime mieux être un homme à paradoxes qu’un homme à préjugés.  (Jean-Jacques
 Rousseau, Émile, ou De l’éducation, 1762)
+
+
+Une pensée n’existe vraiment que si elle est comprise.  (Christian Godin)
