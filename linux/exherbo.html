@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='/images/favicon.ico' rel='icon'>
+    <link href='/css/style.css' rel='stylesheet'>
+    <script src='//code.jquery.com/jquery-2.1.0.min.js'></script>
+    <script src='//timeago.yarp.com/jquery.timeago.js'></script>
+    <script src='//arwid.github.io/jQuery.scrollIntoView/jquery.scrollIntoView.min.js'></script>
+    <script src='/js/script.js'></script>
+    <title>
+      alexherbo2.github.io — Exherbo
+    </title>
+  </head>
+  <body>
+    <header>
+      <div class='top'>
+<div class='left'>
+  <a href="/" id="home">home</a><a class="raw" href="//mawww.uni.cx:8000" title="Open Music">(▶)</a>
+</div>
+<div class='right'>
+  <script>
+    (function() {
+      $('<iframe>', {
+        src: '//api.flattr.com/button/view/?button=compact&uid=alexherbo2&url=http://alexherbo2.github.io/flattr/exherbo',
+        title: 'Flattr',
+        height: 20,
+        width: 110
+      }).css({
+        borderWidth: 0
+      }).prependTo($('.top .right'));
+    
+    }).call(this);
+  </script>
+  <script data-gittip-username='alexherbo2' data-gittip-widget='button' src='//gttp.co/v1.js'></script>
+  <a class='timeago' href='//github.com/alexherbo2/alexherbo2.github.io/commit/4d72498' title='View Commit'>
+    <time class='timeago' datetime='2014-05-22 12:25:40 +0200'></time>
+  </a>
+  <a class='raw' href='//raw.github.com/alexherbo2/alexherbo2.github.io/source/content/linux/exherbo.md' title='View Raw'>
+    ❮❯
+  </a>
+  <h1 id='title'>
+    <a href="//github.com/alexherbo2/alexherbo2.github.io">alexherbo2.github.io</a>
+    —
+    <a href="//github.com/alexherbo2/alexherbo2.github.io/blob/source/content/linux/exherbo.md">Exherbo</a>
+  </h1>
+  <a class='raw' href='//github.com/alexherbo2/alexherbo2.github.io/edit/source/content/linux/exherbo.md' title='Edit Page'>
+    
+  </a>
+</div>
+      </div>
+    </header>
+    <article>
+      <div id='leaf-info'>
+<time>
+  
+</time>
+<author>
+  
+</author>
+<license>
+  
+</license>
+<span class='source'>
+  
+</span>
+      </div>
+      <div id='leaf-content'>
+<p><a href="http://exherbo.org"><img src="/images/zebrapig.svg" title="Exherbo" alt="Zebrapig" /></a></p>
+<h2 id="what-is-exherbo">What is Exherbo?</h2>
+<p>Basically <a href="http://exherbo.org">Exherbo</a> is <a href="http://linuxfromscratch.org">LFS</a> with <a href="http://paludis.exherbo.org">Paludis</a>, a source package manager.</p>
+<p>It includes:</p>
+<ul>
+<li>a package mangler – <a href="http://paludis.exherbo.org/clients/cave.html">cave</a> ( <a href="http://paludis.exherbo.org/clients/cave-search.html">search</a> | <a href="http://paludis.exherbo.org/clients/cave-show.html">show</a> | <a href="http://paludis.exherbo.org/clients/cave-resolve.html">resolve</a> | <a href="http://paludis.exherbo.org/clients/cave-sync.html">sync</a> )</li>
+<li>a news reader – <code>eclectic news read new</code></li>
+<li>alternatives – <code>eclectic gcc set 4.8</code></li>
+</ul>
+<h2 id="why-exherbo">Why Exherbo?</h2>
+<ul>
+<li>source based Linux distribution with <a href="http://paludis.exherbo.org">Paludis</a></li>
+<li>decentralised (It is very easy to make/maintain it’s <a href="http://exherbo.org/docs/exheres-for-smarties.html">own packages</a> and add those from other)</li>
+<li>friendly community (join <a href="http://webchat.freenode.net/?channels=exherbo">#exherbo</a> on freenode)</li>
+<li>easy to contribute using the <a href="http://exherbo.org/docs/patchbot.html">patchbot</a></li>
+</ul>
+<h2 id="installing">Installing</h2>
+<p><em>Note</em> that most of you will see below is borrowed from the official <a href="http://exherbo.org/docs/install-guide.html">Exherbo Install Guide</a> but adapted for my needs and preferences.</p>
+<h3 id="read-the-documentation">1. Read the documentation</h3>
+<ul>
+<li>Re-read everything on <a href="http://paludis.exherbo.org">paludis.exherbo.org</a> and <a href="http://exherbo.org">exherbo.org</a></li>
+<li>Check <a href="http://lists.exherbo.org/pipermail/exherbo-dev">recent mailing list posts</a> for any possible issues, especially Paludis upgrade information</li>
+</ul>
+<h3 id="boot-a-live-system">2. Boot a live system</h3>
+<p><a href="http://manjaro.org/get-manjaro">Get Manjaro</a> (or any distribution) and verify the integrity of the ISO.</p>
+<pre><code>wget http://downloads.sourceforge.net/project/manjarotorrents/release/&lt;version&gt;/manjaro-xfce-&lt;version&gt;-x86_64.torrent
+wget http://downloads.sourceforge.net/project/manjarolinux/release/&lt;version&gt;/xfce/manjaro-xfce-&lt;version&gt;-x86_64.iso
+wget http://downloads.sourceforge.net/project/manjarolinux/release/&lt;version&gt;/xfce/manjaro-xfce-&lt;version&gt;-sha1sum.txt</code></pre>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">grep</span> manjaro-xfce-<span class="kw">&lt;</span>version<span class="kw">&gt;</span>-x86_64.iso manjaro-xfce-<span class="kw">&lt;</span>version<span class="kw">&gt;</span>-sha1sum.txt <span class="kw">|</span> <span class="kw">sha1sum</span> --check</code></pre>
+<p>Then write Manjaro on your device (be careful, it’s <code>sdb</code> in my case).</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">dd</span> if=manjaro-xfce-<span class="kw">&lt;</span>version<span class="kw">&gt;</span>-x86_64.iso of=/dev/sdb</code></pre>
+<p>Boot Manjaro then you’re ready to the next step :) <a href="#prepare-the-hard-disk">Prepare the hard disk</a></p>
+<h3 id="prepare-the-hard-disk">3. Prepare the hard disk</h3>
+<p>There are two partitions, <code>/</code> and a data partition.</p>
+<p>Create a root (SSD) and home partition.</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">fdisk</span> /dev/sd<span class="dt">{a,b}</span> → /dev/sd<span class="dt">{a,b}</span>1</code></pre>
+<p>Format the file systems</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">mkfs.ext4</span> /dev/sd<span class="dt">{a,b}</span>1</code></pre>
+<p>Mount root and <code>cd</code> into it</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">mount</span> /dev/sda1 /mnt<span class="kw">;</span> <span class="kw">cd</span> /mnt</code></pre>
+<p>Create and activate the swapfile (optional, discouraged with SSD)</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">free</span> --total --mega (ramsize)
+<span class="kw">fallocate</span> -l (ramx2)<span class="kw">M</span> swapfile</code></pre>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">mkswap</span> swapfile
+<span class="kw">swapon</span> swapfile</code></pre>
+<p>Get the latest archive of Exherbo from <a href="http://dev.exherbo.org/stages">Stages</a> and verify the consistence of the file.</p>
+<p><em>Note</em> <a href="http://dev.exherbo.org/stages">Stages</a> are being built automatically using <a href="https://galileo.mailstation.de/jenkins">Jenkins</a> thanks to <a href="https://galileo.mailstation.de">Philantrop</a>.</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">wget</span> http://dev.exherbo.org/stages/exherbo-amd64-current.tar.xz
+<span class="kw">wget</span> http://dev.exherbo.org/stages/sha1sum
+<span class="kw">grep</span> exherbo-adm64-current.tar.xz sha1sum <span class="kw">|</span> <span class="kw">sha1sum</span> --check</code></pre>
+<p>Extract the stage</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">unxz</span> --to-stdout exherbo*xz <span class="kw">|</span> <span class="kw">tar</span> --extract --preserve-permissions --preserve-order --file -</code></pre>
+<p>Update etc/fstab</p>
+<pre><code>#FILE_SYSTEM        MOUNT_POINT     TYPE     OPTIONS                                          DUMP PASS
+/dev/sda1           /               ext4     noatime,nobh,data=writeback,barrier=0,discard    0    0
+/dev/sdb1           /home           ext4     defaults                                         0    0    # if SSD
+/swapfile           none            swap     defaults                                         0    0    # else (optional)
+tmpfs               /tmp            tmpfs    noatime,nodev,nosuid                             0    0
+tmpfs               /var/spool      tmpfs    noatime,nodev,nosuid                             0    0
+tmpfs               /var/cache      tmpfs    noatime,nodev,nosuid                             0    0
+tmpfs               /var/tmp        tmpfs    noatime,nodev,nosuid                             0    0
+tmpfs               /var/log        tmpfs    noatime,nodev,nosuid                             0    0</code></pre>
+<p><em>Note</em> my laptop has a SSD, so it takes extra care options to stretch its lifetime.</p>
+<ul>
+<li>noatime</li>
+<li>nobh</li>
+<li>data=writeback</li>
+<li>barrier=0</li>
+<li>discard</li>
+</ul>
+<h3 id="run-exherbo">4. Run Exherbo</h3>
+<p>Mount home in the name space container</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">mount</span> /dev/sdb1 home</code></pre>
+<p>Make sure the network can resolve DNS</p>
+<p><em>etc/resolv.conf</em></p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="co"># Google DNS</span>
+
+<span class="kw">nameserver</span> 8.8.8.8
+<span class="kw">nameserver</span> 8.8.4.4
+
+<span class="co"># https://developers.google.com/speed/public-dns/docs/using</span></code></pre>
+<p>Spawn Exherbo name space container</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">systemd-nspawn</span></code></pre>
+<p><em>Note</em> If for some reason it does not work, mount everything needed then chroot into the system:</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">mount</span> --options rbind /dev dev
+<span class="kw">mount</span> --options bind /sys sys
+<span class="kw">mount</span> --types   proc none proc
+<span class="kw">env</span> --ignore-environment TERM=<span class="ot">$TERM</span> SHELL=/bin/bash HOME=<span class="ot">$HOME</span> <span class="ot">$(</span><span class="kw">which</span> chroot<span class="ot">)</span> . /bin/bash</code></pre>
+<p>Then when in Exherbo</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="ot">PS1=(</span>Exherbo<span class="ot">)</span><span class="dt">\ </span><span class="ot">$PS1</span></code></pre>
+<h3 id="update-the-install">5. Update the install</h3>
+<p>Make sure Paludis is configured correctly</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">kak</span> /etc/paludis/<span class="dt">{bashrc,{*}conf}</span></code></pre>
+<p>Sync all the trees – now it is safe to sync</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">cave</span> sync</code></pre>
+<h3 id="make-bootable">6. Make bootable</h3>
+<p>Clone the latest stable <a href="http://kernel.org">kernel</a>.</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">git</span> clone git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git linux<span class="kw">;</span> <span class="kw">cd</span> linux</code></pre>
+<p>Configure and install the kernel</p>
+<pre><code>make menuconfig</code></pre>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">make;</span> <span class="kw">make</span> modules_install<span class="kw">;</span> <span class="kw">cp</span> arch/x86/boot/bzImage /boot/kernel</code></pre>
+<p>Install and configure a boot loader</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">cave</span> resolve syslinux</code></pre>
+<ol style="list-style-type: decimal">
+<li>install the files → <code>extlinux --install /boot/syslinux</code></li>
+<li>mark the partition active with the boot flag → <code>fdisk /dev/sda</code></li>
+<li>install the MBR boot code → <code>dd if=/usr/share/syslinux/mbr.bin of=/dev/sda bs=440 count=1</code> (<code>cave print-id-contents syslinux | grep mbr.bin</code>)</li>
+</ol>
+<p>Edit /boot/syslinux/syslinux.cfg</p>
+<pre><code>DEFAULT linux
+PROMPT   0
+TIMEOUT 50
+
+LABEL linux
+  MENU LABEL Linux
+  APPEND root=/dev/sda1 ro
+  LINUX   ../kernel</code></pre>
+<p>Install an init system</p>
+<ol style="list-style-type: decimal">
+<li>Set systemd option globally in /etc/paludis/options.conf → <code>*/* systemd</code></li>
+<li>Install systemd → <code>cave resolve sys-apps/systemd</code></li>
+<li>Reinstall every package with the new option set → <code>cave resolve world</code></li>
+<li>Switch to systemd as your init system → <code>eclectic init set systemd</code></li>
+</ol>
+<p>Configure your hostname for systemd</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">echo</span> <span class="ot">$hostname</span> <span class="kw">&gt;</span> /etc/hostname</code></pre>
+<p>Make sure your hostname is mapped to localhost in /etc/hosts, otherwise some packages test suites will fail because of network sandboxing.</p>
+<pre><code>127.0.0.1    localhost $hostname
+::1          localhost $hostname</code></pre>
+<p>Configure locales</p>
+<pre><code>localedef --inputfile=en_US --charmap=UTF-8 en_US.UTF-8</code></pre>
+<p><em>/etc/env.d/99locale</em></p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="ot">LANG=</span>en_US.UTF-8</code></pre>
+<p>Set system timezone</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">ln</span> --symbolic /usr/share/zoneinfo/Europe/Paris /etc/localtime</code></pre>
+<p>Synchronize hardware clock 'aka BIOS' with the current system time.</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">hwclock</span> --systohc --utc</code></pre>
+<p>Set root password</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">passwd</span> root</code></pre>
+<p>Add a new user for daily use</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">useradd</span> --create-home --groups adm,disk,wheel,cdrom,video,usb,users USERNAME</code></pre>
+<p>Set user password</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">passwd</span> USERNAME</code></pre>
+<p>Automatic login to virtual console</p>
+<p><em>/etc/systemd/system/getty@tty1.service.d/autologin.conf</em></p>
+<pre><code>[Service]
+ExecStart=
+ExecStart=-/usr/bin/agetty --autologin USERNAME --noclear %I 38400 linux</code></pre>
+<p>Install sudo</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">cave</span> resolve sudo</code></pre>
+<p>Edit /etc/sudoers</p>
+<pre><code></code></pre>
+<p>Reboot</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">reboot</span></code></pre>
+<h3 id="post-installation">7. Post-installation</h3>
+<h4 id="remove-the-stage-tarball">Remove the stage tarball</h4>
+<p>The stage tarball is no longer needed and can be safely removed.</p>
+<h4 id="clean-up-packages">Clean up packages</h4>
+<p>The installation images (stages) contain additional tools which are useful for the installation process but are not part of the system nor world sets but the stages set.</p>
+<p>You can identify the additional packages using cave show:</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">cave</span> show stages</code></pre>
+<p>If you wish to remove them, you can simply execute the resolution of cave purge:</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">cave</span> purge</code></pre>
+<p>Alternatively, you can add packages you wish to retain to the world set by using the update-world command. As an example, the following adds Kakoune to the world set.</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">cave</span> update-world app-editors/kakoune</code></pre>
+<p>Or, if you want to add all packages of the stages set to the world set:</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">cave</span> update-world --set stages</code></pre>
+<h4 id="shell">Shell</h4>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">cave</span> resolve fish-shell</code></pre>
+<h4 id="network-configuration">Network configuration</h4>
+<p>Start dhcpcd</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">dhcpcd</span></code></pre>
+<p>Install and configure NetworkManager</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">cave</span> resolve net-apps/NetworkManager
+<span class="kw">cave</span> resolve gnome-desktop/gnome-keyring
+<span class="kw">cave</span> resolve gnome-desktop/network-manager-applet</code></pre>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">systemctl</span> enable NetworkManager</code></pre>
+<p>Stop dhcpcd</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">dhcpcd</span></code></pre>
+<h4 id="sound">Sound</h4>
+<p>Activate sound driver</p>
+<pre><code>Device Drivers
+  Sound card Support
+    ALSA
+      PCI Sound Device
+        $DRIVER</code></pre>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">cave</span> resolve sys-sound/alsa-utils</code></pre>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">cave</span> resolve media-sound/pulseaudio
+<span class="kw">cave</span> resolve media-sound/pulseaudio-applet</code></pre>
+<h4 id="window-manager">Window manager</h4>
+<p>Activate KMS (Kernel Mode Setting) (optional, recommended if you have a look at tty)</p>
+<pre><code>Device Drivers
+  Graphics support
+    [*] DRIVER
+    [*] Enable userspace modesetting on DRIVER</code></pre>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">cave</span> resolve xorg (group) <span class="kw">x11-driver</span>/<span class="kw">xf86-video-</span><span class="dt">{driver}</span></code></pre>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">cave</span> resolve x11-wm/i3</code></pre>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">startx</span></code></pre>
+<p>Start X at Login</p>
+<pre class="fish"><code>if status --is-login
+  if not test &quot;$DISPLAY&quot;
+    startx
+  end
+end</code></pre>
+<h4 id="fonts">Fonts</h4>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">cave</span> resolve fonts/dejavu</code></pre>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">ln</span> --symbolic /usr/share/fontconfig/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d</code></pre>
+<h4 id="browser">Browser</h4>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">cave</span> resolve net-www/chromium-dev                                              \
+             <span class="kw">net-www/chromium-dev-flash-plugin</span>                                 \
+             <span class="kw">net-www/chromium-dev-pdf-plugin</span></code></pre>
+<h3 id="contributing">8. Contributing</h3>
+<ul>
+<li><a href="http://imagination-land.org/posts/2013-01-03-knowing-your-system---part-7---contributing-to-exherbo.html">Knowing your system — Part 7 — Contributing to Exherbo</a></li>
+<li><a href="https://github.com/alexherbo2/paludis">github.com/alexherbo2/paludis</a></li>
+</ul>
+<p><em>/home/alex/paludis/repositories/arbor.conf</em></p>
+<pre><code>...
+sync = git://git.exherbo.org/arbor local: git+file:///home/alex/exherbo/arbor
+...</code></pre>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">cd</span> /home/alex/exherbo<span class="kw">;</span> <span class="kw">git</span> clone git://git.exherbo.org/arbor</code></pre>
+<p>Make your changes and commit them.</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">cave</span> sync --source local arbor</code></pre>
+<p><em>/home/alex/bin/git-patch</em></p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">git</span> format-patch     \
+  <span class="kw">--find-renames</span>      \
+  <span class="kw">--find-copies</span>        \
+  <span class="kw">--find-copies-harder</span>  \
+  <span class="kw">--stdout</span> <span class="ot">$@</span></code></pre>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">git</span> patch -<span class="kw">&lt;</span>number_of_commits<span class="kw">&gt;</span> <span class="kw">|</span> <span class="kw">gist</span> --open</code></pre>
+<p>Copy the raw</p>
+<p><code>!pq RAW_URL ::arbor [DESCRIPTION]</code></p>
+<p>Commands and aliases:</p>
+<pre><code>!patchqueue RAW_URL ::REPO [DESCRIPTION]
+!pq</code></pre>
+<pre><code>!patchdone TEXT
+!pd</code></pre>
+<pre><code>!patchlist
+!pl</code></pre>
+<h3 id="make-your-supplemental-repository">9. Make your supplemental repository</h3>
+<ul>
+<li><a href="http://exherbo.org/docs/exheres-for-smarties.html">Exheres for Smarties</a></li>
+<li><a href="https://github.com/alexherbo2/exheres">github.com/alexherbo2/exheres</a></li>
+</ul>
+<h3 id="submit-your-personal-repository">10. Submit your personal repository</h3>
+<pre><code>!pq https://github.com/alexherbo2/exheres ::unavailable-unofficial alexherbo2’s supplemental repository</code></pre>
+<script>// Generated by CoffeeScript 1.7.1
+(function() {
+  var image, _i, _len, _ref;
+
+  _ref = document.images;
+  for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+    image = _ref[_i];
+    image.style.cssFloat = 'right';
+  }
+
+}).call(this);</script>
+      </div>
+    </article>
+    <div id='disqus_thread'></div>
+    <script>
+      (function() {
+var disqus_identifier;
+      
+disqus_identifier = 'exherbo';
+      
+$('head').append('<script async src=//alexherbo2.disqus.com/embed.js>');
+      
+      }).call(this);
+    </script>
+    <footer>
+      <div class='bottom'>
+<div class='left'>
+  <a href='//github.com/alexherbo2/alexherbo2.github.io'>
+    GitHub
+  </a>
+</div>
+      </div>
+    </footer>
+  </body>
+</html>
