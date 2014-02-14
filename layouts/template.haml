@@ -1,0 +1,23 @@
+!!!
+%html
+  %head
+    %link{href: '/images/favicon.ico', rel: 'icon'}
+    %link{href: '/css/style.css',      rel: 'stylesheet'}
+    %script{src: 'http://code.jquery.com/jquery-2.1.0.min.js'}
+    %script{src: 'http://timeago.yarp.com/jquery.timeago.js'}
+    %script{src: 'https://raw.github.com/Arwid/jQuery.scrollIntoView/master/jquery.scrollIntoView.min.js'}
+    %script{src: '/js/script.js'}
+    %title
+      $title$
+  %body
+    %header
+      %a#home{href: '/'}
+        home(1)
+      %h1#title
+        $title$
+    %div
+      %article
+        $body$
+    %footer
+      %a{href: 'http://github.com/alexherbo2/alexherbo2.github.io'}
+        GitHub

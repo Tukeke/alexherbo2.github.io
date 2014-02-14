@@ -1,0 +1,205 @@
+#!/bin/bash
+
+usage() { cat <<EOF >&2
+usage: build [sync|async]
+
+As building site may take some time, it should run asynchronously.
+EOF
+}
+
+if [[ $* =~ ^(-h|--help) ]]; then usage; exit
+fi
+
+# ──────────────────────────────────────────────────────────────────────────────
+
+main() {
+  case $1 in
+     sync) sync=1;;
+    async) sync=0;;
+        *) sync=1;;
+  esac
+
+  if test $sync=1; then build
+
+  # There’s nothing special about the number 200. It is just the file descriptor.
+  # But the trick is to open the current file name for reading and then obtain
+  # exclusive lock for it.
+  else exec 200<$0; flock 200 && ( build ) >& /dev/null &
+
+  fi
+}
+
+# ──────────────────────────────────────────────────────────────────────────────
+
+build() {
+    work=$(mktemp --directory)
+
+    branch=$(git current-branch)
+
+    # Back to the current branch when work is DONE or aborted
+    # and remove temporary generated files.
+    trap 'git checkout $branch; rm --recursive --force $work' EXIT INT TERM
+
+    cp --recursive . $work
+
+    tmp=$work/tmp; mkdir $tmp
+
+    # Haml to HTML ─────────────────────────────────────────────────────────────
+
+    template=$tmp/template.html
+
+    haml layouts/template.haml $template
+
+    # Sass to CSS ──────────────────────────────────────────────────────────────
+
+    mkdir --parents $work/site/css
+
+                               sources=$(find $work/assets/sass -type f)
+    for source in $sources; do output=$(echo $source | sed s/assets/site/';'s/sass/css/g)
+      sass --compass --cache-location $tmp/sass $source $output
+    done
+
+    # Coffee to JS ─────────────────────────────────────────────────────────────
+
+    coffee=$work/assets/coffee js=$work/assets/js; mkdir $js
+
+    coffee --compile $coffee; mv $coffee/*.js $js
+
+    # Kakoune filters ──────────────────────────────────────────────────────────
+
+    kak_filter_script=$tmp/filter.kak
+
+    echo '
+    try %{
+      exec \%s^><ret>gl
+      exec s<<<ret>
+      exec c<cite><esc>
+      exec /\n\n|\n$<ret>
+      exec i</cite><esc>
+    }
+    try %{
+      exec \%s\n\n-+\n<ret>s.<ret>
+      exec -draft -itersel c<br><esc>
+    }
+    try %{
+      exec \%s^coffee$<ret>
+      exec d
+      exec ?\n\n|\n$<ret>
+      exec %_|coffee --stdio --compile<ret>_
+      exec i<script><esc>a</script>
+    }
+    write; quit' > $kak_filter_script
+
+    # ──────────────────────────────────────────────────────────────────────────
+
+    sourcedirs=$(find $work/src -type d)
+
+    index_page=$tmp/index.md
+    list_page=$tmp/list.md
+    for dir in $sourcedirs; do
+      entries=$(ls $dir)
+      sitedir=$(echo $dir | sed s/'^'.'*'src//)
+      for entry in $entries; do
+        if test -d $dir/$entry; then continue
+        fi
+        if [[ $entry =~ (README|READING) ]]; then continue
+        fi
+        file=src/$sitedir/$entry
+        title=$(head -1 $dir/$entry)
+        link=$(echo $sitedir/$entry | sed 's/.md$/.html/')
+        timestamp=$(git log --format=%ct $file)
+        iso_date=$(git log --format=%ci $file)
+        echo "$timestamp<h2 style=display:inline>[$title]($link)</h2> <time class=timeago datetime='$iso_date'></time><br>" >> $list_page
+      done
+    done
+
+    # ──────────────────────────────────────────────────────────────────────────
+
+    cat <<EOF | sed s/^\ //> $index_page
+    Blog,  
+    Drafts,  
+    Personal wiki / recipes.<br><br>
+EOF
+    echo '<div style=white-space:nowrap>'                                        >> $index_page
+
+    sort --reverse $list_page | sed s/^[0-9]'*'//                                >> $index_page
+
+    echo '</div>'                                                                >> $index_page
+
+    echo '<br>'                                                                  >> $index_page
+
+    echo '<h2 class=title>READING</h2>'                                          >> $index_page
+
+    echo '<pre style=border:0>'                                                  >> $index_page
+
+    cat $work/src/READING                                                        >> $index_page
+
+    echo '</pre>'                                                                >> $index_page
+
+    sed --in-place '/^$list$$/ { r '$index_page$'\n d }' $work/src/README.md
+
+    # ──────────────────────────────────────────────────────────────────────────
+
+                               sources=$(find $work/src -type f)
+    for source in $sources; do output=$(echo $source | sed s/src/site/';'s/.md$/.html/';'s/README/index/)
+      mkdir --parents $(dirname $output)
+      kak -n -e edit\ $source';'source\ $kak_filter_script
+      title=$(head -1 $source)
+      cd $(dirname $source)
+        file=$(basename $source)
+        timestamp=$(git log --format=%ct $file)
+        iso_date=$(git log --format=%ci $file)
+      cd -
+      date=$(date --date @$timestamp +'%d %b %Y')
+      sed --in-place 1,2d $source
+      if [[ ! $source =~ (README|READING) ]]; then
+        sed --silent --in-place '1i<div id=leaf-content>
+                                 1i<time class=timeago datetime='"$iso_date"'></time> —
+                                 1i<time>'"$date"'</time>
+                                 1r'$source'
+                                 $a
+                                 $a</div>' $source
+      fi
+      sed --in-place "1i% alexherbo2.github.io — $title\n%\n%\n" $source
+      pandoc --template $template $source --output $output
+
+      # Pandoc + Haml(white space aware) = #fail
+      sed --in-place --regexp-extended s/^' '{8}// $output
+
+      # Linkify title page
+      sed --in-place --regexp-extended s_^alexherbo2.github.io_'<a href=https://github.com/alexherbo2/\0>\0</a>'_ $output
+    done
+
+    # Deployment ───────────────────────────────────────────────────────────────
+
+    git stash
+    git checkout master
+
+    # Flags
+    force=-f
+    recursive=-r
+
+    # Cleanup
+    git rm $force $recursive .
+
+    mv $work/assets/images .
+    mv $work/assets/fonts  .
+    mv $work/assets/js     .
+    mv $work/site/*        .
+    rm READING
+
+    date=$(date)
+
+    git add --update
+    git add .
+    git amend --message="$date"
+    git push --force
+
+    git checkout -
+    git stash apply
+
+    notify-send alexherbo2.github.io
+}
+
+
+main $@

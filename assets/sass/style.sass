@@ -1,0 +1,137 @@
+@import compass
+@import solarized
+
+// Load custom font
+@font-face
+  font-family                                           : menlo
+  src                                                   : url('/fonts/menlo.ttf')
+
+// Font configuration (CLIs have ONE, mono-spaced font)
+@mixin font
+  font-family                                           : menlo
+  font-size                                             : 16px
+
+// Link highlighting
+@mixin link($color, $color_highlight)
+  a
+    text-decoration                                     : none
+    color                                               : $color
+    &:hover
+      color                                             : $color_highlight
+
+// We are not allowed to link:visited:after → content
+// Visited class does the trick anyway.
+// https://developer.mozilla.org/en-US/docs/Web/CSS/Privacy_and_the_:visited_selector
+.visited:after
+  content: ' (✓)'
+
+// Page: we just define the color scheme.
+body
+  @include font
+  background                                            : black
+  color                                                 : $base3
+
+// It’s just a CSS reset.  We want the same font size, like terminals.
+h1, h2, h3, h4, strong, p, a, span, pre, code, blockquote
+  @include font
+  margin                                                : 0
+  padding                                               : 0
+
+h1, h2, h3, h4
+  text-wrap                                             : nowrap
+  color                                                 : white
+
+ul
+  list-style-type                                       : none
+  ul
+    padding-left                                        : 0
+  li
+    margin-left                                         : 1.5em
+    &:before
+      color                                             : $yellow
+  li:before
+    content                                             : '* '
+  li li:before
+    content                                             : '- '
+  li li li:before
+    content                                             : '. '
+
+p, pre, li, blockquote
+  margin-bottom                                         : 1em
+  margin-left                                           : 4em
+
+pre, blockquote
+  border-left                                           : 2px solid #222222
+  padding-left                                          : 1em
+
+blockquote
+  color                                                 : $base2
+  p
+    margin                                              : 0
+    padding                                             : 0
+  cite
+    color                                               : $cyan
+
+a.tag, a img
+  color                                                 : $yellow
+
+@include link($green, $base01)
+
+h1, h2, h3, h4
+  @include link($green, $base01)
+
+header
+  @include link($green, $base01)
+  font-weight                                           : bold
+
+header a#home
+  position                                              : fixed
+  top                                                   : 0
+  left                                                  : 0
+
+header h1#title
+  position                                              : fixed
+  top                                                   : 0
+  right                                                 : 0
+  color                                                 : $magenta
+  font-weight                                           : normal
+  a
+    color                                               : $magenta
+
+footer
+  position                                              : fixed
+  bottom                                                : 0
+  left                                                  : 0
+
+article
+  padding                                               : 02em 0
+  width                                                 : 52em
+  //:before
+  //content                                             : '/ '
+  //color                                               : $red
+  //:before
+  //content                                             : '# '
+  //color                                               : $red
+  h3:before
+    content                                             : '## '
+    color                                               : $red
+  h4:before
+    content                                             : '### '
+    color                                               : $red
+  p
+    text-space-collapse                                 : preserve
+
+time
+  text-wrap                                             : nowrap
+  color                                                 : white
+
+#scrolling-nodes
+  text-wrap                                             : nowrap
+  position                                              : fixed
+  top                                                   : 1em
+  right                                                 : 1em
+  text-align                                            : right
+  font-style                                            : italic
+  font-size                                             : 20px
+  color                                                 : #444
+  cursor                                                : pointer

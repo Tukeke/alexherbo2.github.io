@@ -1,21 +1,31 @@
-<!-- wiki
-     ==== -->
+Blog,
+Drafts,
+Personal wiki / recipes.
 
-Browsing
+Building
 --------
 
-To browse, select and paste in your terminal.
+alexherbo2’s user site dependencies are:
 
-```sh
-cd /tmp
-mkdir alexherbo2
-cd alexherbo2
-git clone https://github.com/alexherbo2/wiki
-cd wiki
-git pull
-eval $EXPLORER wiki
-```
+ * [Pandoc](http://johnmacfarlane.net/pandoc)
+ * [Haml](http://haml.info)
+ * [Sass](http://sass-lang.com)
+ * [CoffeeScript](http://coffeescript.org)
+ * [Kakoune](https://github.com/mawww/kakoune)
 
-It tries to start `EXPLORER` (this is a non-standard variable).
+To build, just type `build` in the root directory.  The site will be deployed in
+[master][] branch.  It is best viewed at [alexherbo2.github.io][].
 
-Selected files will be opened with your editor.
+--------------------------------------------------------------------------------
+
+Theme is inspired by [CLIs][] and [Man][],
+color palette is [Solarized][] and font [Menlo][] (not free).
+
+
+[alexherbo2.github.io]: http://alexherbo2.github.io
+[source]: https://github.com/alexherbo2/alexherbo2.github.io/tree/source
+[master]: https://github.com/alexherbo2/alexherbo2.github.io/tree/master
+[CLIs]: https://en.wikipedia.org/wiki/Command-line_interface
+[Man]: https://en.wikipedia.org/wiki/Man_page
+[Solarized]: http://ethanschoonover.com/solarized
+[Menlo]: http://leancrew.com/all-this/2009/10/the-compleat-menlovera-sans-comparison
