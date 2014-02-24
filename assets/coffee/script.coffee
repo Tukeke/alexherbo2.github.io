@@ -67,10 +67,10 @@ $ ->
     if $('#leaf-content').length
         $('body').append '
         <div id=scrolling-nodes>
-          <div id=scrolling-h1></div>
-          <div id=scrolling-h2></div>
-          <div id=scrolling-h3></div>
-          <div id=scrolling-h4></div>
+          <a id=scrolling-h1 href=#>
+          <a id=scrolling-h2 href=#>
+          <a id=scrolling-h3 href=#>
+          <a id=scrolling-h4 href=#>
         </div>'
         node = $('#leaf-content')
         for id, selectors of {'scrolling-h1':'h1','scrolling-h2':'h2','scrolling-h3':'h3','scrolling-h4':'h4'}
