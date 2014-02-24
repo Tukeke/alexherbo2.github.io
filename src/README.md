@@ -24,6 +24,7 @@ This site is built thanks to
 
 
 [#exherbo](http://exherbo.org)
+[#kakoune](https://github.com/mawww/kakoune)
 [#i3](http://i3wm.org)
 [#uzbl](http://uzbl.org)
 [#lichess](http://lichess.org)
