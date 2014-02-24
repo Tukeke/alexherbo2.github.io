@@ -27,4 +27,5 @@ This site is built thanks to
 [#i3](http://i3wm.org)
 [#uzbl](http://uzbl.org)
 [#lichess](http://lichess.org)
+[#vindinium](http://vindinium.org)
 [#masquedepusta](http://youtube.com/user/MaSQuEdePuSTA)
