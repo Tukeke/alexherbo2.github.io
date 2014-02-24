@@ -1,0 +1,10 @@
+TODO
+====
+
+* Use [Jekyll][] ?
+* Replace [CoffeeScript][] with [ClojureScript][] ?
+
+
+[Jekyll]: http://jekyllrb.com
+[CoffeeScript]: http://coffeescript.org
+[ClojureScript]: http://clojure.org/clojurescript
