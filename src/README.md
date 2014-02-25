@@ -29,4 +29,5 @@ This site is built thanks to
 [#uzbl](http://uzbl.org)
 [#lichess](http://lichess.org)
 [#vindinium](http://vindinium.org)
+[#radio01](http://radio01.net)
 [#masquedepusta](http://youtube.com/user/MaSQuEdePuSTA)
