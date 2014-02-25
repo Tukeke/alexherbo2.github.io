@@ -273,3 +273,6 @@ Citations
 > – RULE #32 Enjoy the little things  
 >
 > << Bienvenue à Zombieland
+
+
+> C’est moi ton inconnu.  Plonge !  << Closer – entre adultes consentants
