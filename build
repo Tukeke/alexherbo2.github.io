@@ -109,7 +109,7 @@ build() {
         link=$(echo $sitedir/$entry | sed 's/.md$/.html/')
         timestamp=$(git log --format=%ct $file)
         iso_date=$(git log --format=%ci $file)
-        echo "$timestamp<h2 style=display:inline>[$title]($link)</h2> <time class=timeago datetime='$iso_date'></time><br>" >> $list_page
+        echo "$timestamp<h2 style=display:inline>[$title]($link)</h2> <time class=timeago datetime='"$iso_date"'></time><br>" >> $list_page
       done
     done
 
