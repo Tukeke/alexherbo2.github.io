@@ -19,6 +19,19 @@
     &:hover
       color                                             : $color_highlight
 
+// Text aligns to bullet
+@mixin text_aligns_to_bullet
+  ol
+    display                                             : table
+    counter-reset                                       : X
+  li
+    display                                             : table-row
+    counter-increment                                   : X
+    &:before
+      display                                           : table-cell
+      text-align                                        : right
+      content                                           : counter(X) '. '
+
 // We are not allowed to link:visited:after → content
 // Visited class does the trick anyway.
 // https://developer.mozilla.org/en-US/docs/Web/CSS/Privacy_and_the_:visited_selector
@@ -41,20 +54,24 @@ h1, h2, h3, h4
   text-wrap                                             : nowrap
   color                                                 : white
 
-ul
-  list-style-type                                       : none
-  ul
+@include text_aligns_to_bullet
+
+ul, ol
+  margin-left                                           : 2em
+  ul, ol
     padding-left                                        : 0
   li
     margin-left                                         : 1.5em
     &:before
       color                                             : $yellow
+
+ul
   li:before
-    content                                             : '* '
+    content                                             : '* '
   li li:before
-    content                                             : '- '
+    content                                             : '- '
   li li li:before
-    content                                             : '. '
+    content                                             : '. '
 
 p, pre, li, blockquote
   margin-bottom                                         : 1em
