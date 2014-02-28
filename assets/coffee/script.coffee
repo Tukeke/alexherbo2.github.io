@@ -1,6 +1,6 @@
 $ ->
     # document
-    article = document.querySelector 'article'
+    article = $('article')
 
     # requires jQuery time ago
     jQuery(document).ready ->
@@ -18,16 +18,16 @@ $ ->
     # https://developer.mozilla.org/en-US/docs/Web/CSS/Privacy_and_the_:visited_selector
     visited_links = localStorage.getItem 'visited_links'
 
-    article_links = article.getElementsByTagName 'a'
+    article_links = article.find 'a'
 
     if not visited_links?
         localStorage.setItem 'visited_links', []
     else
-        for link in article_links
-            link.className += 'visited' if visited_links.indexOf(link.href) >-1
+        article_links.each ->
+            this.className += 'visited' if visited_links.indexOf(this.href) >-1
 
-    for link in article_links
-        link.addEventListener 'click', (link) ->
+    article_links.each ->
+        this.addEventListener 'click', (link) ->
             link.target.className += 'visited'
             localStorage.setItem 'visited_links', localStorage.getItem('visited_links') + [link.target.href]
 

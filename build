@@ -1,205 +1,286 @@
-#!/bin/bash
+#!/usr/bin/env fish
+#│
+#│ Source structure
+#│ .
+#│ ├── assets
+#│ │   ├── coffee
+#│ │   │   └── script.coffee
+#│ │   ├── fonts
+#│ │   │   └── menlo.ttf
+#│ │   ├── haml
+#│ │   │   └── helpers.rb
+#│ │   ├── images
+#│ │       └── favicon.ico
+#│ │   └── sass
+#│ │       ├── solarized.sass
+#│ │       └── style.sass
+#│ ├── build
+#│ ├── git
+#│ │   └── hooks
+#│ ├── layouts
+#│ │   ├── base.haml
+#│ │   ├── page.haml
+#│ │   └── post.haml
+#│ └── src
+#│
+#│ Building
+#│ ‾‾‾‾‾‾‾‾
+#│  . Main
+#│ 1. Working directory
+#│ 2. Haml to HTML
+#│ 3. Sass to CSS
+#│ 4. CoffeeScript to JavaScript
+#│ 5. Kakoune filters
+#│ 6. Index page
+#│ 7. Build pages
+#│ 8. Deployment
+#│  . Utility
+#│
 
-usage() { cat <<EOF >&2
-usage: build [sync|async]
+function main
 
-As building site may take some time, it should run asynchronously.
-EOF
-}
+  set repository (pwd)
 
-if [[ $* =~ ^(-h|--help) ]]; then usage; exit
-fi
+  set branch (git-current-branch)
 
-# ──────────────────────────────────────────────────────────────────────────────
+  set work (mktemp --directory)
 
-main() {
-  case $1 in
-     sync) sync=1;;
-    async) sync=0;;
-        *) sync=1;;
-  esac
+  function fish_end --on-process %self
+    git checkout $branch                      # Back to original branch and
+    rm --recursive --force $work              # remove temporary generated files
+  end
 
-  if test $sync=1; then build
+  copy . $work
 
-  # There’s nothing special about the number 200. It is just the file descriptor.
-  # But the trick is to open the current file name for reading and then obtain
-  # exclusive lock for it.
-  else exec 200<$0; flock 200 && ( build ) >& /dev/null &
+  # 1. Working directory ───────────────────────────────────────────────────────
 
-  fi
-}
+  cd $work
 
-# ──────────────────────────────────────────────────────────────────────────────
+  make tmp
 
-build() {
-    work=$(mktemp --directory)
+  # 2. Haml to HTML ────────────────────────────────────────────────────────────
 
-    branch=$(git current-branch)
+  set base_html base.html
+  set page_html page.html
+  set post_html post.html
 
-    # Back to the current branch when work is DONE or aborted
-    # and remove temporary generated files.
-    trap 'git checkout $branch; rm --recursive --force $work' EXIT INT TERM
+  haml --require ./assets/haml/helpers layouts/base.haml $base_html
+  haml --require ./assets/haml/helpers layouts/page.haml $page_html
+  haml --require ./assets/haml/helpers layouts/post.haml $post_html
 
-    cp --recursive . $work
+  copy $page_html $page_html.template
+  copy $post_html $post_html.template
 
-    tmp=$work/tmp; mkdir $tmp
+  include '$body$' $base_html $page_html.template                     > $page_html
+  include '$body$' $base_html $page_html.template $post_html.template > $post_html
 
-    # Haml to HTML ─────────────────────────────────────────────────────────────
+  # 3. Sass to CSS ─────────────────────────────────────────────────────────────
 
-    template=$tmp/template.html
+  set css site/css; and make $css
 
-    haml layouts/template.haml $template
+  for input in (files assets/sass)
 
-    # Sass to CSS ──────────────────────────────────────────────────────────────
+    set output (echo $input | sed s/assets/site/';'s/sass/css/g)
 
-    mkdir --parents $work/site/css
+    sass --compass $input $output
+  end
 
-                               sources=$(find $work/assets/sass -type f)
-    for source in $sources; do output=$(echo $source | sed s/assets/site/';'s/sass/css/g)
-      sass --compass --cache-location $tmp/sass $source $output
-    done
+  # 4. Coffee to JS ────────────────────────────────────────────────────────────
 
-    # Coffee to JS ─────────────────────────────────────────────────────────────
+  set coffee assets/coffee; and make $coffee
+  set js     assets/js; and make $js
 
-    coffee=$work/assets/coffee js=$work/assets/js; mkdir $js
+  coffee --compile $coffee
 
-    coffee --compile $coffee; mv $coffee/*.js $js
+  mv $coffee/*.js $js
 
-    # Kakoune filters ──────────────────────────────────────────────────────────
+  # 5. Kakoune filters ─────────────────────────────────────────────────────────
 
-    kak_filter_script=$tmp/filter.kak
+  set kak_filters '
+  try %{
+    exec \%s^><ret>gl
+    exec s<<<ret>
+    exec c<cite><esc>
+    exec /\n\n|\n$<ret>
+    exec i</cite><esc>
+  }
+  try %{
+    exec \%s\n\n-+\n<ret>s.<ret>
+    exec -draft -itersel c<br><esc>
+  }
+  try %{
+    exec \%s^coffee$<ret>
+    exec d
+    exec ?\n\n|\n$<ret>
+    exec %_|coffee --stdio --compile<ret>_
+    exec i<script><esc>a</script>
+  }
+  write; quit'
 
-    echo '
-    try %{
-      exec \%s^><ret>gl
-      exec s<<<ret>
-      exec c<cite><esc>
-      exec /\n\n|\n$<ret>
-      exec i</cite><esc>
-    }
-    try %{
-      exec \%s\n\n-+\n<ret>s.<ret>
-      exec -draft -itersel c<br><esc>
-    }
-    try %{
-      exec \%s^coffee$<ret>
-      exec d
-      exec ?\n\n|\n$<ret>
-      exec %_|coffee --stdio --compile<ret>_
-      exec i<script><esc>a</script>
-    }
-    write; quit' > $kak_filter_script
+  # 6. Index page ──────────────────────────────────────────────────────────────
 
-    # ──────────────────────────────────────────────────────────────────────────
+  # 6.1 List page
 
-    sourcedirs=$(find $work/src -type d)
+  set index_page tmp/index.md
+  set list_page  tmp/list.md
 
-    index_page=$tmp/index.md
-    list_page=$tmp/list.md
-    for dir in $sourcedirs; do
-      entries=$(ls $dir)
-      sitedir=$(echo $dir | sed s/'^'.'*'src//)
-      for entry in $entries; do
-        if test -d $dir/$entry; then continue
-        fi
-        if [[ $entry =~ (README|READING) ]]; then continue
-        fi
-        file=src/$sitedir/$entry
-        title=$(head -1 $dir/$entry)
-        link=$(echo $sitedir/$entry | sed 's/.md$/.html/')
-        timestamp=$(git log --format=%ct $file)
-        iso_date=$(git log --format=%ci $file)
-        echo "$timestamp<h2 style=display:inline>[$title]($link)</h2> <time class=timeago datetime='"$iso_date"'></time><br>" >> $list_page
-      done
-    done
+  for source in (files src)
 
-    # ──────────────────────────────────────────────────────────────────────────
+    set output (echo $source | sed s/src//';'s/.md'$'/.html/)
 
-    cat <<EOF | sed s/^\ //> $index_page
-    Blog,  
-    Drafts,  
-    Personal wiki / recipes.<br><br>
-EOF
-    echo '<div style=white-space:nowrap>'                                        >> $index_page
+    if echo $source | egrep '(README|READING)'
+      continue
+    end
 
-    sort --reverse $list_page | sed s/^[0-9]'*'//                                >> $index_page
+    set title (head -1 $source)
 
-    echo '</div>'                                                                >> $index_page
+    set link $output
 
-    echo '<br>'                                                                  >> $index_page
+    set commit (git log -1 --format=%h $source)
 
-    echo '<h2 class=title>READING</h2>'                                          >> $index_page
+    set commit_timestamp (git log -1 --format=%ct $source)
 
-    echo '<pre style=border:0>'                                                  >> $index_page
+    set commit_iso_date (git log -1 --format=%ci $source)
 
-    cat $work/src/READING                                                        >> $index_page
+    echo "$commit_timestamp<h2 style=display:inline>[$title]($link)</h2> <a class=timeago href=https://github.com/alexherbo2/alexherbo2.github.io/commit/$commit><time class=timeago datetime='"$commit_iso_date"'></time></a><br>" >> $list_page.lock
+  end
 
-    echo '</pre>'                                                                >> $index_page
+  sort --reverse $list_page.lock | sed --regexp-extended s/'^([0-9]+ ?)+'// > $list_page
 
-    sed --in-place '/^$list$$/ { r '$index_page$'\n d }' $work/src/README.md
+  # 7. Build pages ─────────────────────────────────────────────────────────────
 
-    # ──────────────────────────────────────────────────────────────────────────
+  # fish sucks: Cannot save multi-line output in a variable
+  # https://github.com/fish-shell/fish-shell/issues/159
+  sh -c 'replace "\$list\$"    "<div style=white-space:nowrap>`cat '$list_page'`</div>" -- src/README.md'
+  sh -c 'replace "\$reading\$" "<pre style=border:0          >`cat  src/READING`</pre>" -- src/README.md'
 
-                               sources=$(find $work/src -type f)
-    for source in $sources; do output=$(echo $source | sed s/src/site/';'s/.md$/.html/';'s/README/index/)
-      mkdir --parents $(dirname $output)
-      kak -n -e edit\ $source';'source\ $kak_filter_script
-      title=$(head -1 $source)
-      cd $(dirname $source)
-        file=$(basename $source)
-        timestamp=$(git log --format=%ct $file)
-        iso_date=$(git log --format=%ci $file)
-      cd -
-      date=$(date --date @$timestamp +'%d %b %Y')
-      sed --in-place 1,2d $source
-      if [[ ! $source =~ (README|READING) ]]; then
-        sed --silent --in-place '1i<div id=leaf-content>
-                                 1i<time class=timeago datetime='"$iso_date"'></time> —
-                                 1i<time>'"$date"'</time>
-                                 1r'$source'
-                                 $a
-                                 $a</div>' $source
-      fi
-      sed --in-place "1i% alexherbo2.github.io — $title\n%\n%\n" $source
-      pandoc --template $template $source --output $output
+  for source in (files src)
 
-      # Pandoc + Haml(white space aware) = #fail
-      sed --in-place --regexp-extended s/^' '{8}// $output
+    set output (echo $source | sed s/src/site/';'s/.md'$'/.html/';'s/README/index/)
 
-      # Linkify title page
-      sed --in-place --regexp-extended s_^alexherbo2.github.io_'<a href=https://github.com/alexherbo2/\0>\0</a>'_ $output
-    done
+    make (dirname $output)
 
-    # Deployment ───────────────────────────────────────────────────────────────
+    kak -n -e edit\ $source';'"$kak_filters"
 
-    git stash
-    git checkout master
+    set title (head -1 $source)
 
-    # Flags
-    force=-f
-    recursive=-r
+    set link (echo $source | sed s/.md'$'/.html/)
 
-    # Cleanup
-    git rm $force $recursive .
+    set commit (git log -1 --format=%h $source)
 
-    mv $work/assets/images .
-    mv $work/assets/fonts  .
-    mv $work/assets/js     .
-    mv $work/site/*        .
-    rm READING
+    set commit_timestamp (git log -1 --format=%ct $source)
 
-    date=$(date)
+    set commit_iso_date (git log -1 --format=%ci $source)
 
-    git add --update
-    git add .
-    git amend --message="$date"
-    git push --force
+    set commit_date (date --date @$commit_timestamp +'%d %b %Y')
 
-    git checkout -
-    git stash apply
+    # Remove title
+    sed --in-place 1,2d $source
 
-    notify-send alexherbo2.github.io
-}
+    if echo $source | egrep '(README|READING)'
+      set template $page_html.copy; cp $page_html $template
+    else
+      set template $post_html.copy; cp $post_html $template
+    end
+
+    # Replace in place
+    replace '$commit$'          "$commit"          -- $template
+    replace '$commit-date$'     "$commit_date"     -- $template
+    replace '$commit-iso-date$' "$commit_iso_date" -- $template
+
+    # Pandoc front matter
+    set regexp_front_matter '^''%''[a-z]''+'
+    set pandoc_front_matter (egrep $regexp_front_matter $source)
+    if test $pandoc_front_matter
+
+      sub /"$regexp_front_matter"/d $source
+      for token in $pandoc_front_matter
+        set key   (echo "$token" | cut --delimiter ' ' --fields 1 | cut --characters 2-)
+        set value (echo "$token" | cut --delimiter ' ' --fields                      2-)
+
+        replace '$'$key'$' "$value" -- $template
+      end
+    end
+
+    # Pandoc title block
+    # % title
+    # % author(s)
+    # % date
+    sub "1i% alexherbo2.github.io — $title\n%\n%\n" $source
+
+    pandoc --template $template $source --output $output
+
+    # Pandoc + Haml(white space aware) = #fail
+    sub s/^' {2}'// $output
+
+  end
+
+  # 8. Deployment ──────────────────────────────────────────────────────────────
+
+  cd $repository
+
+  git stash
+  git checkout master
+
+  # Cleanup
+  git rm -r -f .
+
+  mv $work/assets/images .
+  mv $work/assets/fonts  .
+  mv $work/assets/js     .
+  mv $work/site/*        .
+  rm READING
+
+  git add --update
+  git add .
+  git amend --message=(date)
+  git push --force
+
+  git checkout -
+  git stash apply
+
+  notify-send alexherbo2.github.io
+
+end
+
+# Utility ├─────────────────────────────────────────────────────────────────────
+
+function make
+  mkdir --parents $argv
+end
+
+function copy
+  cp --recursive $argv
+end
+
+function files
+  find $argv -type f
+end
+
+function sub
+  sed --in-place --regexp-extended $argv
+end
+
+function include
+  ruby -e '
+  def main argv
+    string = argv.shift
+    files = argv
+    input = files.map { |file| File.read file }
+    print includes string, input
+  end
+
+  def includes string, input, output=""
+    return output if input.empty?
+    doc = input.shift
+    new_output = output.empty?? doc : output.gsub(string, doc)
+
+    includes string, input, new_output
+  end
+
+  main ARGV
+  ' $argv
+end
 
 
-main $@
+main $argv

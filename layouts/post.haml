@@ -1,0 +1,12 @@
+%div#leaf-content
+  %div.timeago
+    %a.timeago{href: 'https://github.com/alexherbo2/alexherbo2.github.io/commit/$commit$'}
+      %time.timeago{datetime: '$commit-iso-date$'}
+    —
+    %a.timeago{href: 'https://github.com/alexherbo2/alexherbo2.github.io/commit/$commit$'}
+      %time
+        $commit-date$
+    ❯
+    %time
+      $date$
+  $body$

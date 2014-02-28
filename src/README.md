@@ -13,7 +13,22 @@ If you want to get in touch with me, [email](mailto:alexherbo2@gmail.com) is bes
   [IRC](http://webchat.freenode.net?channels=exherbo).
 
 
+<div style=margin-left:0>
+
+Blog,  
+Drafts,  
+Personal wiki / recipes.                                                  </div>
+
+<br>
+
 $list$
+
+<br>
+
+READING
+-------
+
+$reading$
 
 
 This site is built thanks to

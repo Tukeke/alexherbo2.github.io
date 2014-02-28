@@ -2,6 +2,33 @@ Blog,
 Drafts,
 Personal wiki / recipes.
 
+Source structure
+----------------
+
+```
+.
+├── assets
+│   ├── coffee
+│   │   └── script.coffee
+│   ├── fonts
+│   │   └── menlo.ttf
+│   ├── haml
+│   │   └── helpers.rb
+│   ├── images
+│       └── favicon.ico
+│   └── sass
+│       ├── solarized.sass
+│       └── style.sass
+├── build
+├── git
+│   └── hooks
+├── layouts
+│   ├── base.haml
+│   ├── page.haml
+│   └── post.haml
+└── src
+```
+
 Building
 --------
 
@@ -15,6 +42,13 @@ alexherbo2’s user site dependencies are:
 
 To build, just type `build` in the root directory.  The site will be deployed in
 [master][] branch.  It is best viewed at [alexherbo2.github.io][].
+
+Plug-in
+-------
+
+ * [jQuery](http://jquery.com)
+   - [timeago](http://timeago.yarp.com)
+   - [scrollIntoView](http://arwid.github.io/jQuery.scrollIntoView)
 
 --------------------------------------------------------------------------------
 
