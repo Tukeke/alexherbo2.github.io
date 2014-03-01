@@ -15,7 +15,7 @@ Source structure
 │   ├── haml
 │   │   └── helpers.rb
 │   ├── images
-│       └── favicon.ico
+│   │   └── favicon.ico
 │   └── sass
 │       ├── solarized.sass
 │       └── style.sass
