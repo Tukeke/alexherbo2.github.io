@@ -210,7 +210,7 @@ function main
     # % title
     # % author(s)
     # % date
-    sub "1i% alexherbo2.github.io — $title\n%\n%\n" $source
+    sub "1i% $title\n%\n%\n" $source
 
     pandoc --template $template $source --output $output
 
