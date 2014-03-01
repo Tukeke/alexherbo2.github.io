@@ -35,7 +35,7 @@ This site is built thanks to
   [Pandoc](http://johnmacfarlane.net/pandoc),
   [Haml](http://haml.info),
   [Sass](http://sass-lang.com),
-  [CoffeeScript](http://coffeescript.org) and
+  [ClojureScript](http://clojure.org/clojurescript) and
   [Kakoune](https://github.com/mawww/kakoune) !
 
 

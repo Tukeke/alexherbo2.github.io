@@ -37,7 +37,7 @@ alexherbo2’s user site dependencies are:
  * [Pandoc](http://johnmacfarlane.net/pandoc)
  * [Haml](http://haml.info)
  * [Sass](http://sass-lang.com)
- * [CoffeeScript](http://coffeescript.org)
+ * [ClojureScript](http://clojure.org/clojurescript)
  * [Kakoune](https://github.com/mawww/kakoune)
 
 To build, just type `build` in the root directory.  The site will be deployed in
