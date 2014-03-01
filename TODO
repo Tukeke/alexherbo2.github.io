@@ -2,10 +2,12 @@ TODO
 ====
 
 * Use [Jekyll][] ?
+* Use [Disqus][] ?
 * Replace [CoffeeScript][] with [ClojureScript][] ?
 * Provide (dark|light) color scheme ?
 
 
 [Jekyll]: http://jekyllrb.com
+[Disqus]: http://disqus.com
 [CoffeeScript]: http://coffeescript.org
 [ClojureScript]: http://clojure.org/clojurescript
