@@ -45,7 +45,7 @@ needs and preferences.
 
 ### 2. Boot a live system
 
-```bash
+```sh
 wget http://releases.ubuntu.com/saucy/ubuntu-13.10-desktop-amd64.iso
 wget http://releases.ubuntu.com/saucy/SHA1SUMS
 grep ubuntu-13.10-desktop-amd64.iso SHA1SUMS | sha1sum --check
@@ -58,37 +58,37 @@ There are two partitions, `/` and a data partition.
 
 Create a root (SSD) and home partition.
 
-```bash
+```sh
 fdisk /dev/sd{a,b} → /dev/sd{a,b}1
 ```
 
 Format the filesystems
 
-```bash
+```sh
 mkfs.ext4 /dev/sd{a,b}1
 ```
 
 Mount root and `cd` into it
 
-```bash
+```sh
 mount /dev/sda1 /mnt; cd /mnt
 ```
 
 Create and activate the swapfile (optional, discouraged with SSD)
 
-```bash
+```sh
 free --total --mega (ramsize)
 fallocate -l (ramx2)M swapfile
 ```
 
-```bash
+```sh
 mkswap swapfile
 swapon swapfile
 ```
 
 Get the latest archive of Exherbo from Stages and verify the consistence of the file.
 
-```bash
+```sh
 wget http://dev.exherbo.org/stages/exherbo-amd64-current.tar.xz
 wget http://dev.exherbo.org/stages/sha1sum
 grep exherbo-adm64-current.tar.xz sha1sum | sha1sum --check
@@ -96,7 +96,7 @@ grep exherbo-adm64-current.tar.xz sha1sum | sha1sum --check
 
 Extract the stage
 
-```bash
+```sh
 unxz --to-stdout exherbo*xz | tar --extract --preserve --file -
 ```
 
@@ -126,7 +126,7 @@ Note: my laptop has a SSD, so it takes extra care options to stretch its lifetim
 
 Mount everything for the chroot
 
-```bash
+```sh
 mount --options rbind /dev dev
 mount --options bind /sys sys
 mount --types   proc none proc
@@ -138,7 +138,7 @@ Make sure the network can resolve DNS
 
 _etc/resolv.conf_
 
-```bash
+```sh
 # Google DNS
 
 nameserver 8.8.8.8
@@ -149,7 +149,7 @@ nameserver 8.8.4.4
 
 Change your root
 
-```bash
+```sh
 env --ignore-environment TERM=$TERM SHELL=/bin/bash HOME=$HOME $(which chroot) . /bin/bash
 source /etc/profile
 PS1="(chroot) $PS1"
@@ -159,13 +159,13 @@ PS1="(chroot) $PS1"
 
 Make sure Paludis is configured correctly
 
-```bash
+```sh
 cd /etc/paludis; kak bashrc; kak *conf
 ```
 
 Sync all the trees – now it is safe to sync
 
-```bash
+```sh
 cave sync
 ```
 
@@ -173,7 +173,7 @@ cave sync
 
 Download the latest stable [kernel][] and verify its signature.
 
-```bash
+```sh
 wget kernel.org/pub/linux/kernel/v3.x/linux-3.11.3.tar.xz
 wget kernel.org/pub/linux/kernel/v3.x/linux-3.11.3.tar.sign
 unxz linux*xz
@@ -184,7 +184,7 @@ gpg --verify linux*sign
 
 Extract
 
-```bash
+```sh
 tar --extract --preserve --file linux*tar
 ```
 
@@ -203,13 +203,13 @@ Device Drivers
     [*] Automount devtmpfs at /dev, after the kernel mounted the rootfs
 ```
 
-```bash
+```sh
 make; make modules_install; cp arch/x86/boot/bzImage /boot/kernel
 ```
 
 Install and configure bootloader
 
-```bash
+```sh
 cave resolve syslinux
 ```
 
@@ -217,7 +217,7 @@ cave resolve syslinux
 2. mark the partition active with the boot flag
 3. install the MBR boot code
 
-```bash
+```sh
 1. extlinux --install /boot/syslinux
 2. fdisk /dev/sda
 3. dd if=/usr/share/syslinux/mbr.bin of=/dev/sda bs=440 count=1 (cave print-id-contents syslinux | grep mbr.bin)
@@ -252,7 +252,7 @@ Install an init system
 
 Configure your hostname for systemd
 
-```bash
+```sh
 echo $hostname > /etc/hostname
 ```
 
@@ -272,43 +272,43 @@ localedef --inputfile=en_US --charmap=UTF-8 en_US.UTF-8
 
 _/etc/env.d/99locale_
 
-```bash
+```sh
 LANG=en_US.UTF-8
 ```
 
 Set system timezone
 
-```bash
+```sh
 ln --symbolic /usr/share/zoneinfo/Europe/Paris /etc/localtime
 ```
 
 Synchronize hardware clock 'aka BIOS' with the current system time.
 
-```bash
+```sh
 hwclock --systohc --utc
 ```
 
 Set root password
 
-```bash
+```sh
 passwd root
 ```
 
 Add a new user for daily use
 
-```bash
+```sh
 useradd -m -G adm,disk,wheel,cdrom,video,usb,users USERNAME
 ```
 
 Set user password
 
-```bash
+```sh
 passwd USERNAME
 ```
 
 Install sudo
 
-```bash
+```sh
 cave resolve sudo
 ```
 
@@ -320,7 +320,7 @@ Edit /etc/sudoers
 
 Reboot
 
-```bash
+```sh
 reboot
 ```
 
@@ -338,13 +338,13 @@ but the stages set.
 
 You can identify the additional packages using cave show:
 
-```bash
+```sh
 cave show stages
 ```
 
 If you wish to remove them, you can simply execute the resolution of cave purge:
 
-```bash
+```sh
 cave purge
 ```
 
@@ -352,13 +352,13 @@ Alternatively, you can add packages you wish to retain to the world set by using
 the update-world command.  As an example, the following adds Kakoune to the
 world set.
 
-```bash
+```sh
 cave update-world app-editors/kakoune
 ```
 
 Or, if you want to add all packages of the stages set to the world set:
 
-```bash
+```sh
 cave update-world --set stages
 ```
 
@@ -366,27 +366,27 @@ cave update-world --set stages
 
 Start dhcpcd
 
-```bash
+```sh
 dhcpcd
 ```
 
 Install and configure wicd
 
-```bash
+```sh
 cave resolve wicd
 ```
 
-```bash
+```sh
 systemctl enable wicd
 ```
 
-```bash
+```sh
 wicd-{gtk,curses,cli}
 ```
 
 Stop dhcpcd
 
-```bash
+```sh
 dhcpcd
 ```
 
@@ -402,13 +402,13 @@ Device Drivers
         $DRIVER
 ```
 
-```bash
+```sh
 cave resolve sys-sound/alsa-utils
 ```
 
 All channels are muted by default.
 
-```bash
+```sh
 amixer set {Master,PCM} on
 ```
 
@@ -427,52 +427,52 @@ Device Drivers
     [*] Enable userspace modesetting on DRIVER
 ```
 
-```bash
+```sh
 cave resolve xorg (group) x11-driver/xf86-video-{driver}
 ```
 
-```bash
+```sh
 cave resolve x11-wm/i3
 ```
 
-```bash
+```sh
 startx
 ```
 
 #### Fonts
 
-```bash
+```sh
 cave resolve fonts/dejavu
 ```
 
-```bash
+```sh
 ln --symbolic /usr/share/fontconfig/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d
 ```
 
 #### Browser
 
-```bash
+```sh
 cave resolve net-www/uzbl
 ```
 
-```bash
+```sh
 cave resolve net-plugins/adobe-flash
 ```
 
-```bash
+```sh
 cave print-id-contents adobe-flash #=> /opt/netscape/plugins/libflashplayer.so ...
 ln --symbolic /opt/netscape /usr/lib/mozilla
 ```
 
-```bash
+```sh
 cave resolve dev-lang/icedtea-web
 ```
 
-```bash
+```sh
 cave resolve dev-libs/nspluginwrapper
 ```
 
-```bash
+```sh
 nspluginwrapper --verbose --auto --install
 ```
 
@@ -489,20 +489,20 @@ sync = git://git.exherbo.org/arbor local: git+file:///home/alex/exherbo/arbor
 ...
 ```
 
-```bash
+```sh
 cd /home/alex/exherbo; git clone git://git.exherbo.org/arbor
 ```
 
 Make your changes and commit them.
 
-```bash
+```sh
 cave sync --source local arbor
 ```
 
 
 _/home/alex/bin/git-patch_
 
-```bash
+```sh
 git format-patch     \
   --find-renames      \
   --find-copies        \
@@ -510,7 +510,7 @@ git format-patch     \
   --stdout $@
 ```
 
-```bash
+```sh
 git patch -<number_of_commits> | gist --open
 ```
 

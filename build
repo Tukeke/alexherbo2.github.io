@@ -177,6 +177,10 @@ function main
     # Remove title
     sed --in-place 1,2d $source
 
+    # Replace shell code snippets with Bash
+    # Reason: shell is not recognized
+    sub s/'```( *)sh'/'```\1bash'/ $source
+
     if echo $source | egrep '(README|READING)'
       set template $page_html.copy; cp $page_html $template
     else
