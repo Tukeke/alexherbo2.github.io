@@ -6,9 +6,11 @@ TODO
 * [ ] Replace [CoffeeScript][] with [ClojureScript][]
 * [?] Provide (dark|light) color scheme
 * [ ] How to build alexherbo2’s user site
+* [?] [CNAME][] (custom domain name)
 
 
 [Jekyll]: http://jekyllrb.com
 [Disqus]: http://disqus.com
 [CoffeeScript]: http://coffeescript.org
 [ClojureScript]: http://clojure.org/clojurescript
+[CNAME]: https://help.github.com/articles/setting-up-a-custom-domain-with-pages
