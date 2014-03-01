@@ -49,6 +49,7 @@ Plug-in
  * [jQuery](http://jquery.com)
    - [timeago](http://timeago.yarp.com)
    - [scrollIntoView](http://arwid.github.io/jQuery.scrollIntoView)
+ * [Disqus](http://disqus.com)
 
 --------------------------------------------------------------------------------
 
