@@ -1,11 +1,11 @@
 TODO
 ====
 
-* Use [Jekyll][] ?
-* Use [Disqus][] ?
-* Replace [CoffeeScript][] with [ClojureScript][] ?
-* Provide (dark|light) color scheme ?
-* How to build alexherbo2’s user site
+* [✗] Use [Jekyll][]
+* [ ] Use [Disqus][]
+* [ ] Replace [CoffeeScript][] with [ClojureScript][]
+* [?] Provide (dark|light) color scheme
+* [ ] How to build alexherbo2’s user site
 
 
 [Jekyll]: http://jekyllrb.com
