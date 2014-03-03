@@ -51,6 +51,14 @@ Plug-in
    - [scrollIntoView](http://arwid.github.io/jQuery.scrollIntoView)
  * [Disqus](http://disqus.com)
 
+Caching
+-------
+
+The site caches meta data in [localStorage][].
+Hence it can display visited links differently.
+To clear, open the [page inspector][] (`ctrl+shift+i` in major browsers),
+then enter `localStorage.clear()` JS code in [❯ Console][].
+
 --------------------------------------------------------------------------------
 
 Theme is inspired by [CLIs][] and [Man][],
@@ -64,3 +72,6 @@ color palette is [Solarized][] and font [Menlo][] (not free).
 [Man]: https://en.wikipedia.org/wiki/Man_page
 [Solarized]: http://ethanschoonover.com/solarized
 [Menlo]: http://leancrew.com/all-this/2009/10/the-compleat-menlovera-sans-comparison
+[localStorage]: http://en.wikipedia.org/wiki/Web_storage#localStorage
+[page inspector]: https://developer.mozilla.org/docs/Tools/Page_Inspector
+[❯ Console]: https://developer.mozilla.org/docs/Tools/Web_Console
