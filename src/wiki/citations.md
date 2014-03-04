@@ -279,3 +279,6 @@ Citations
 
 
 > You are only young once, but you can stay immature indefinitely.  [cowsay]
+
+
+> Pourquoi ça ne suffit pas d’aimer ?  << Closer – entre adultes consentants
