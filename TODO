@@ -7,7 +7,7 @@ TODO
 * [?] Provide (dark|light) color scheme
 * [ ] How to build alexherbo2’s user site
 * [?] [CNAME][] (custom domain name)
-* [ ] Use [nginx][]
+* [✓] Use [nginx][]
 
 
 [Jekyll]: http://jekyllrb.com
