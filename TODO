@@ -2,7 +2,7 @@ TODO
 ====
 
 * [✗] Use [Jekyll][]
-* [ ] Use [Disqus][]
+* [✓] Use [Disqus][]
 * [ ] Replace [CoffeeScript][] with [ClojureScript][]
 * [?] Provide (dark|light) color scheme
 * [ ] How to build alexherbo2’s user site

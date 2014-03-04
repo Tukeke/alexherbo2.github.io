@@ -60,19 +60,23 @@ function main
 
   # 2. Haml to HTML ────────────────────────────────────────────────────────────
 
-  set base_html base.html
-  set page_html page.html
-  set post_html post.html
+  set   base_html   base.html
+  set   page_html   page.html
+  set   post_html   post.html
+  set disqus_html disqus.html
 
-  haml --require ./assets/haml/helpers layouts/base.haml $base_html
-  haml --require ./assets/haml/helpers layouts/page.haml $page_html
-  haml --require ./assets/haml/helpers layouts/post.haml $post_html
+  haml --require ./assets/haml/helpers layouts/{}base.haml   $base_html
+  haml --require ./assets/haml/helpers layouts/{}page.haml   $page_html
+  haml --require ./assets/haml/helpers layouts/{}post.haml   $post_html
+  haml --require ./assets/haml/helpers layouts/disqus.haml $disqus_html
 
-  copy $page_html $page_html.template
-  copy $post_html $post_html.template
+  copy   $page_html   $page_html.template
+  copy   $post_html   $post_html.template
+  copy $disqus_html $disqus_html.template
 
-  include '$body$' $base_html $page_html.template                     > $page_html
-  include '$body$' $base_html $page_html.template $post_html.template > $post_html
+  include '$body$' $base_html $page_html.template                                           >   $page_html
+  include '$body$' $base_html $page_html.template $post_html.template                       >   $post_html
+  include '$body$' $base_html $page_html.template $post_html.template $disqus_html.template > $disqus_html
 
   # 3. Sass to CSS ─────────────────────────────────────────────────────────────
 
@@ -128,7 +132,7 @@ function main
 
     set output (echo $source | sed s/src//';'s/.md'$'/.html/)
 
-    if echo $source | egrep '(README|READING)'
+    if echo $source | egrep '(README|READING|HOWTO)'
       continue
     end
 
@@ -184,7 +188,11 @@ function main
     if echo $source | egrep '(README|READING)'
       set template $page_html.copy; cp $page_html $template
     else
-      set template $post_html.copy; cp $post_html $template
+      if not grep comment-identifier $source
+        set template $post_html.copy; cp $post_html $template
+      else
+        set template $disqus_html.copy; cp $disqus_html $template
+      end
     end
 
     # Replace in place
@@ -203,6 +211,7 @@ function main
         set value (echo "$token" | cut --delimiter ' ' --fields                      2-)
 
         replace '$'$key'$' "$value" -- $template
+
       end
     end
 
@@ -211,6 +220,10 @@ function main
     # % author(s)
     # % date
     sub "1i% $title\n%\n%\n" $source
+
+    # jQuery escaping
+    replace '$ ' '$$ ' -- $template
+    replace '$(' '$$(' -- $template
 
     pandoc --template $template $source --output $output
 
