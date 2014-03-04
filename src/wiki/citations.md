@@ -278,7 +278,7 @@ Citations
 > C’est moi ton inconnu.  Plonge !  << Closer – entre adultes consentants
 
 
-> You are only young once, but you can stay immature indefinitely.  [cowsay]
+> You are only young once, but you can stay immature indefinitely.  << [cowsay]
 
 
 > Pourquoi ça ne suffit pas d’aimer ?  << Closer – entre adultes consentants
