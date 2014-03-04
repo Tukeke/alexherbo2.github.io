@@ -2,6 +2,12 @@ Blog,
 Drafts,
 Personal wiki / recipes.
 
+Design
+------
+
+Theme is inspired by [CLIs][] and [Man][],
+color palette is [Solarized][] and font [Menlo][] (not free).
+
 Source structure
 ----------------
 
@@ -58,11 +64,6 @@ The site caches meta data in [localStorage][].
 Hence it can display visited links differently.
 To clear, open the [page inspector][] (`ctrl+shift+i` in major browsers),
 then enter `localStorage.clear()` JS code in [❯ Console][].
-
---------------------------------------------------------------------------------
-
-Theme is inspired by [CLIs][] and [Man][],
-color palette is [Solarized][] and font [Menlo][] (not free).
 
 
 [alexherbo2.github.io]: http://alexherbo2.github.io
