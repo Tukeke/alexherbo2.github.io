@@ -8,11 +8,15 @@ TODO
 * [ ] How to build alexherbo2’s user site
 * [?] [CNAME][] (custom domain name)
 * [✓] Use [nginx][]
+* [✓] Use [fish][]
+* [?] Use [Ruby][]
 
 
 [Jekyll]: http://jekyllrb.com
 [Disqus]: http://disqus.com
 [nginx]: http://nginx.org
+[fish]: http://fishshell.com
+[Ruby]: https://ruby-lang.org
 [CoffeeScript]: http://coffeescript.org
 [ClojureScript]: http://clojure.org/clojurescript
 [CNAME]: https://help.github.com/articles/setting-up-a-custom-domain-with-pages
