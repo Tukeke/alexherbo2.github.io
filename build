@@ -201,14 +201,14 @@ function main
     replace '$commit-iso-date$' "$commit_iso_date" -- $template
 
     # Pandoc front matter
-    set regexp_front_matter '^''%''[a-z]''+'
-    set pandoc_front_matter (egrep $regexp_front_matter $source)
-    if test $pandoc_front_matter
+    set   regexp_front_matter '^''%''[a-z]''+'
+    alias pandoc_front_matter "egrep '$regexp_front_matter' '$source'"
+    if pandoc_front_matter
 
       sub /"$regexp_front_matter"/d $source
-      for token in $pandoc_front_matter
-        set key   (echo "$token" | cut --delimiter ' ' --fields 1 | cut --characters 2-)
-        set value (echo "$token" | cut --delimiter ' ' --fields                      2-)
+      for token in (pandoc_front_matter)
+        set key   (echo "$token" | tr --squeeze-repeats ' ' | cut --delimiter ' ' --fields 1 | cut --characters 2-)
+        set value (echo "$token" | tr --squeeze-repeats ' ' | cut --delimiter ' ' --fields                      2-)
 
         replace '$'$key'$' "$value" -- $template
 
