@@ -32,6 +32,7 @@ Source structure
 │   ├── base.haml
 │   ├── page.haml
 │   └── post.haml
+├── nginx.conf
 └── src
 ```
 

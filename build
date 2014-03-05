@@ -21,6 +21,7 @@
 #│ │   ├── base.haml
 #│ │   ├── page.haml
 #│ │   └── post.haml
+#│ ├── nginx.conf
 #│ └── src
 #│
 #│ Building
