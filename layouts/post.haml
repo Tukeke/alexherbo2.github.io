@@ -1,15 +1,15 @@
-%div#leaf-content
-  %span.timeago
-    %a.timeago{href: 'https://github.com/alexherbo2/alexherbo2.github.io/commit/$commit$'}
-      %time.timeago{datetime: '$commit-iso-date$'}
-    —
-    %a.timeago{href: 'https://github.com/alexherbo2/alexherbo2.github.io/commit/$commit$'}
-      %time
-        $commit-date$
-    ❯
+%div.timeago
+  %a.timeago{href: 'https://github.com/alexherbo2/alexherbo2.github.io/commit/$commit$'}
+    %time.timeago{datetime: '$commit-iso-date$'}
+  —
+  %a.timeago{href: 'https://github.com/alexherbo2/alexherbo2.github.io/commit/$commit$'}
     %time
-      $date$
-    ❯
-    %author
-      $author$
+      $commit-date$
+  ❯
+  %time
+    $date$
+  ❯
+  %author
+    $author$
+%div#leaf-content
   $body$
