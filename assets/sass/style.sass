@@ -85,6 +85,15 @@ pre, blockquote
   border-left                                           : 2px solid #222222
   padding-left                                          : 1em
 
+code
+  &:before, &:after
+    content                                             : '`'
+    color                                               : $red
+
+pre code
+  &:before, &:after
+    content                                             : none
+
 blockquote
   color                                                 : $base2
   p
