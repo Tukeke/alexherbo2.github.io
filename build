@@ -92,8 +92,8 @@ function main
 
   # 4. Coffee to JS ────────────────────────────────────────────────────────────
 
-  set coffee assets/coffee; and make $coffee
-  set js     assets/js; and make $js
+  set coffee assets/coffee ; and make $coffee
+  set js     assets/js     ; and make $js
 
   coffee --compile $coffee
 
