@@ -8,6 +8,7 @@ If you want to get in touch with me, [email](mailto:alexherbo2@gmail.com) is bes
 
 — I’m also on
   [GitHub](https://github.com/alexherbo2),
+  [Twitter](https://twitter.com/alexherbo2),
   [lichess](http://lichess.org/@/alexherbo2), and
   [IRC](http://webchat.freenode.net?channels=exherbo).
 
