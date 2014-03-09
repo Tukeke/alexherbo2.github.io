@@ -28,6 +28,7 @@ Source structure
 ├── build
 ├── git
 │   └── hooks
+│       └── pre-push
 ├── layouts
 │   ├── base.haml
 │   ├── page.haml
