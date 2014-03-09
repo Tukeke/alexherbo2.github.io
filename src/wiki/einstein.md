@@ -102,7 +102,7 @@ vie.
 
 
 Je ne peux davantage ni ne veux imaginer un individu qui survive à sa mort
-corporelle; je laisse aux âmes faibles de telles pensées, dont elles se bercent
+corporelle ; je laisse aux âmes faibles de telles pensées, dont elles se bercent
 par crainte ou par un égoïsme ridicule.  Il me suffit, quant à moi, de songer au
 mystère de l’éternité de la vie, d’avoir la conscience et l’intuition de la
 merveilleuse construction de l’étant, et de m’efforcer humblement de comprendre
@@ -150,7 +150,7 @@ N’écoutez pas ce qu’ils disent et tenez-vous en à ce qu’ils font.
 
 
 Par la seule pensée logique, nous ne pouvons acquérir aucun savoir sur le monde
-de l’expérience; tout savoir sur la réalité part de l’expérience et aboutit à
+de l’expérience ; tout savoir sur la réalité part de l’expérience et aboutit à
 elle.
 
 
@@ -223,7 +223,7 @@ existence personnelle pour s’ouvrir au monde de la contemplation et de la
 compréhension objectives.
 
 
-La science est un outil puissant; l’usage qu’on en fait, soit pour le salut de
+La science est un outil puissant ; l’usage qu’on en fait, soit pour le salut de
 l’homme soit pour sa malédiction, dépend de l’homme, pas de l’outil ; avec un
 couteau, on peut tuer ou servir la vie.  Ce n’est donc pas de la science que
 nous devons attendre le salut, mais de l’homme.

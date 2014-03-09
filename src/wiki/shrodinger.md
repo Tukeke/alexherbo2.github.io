@@ -16,5 +16,5 @@ découvrons.  Pourtant, sa découverte est un événement très réel, elle peut
 une émotion, comme un magnifique cadeau offert par une fée.
 
 
-On croît aisément que les théories rendent compte des qualités sensibles; ce
+On croît aisément que les théories rendent compte des qualités sensibles ; ce
 qu’elles ne font bien sur jamais.

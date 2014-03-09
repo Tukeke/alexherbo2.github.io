@@ -232,7 +232,7 @@ Citations
 > Do one thing and do it well.  << Unix
 
 
-> L’âge de la découverte s’achève; voici venir l’âge de la maîtrise.  << Kaku
+> L’âge de la découverte s’achève ; voici venir l’âge de la maîtrise.  << Kaku
 
 
 > C’est la connaissance.  Ni le bien, ni le mal.  La seule connaissance.  << Feancis
