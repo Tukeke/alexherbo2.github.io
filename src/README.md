@@ -2,8 +2,8 @@ alexherbo2’s user site
 ======================
 
 Hi I’m Alex.  
-I’m programmer.  
-I really like Husky :), CHRISTMAS, horror movies and anything sparkly.  
+I’m a programmer from Eaubonne, France.  
+I really like huskies, CHRISTMAS, horror movies and anything sparkly.  
 If you want to get in touch with me, [email](mailto:alexherbo2@gmail.com) is best.
 
 — I’m also on
