@@ -41,6 +41,7 @@ Building
 
 alexherbo2’s user site dependencies are:
 
+ * [fish](http://fishshell.com)
  * [Pandoc](http://johnmacfarlane.net/pandoc)
  * [Haml](http://haml.info)
  * [Sass](http://sass-lang.com)
