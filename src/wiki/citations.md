@@ -29,6 +29,8 @@ Citations
 >
 > [HIMYM717] << Florence + the Machine, Shake It Out
 
+<object width="250" height="40" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="gsSong3334499363" name="gsSong3334499363"><param name="movie" value="http://grooveshark.com/songWidget.swf" /><param name="wmode" value="window" /><param name="allowScriptAccess" value="always" /><param name="flashvars" value="hostname=grooveshark.com&songID=33344993&style=metal&p=0" /><object type="application/x-shockwave-flash" data="http://grooveshark.com/songWidget.swf" width="250" height="40"><param name="wmode" value="window" /><param name="allowScriptAccess" value="always" /><param name="flashvars" value="hostname=grooveshark.com&songID=33344993&style=metal&p=0" /><span><a href="http://grooveshark.com/search/song?q=Florence%20and%20the%20Machine%20Shake%20It%20Out" title="Shake It Out by Florence and the Machine on Grooveshark">Shake It Out by Florence and the Machine on Grooveshark</a></span></object></object>
+
 
 > Je ne sais pas ce qui est beau, mais je sais ce que j’aime et je trouve ça
 > amplement suffisant.  << Boris Vian

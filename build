@@ -202,6 +202,9 @@ function main
     replace '$commit-date$'     "$commit_date"     -- $template
     replace '$commit-iso-date$' "$commit_iso_date" -- $template
 
+    # Spotify
+    sub s+'^%spotify (.*)'+'<iframe src=https://embed.spotify.com/?uri=spotify:track:\1 width=300 height=80 frameborder=0 allowtransparency=true></iframe>'+ $source
+
     # Pandoc front matter
     set   regexp_front_matter '^''%''[a-z]''+'
     alias pandoc_front_matter "egrep '$regexp_front_matter' '$source'"
