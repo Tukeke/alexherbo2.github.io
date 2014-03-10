@@ -49,8 +49,8 @@ alexherbo2’s user site dependencies are:
  * [CoffeeScript](http://coffeescript.org)
  * [Kakoune](https://github.com/mawww/kakoune)
 
-To build, just type `build` in the root directory.  The site will be deployed in
-[master][] branch.  It is best viewed at [alexherbo2.github.io][].
+To build, just type [build](build) in the root directory.  The site will be
+deployed in [master][] branch.  It is best viewed at [alexherbo2.github.io][].
 
 Plug-in
 -------
