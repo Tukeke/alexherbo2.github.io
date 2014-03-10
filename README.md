@@ -59,6 +59,7 @@ Plug-in
    - [timeago](http://timeago.yarp.com)
    - [scrollIntoView](http://arwid.github.io/jQuery.scrollIntoView)
  * [Disqus](http://disqus.com)
+ * [Spotify Play Button](https://developer.spotify.com/technologies/widgets/spotify-play-button)
 
 Caching
 -------
