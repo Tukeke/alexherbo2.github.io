@@ -7,6 +7,8 @@ Citations
 >
 > [FMA] << Theodore Dreiser
 
+<object width="250" height="40" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="gsSong2488925376" name="gsSong2488925376"><param name="movie" value="http://grooveshark.com/songWidget.swf" /><param name="wmode" value="window" /><param name="allowScriptAccess" value="always" /><param name="flashvars" value="hostname=grooveshark.com&songID=24889253&style=metal&p=0" /><object type="application/x-shockwave-flash" data="http://grooveshark.com/songWidget.swf" width="250" height="40"><param name="wmode" value="window" /><param name="allowScriptAccess" value="always" /><param name="flashvars" value="hostname=grooveshark.com&songID=24889253&style=metal&p=0" /><span><a href="http://grooveshark.com/search/song?q=Full%20Metal%20Alchemist%20Original%20Soundtrack%20Bratja%20(BROTHERS)" title="Bratja (BROTHERS) by Full Metal Alchemist Original Soundtrack on Grooveshark">Bratja (BROTHERS) by Full Metal Alchemist Original Soundtrack on Grooveshark</a></span></object></object>
+
 
 > La liberté consiste à faire tout ce que permet la longueur de la chaîne.
 > << François Cavanna
