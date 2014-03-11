@@ -46,22 +46,6 @@ Citations
 > << Sénèque
 
 
-> – Pardon d’en être tombé amoureux.  Je voulais pas vous faire souffrir.  
-> – Vous appelez ça demander pardon ?  Enculé !  
-> – Pardon.  Si vous l’aimez, renoncez à elle.  
-> – Pour son bonheur.  
-> – Elle le fuit.  
-> – Tout le monde le cherche.  
-> – Les dépressifs veulent affirmer leur dépression.  
-> – Privés de leur dépression, ils devraient affronter la vie, qui est parfois déprimante.  
-> – Anna n'est pas dépressive.  
-> – Non ?  
-> – Je l’aime !  
-> – Moi aussi.  
->
-> << Closer – entre adultes consentants
-
-
 > Peut-être donnons-nous le meilleur de nous-mêmes à ceux qui de leur côté, ne
 > nous accordent que rarement une de leurs pensées.  << Terence Hanbury White
 
