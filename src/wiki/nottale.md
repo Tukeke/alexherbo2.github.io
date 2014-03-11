@@ -43,19 +43,19 @@ La relativité dans tous ses états
 Auteurs cités
 -------------
 
-Poincaré
+### Poincaré
 > Un système décrit par des lois parfaitement déterministes peut avoir un
 > comportement relevant du hasard !
 
 
-Feynman
+### Feynman
 > J’espère donc que vous accepterez la Nature telle qu’elle est : absurde.
 
 
-Hawking
+### Hawking
 > Non seulement Dieu joue aux dés, mais Il les lance là où on ne peut pas les
 > voir.
 
 
-Einstein
+### Einstein
 > Les lois de la nature ont la plus grande simplicité logique imaginable.

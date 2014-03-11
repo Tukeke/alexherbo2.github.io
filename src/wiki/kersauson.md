@@ -124,6 +124,6 @@ Mémoires salées
 Auteurs cités
 -------------
 
-La Rochefoucauld
+### La Rochefoucauld
 > Beaucoup d’êtres ne tomberaient pas amoureux, s’ils n’avaient pas entendu
 > parler d’amour !

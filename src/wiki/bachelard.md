@@ -286,22 +286,22 @@ La formation de l’esprit scientifique
 Auteurs cités
 -------------
 
-Kipling
+### Kipling
 > Si tu peux voir s’écrouler soudain l’ouvrage de ta vie, et te remettre au
 > travail, si tu peux souffrir, lutter, mourir sans murmurer, tu seras un homme,
 > mon fils.
 
 
-R.P. Louis Castel
+### R.P. Louis Castel
 > Tout le monde est un peu Physicien, plus ou moins suivant qu’on a l’esprit
 > plus ou moins attentif, et capable d’un raisonnement naturel.
 
 
-Ostwald
+### Ostwald
 > Quel que soit le phénomène considéré, il y a toujours un nombre extrêmement
 > considérable de circonstances qui sont sans influence mesurable sur lui.
 
 
-Hitchcock
+### Hitchcock
 > Le grand effet de l’Amour est de tourner toute chose en sa propre nature, qui
 > est toute bonté, toute douceur et toute perfection.

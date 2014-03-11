@@ -18,9 +18,9 @@ Les mathématiques du chaos
 Auteurs cités
 -------------
 
-Ernest Rutherford
+### Ernest Rutherford
 > Le qualitatif est du mauvais quantitatif.
 
 
-Anatole France
+### Anatole France
 > Le hasard est le pseudonyme de Dieu quand il ne voulait pas signer.
