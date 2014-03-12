@@ -15,6 +15,7 @@
 #│ │       ├── solarized.sass
 #│ │       └── style.sass
 #│ ├── build
+#│ ├── content
 #│ ├── git
 #│ │   └── hooks
 #│ │       └── pre-push
@@ -22,8 +23,7 @@
 #│ │   ├── base.haml
 #│ │   ├── page.haml
 #│ │   └── post.haml
-#│ ├── nginx.conf
-#│ └── src
+#│ └── nginx.conf
 #│
 #│ Building
 #│ ‾‾‾‾‾‾‾‾
@@ -130,9 +130,9 @@ function main
   set index_page tmp/index.md
   set list_page  tmp/list.md
 
-  for source in (files src)
+  for source in (files content)
 
-    set output (echo $source | sed s/src//';'s/.md'$'/.html/)
+    set output (echo $source | sed s/content//';'s/.md'$'/.html/)
 
     if echo $source | egrep '(README|READING|HOWTO)'
       continue
@@ -157,12 +157,12 @@ function main
 
   # fish sucks: Cannot save multi-line output in a variable
   # https://github.com/fish-shell/fish-shell/issues/159
-  sh -c 'replace "\$list\$"    "<div style=white-space:nowrap>`cat '$list_page'`</div>" -- src/README.md'
-  sh -c 'replace "\$reading\$" "<pre style=border:0          >`cat  src/READING`</pre>" -- src/README.md'
+  sh -c 'replace "\$list\$"    "<div style=white-space:nowrap>`cat     '$list_page'`</div>" -- content/README.md'
+  sh -c 'replace "\$reading\$" "<pre style=border:0          >`cat  content/READING`</pre>" -- content/README.md'
 
-  for source in (files src)
+  for source in (files content)
 
-    set output (echo $source | sed s/src/site/';'s/.md'$'/.html/';'s/README/index/)
+    set output (echo $source | sed s/content/site/';'s/.md'$'/.html/';'s/README/index/)
 
     make (dirname $output)
 

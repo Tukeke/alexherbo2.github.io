@@ -26,6 +26,7 @@ Source structure
 │       ├── solarized.sass
 │       └── style.sass
 ├── build
+├── content
 ├── git
 │   └── hooks
 │       └── pre-push
@@ -33,8 +34,7 @@ Source structure
 │   ├── base.haml
 │   ├── page.haml
 │   └── post.haml
-├── nginx.conf
-└── src
+└── nginx.conf
 ```
 
 Building
