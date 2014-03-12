@@ -43,6 +43,7 @@ This site is built thanks to
 [#kakoune](https://github.com/mawww/kakoune)
 [#i3](http://i3wm.org)
 [#uzbl](http://uzbl.org)
+[#pentadactyl](http://5digits.org)
 [#lichess](http://lichess.org)
 [#vindinium](http://vindinium.org)
 [#radio01](http://radio01.net)
