@@ -50,3 +50,4 @@ This site is built thanks to
 [#masquedepusta](http://youtube.com/user/MaSQuEdePuSTA)
 [#onepiece](http://youtu.be/UGreqBriJkQ)
 [#wakfu](http://wakfu.com/fr/serie)
+[#maliki](http://maliki.com)
