@@ -172,6 +172,8 @@ function main
 
     set link (echo $source | sed s/.md'$'/.html/)
 
+    set path (echo $source | replace content/ '')
+
     set commit (git log -1 --format=%h $source)
 
     set commit_timestamp (git log -1 --format=%ct $source)
@@ -198,6 +200,7 @@ function main
     end
 
     # Replace in place
+    replace '$path$'            "$path"            -- $template
     replace '$commit$'          "$commit"          -- $template
     replace '$commit-date$'     "$commit_date"     -- $template
     replace '$commit-iso-date$' "$commit_iso_date" -- $template

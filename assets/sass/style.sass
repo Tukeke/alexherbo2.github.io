@@ -38,6 +38,23 @@
 .visited:after
   content: ' (✓)'
 
+// <H>Left <J>Bottom <K>Top <L>Right
+.left
+  position                                              : fixed
+  left                                                  : 0
+
+.bottom
+  position                                              : fixed
+  bottom                                                : 0
+
+.top
+  position                                              : fixed
+  top                                                   : 0
+
+.right
+  position                                              : fixed
+  right                                                 : 0
+
 // Page: we just define the color scheme.
 body
   @include font
@@ -108,6 +125,16 @@ cite, author
 a.tag, a img
   color                                                 : $yellow
 
+.raw
+  color                                                 : $blue
+  a
+    color                                               : $blue
+
+#title
+  color                                                 : $magenta
+  a
+    color                                               : $magenta
+
 @include link($green, $base01)
 
 h1, h2, h3, h4
@@ -117,19 +144,9 @@ header
   @include link($green, $base01)
   font-weight                                           : bold
 
-header a#home
-  position                                              : fixed
-  top                                                   : 0
-  left                                                  : 0
-
-header h1#title
-  position                                              : fixed
-  top                                                   : 0
-  right                                                 : 0
-  color                                                 : $magenta
+header #title
+  display                                               : inline
   font-weight                                           : normal
-  a
-    color                                               : $magenta
 
 footer
   position                                              : fixed

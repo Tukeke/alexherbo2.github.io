@@ -11,12 +11,16 @@
       alexherbo2.github.io — $title$
   %body
     %header
-      %a#home{href: '/'}
-        home(1)
-      %h1#title
-        =link_to 'alexherbo2.github.io', 'https://github.com/alexherbo2/alexherbo2.github.io'
-        —
-        $title$
+      %span.top.left
+        %a#home{href: '/'}
+          home(1)
+      %span.top.right
+        %a.raw{href: 'https://raw.github.com/alexherbo2/alexherbo2.github.io/source/content/$path$', title: 'View Raw'}
+          ❮❯
+        %h1#title
+          =link_to 'alexherbo2.github.io', 'https://github.com/alexherbo2/alexherbo2.github.io'
+          —
+          $title$
     $body$
     %footer
       %a{href: 'http://github.com/alexherbo2/alexherbo2.github.io'}
