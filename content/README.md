@@ -37,6 +37,7 @@ This site is built thanks to
   [Sass](http://sass-lang.com),
   [CoffeeScript](http://coffeescript.org) and
   [Kakoune](https://github.com/mawww/kakoune) !
+Sources are on [GitHub][alexherbo2.github.io].
 
 
 [#exherbo](http://exherbo.org)
@@ -51,3 +52,6 @@ This site is built thanks to
 [#onepiece](http://youtu.be/UGreqBriJkQ)
 [#wakfu](http://wakfu.com/fr/serie)
 [#maliki](http://maliki.com)
+
+
+[alexherbo2.github.io]: https://github.com/alexherbo2/alexherbo2.github.io
