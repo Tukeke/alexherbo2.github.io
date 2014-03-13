@@ -11,10 +11,10 @@
       alexherbo2.github.io — $title$
   %body
     %header
-      %span.top.left
+      %div.top.left
         %a#home{href: '/'}
           home(1)
-      %span.top.right
+      %div.top.right
         %a.timeago{href: 'https://github.com/alexherbo2/alexherbo2.github.io/commit/$commit$', title: 'View Commit'}
           %time.timeago{datetime: '$commit-iso-date$'}
         %a.raw{href: 'https://raw.github.com/alexherbo2/alexherbo2.github.io/source/content/$path$', title: 'View Raw'}
@@ -22,7 +22,8 @@
         %h1#title
           =link_to 'alexherbo2.github.io', 'https://github.com/alexherbo2/alexherbo2.github.io'
           —
-          $title$
+          %span{title: '$title$'}
+            $title$
     $body$
     %footer
       %a{href: 'http://github.com/alexherbo2/alexherbo2.github.io'}
