@@ -41,6 +41,9 @@ Sources are on [GitHub][alexherbo2.github.io].
 
 
 [#git](http://git-scm.com)
+[#ruby](http://ruby-lang.org)
+[#rust](http://rust-lang.org)
+[#haskell](http://haskell.org)
 [#exherbo](http://exherbo.org)
 [#kakoune](https://github.com/mawww/kakoune)
 [#i3](http://i3wm.org)
@@ -53,9 +56,6 @@ Sources are on [GitHub][alexherbo2.github.io].
 [#onepiece](http://youtu.be/UGreqBriJkQ)
 [#wakfu](http://wakfu.com/fr/serie)
 [#maliki](http://maliki.com)
-[#ruby](https://ruby-lang.org)
-[#haskell](http://haskell.org)
-[#rust](http://rust-lang.org)
 
 
 [alexherbo2.github.io]: https://github.com/alexherbo2/alexherbo2.github.io
