@@ -53,6 +53,7 @@ Sources are on [GitHub][alexherbo2.github.io].
 [#vindinium](http://vindinium.org)
 [#radio01](http://radio01.net)
 [#masquedepusta](http://youtube.com/user/MaSQuEdePuSTA)
+[#stargate](http://stargate.mgm.com)
 [#onepiece](http://youtu.be/UGreqBriJkQ)
 [#wakfu](http://wakfu.com/fr/serie)
 [#maliki](http://maliki.com)
