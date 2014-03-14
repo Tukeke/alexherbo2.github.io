@@ -53,6 +53,7 @@ Sources are on [GitHub][alexherbo2.github.io].
 [#wakfu](http://wakfu.com/fr/serie)
 [#maliki](http://maliki.com)
 [#ruby](https://ruby-lang.org)
+[#haskell](http://haskell.org)
 [#rust](http://rust-lang.org)
 
 
