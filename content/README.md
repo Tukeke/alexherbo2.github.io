@@ -52,6 +52,7 @@ Sources are on [GitHub][alexherbo2.github.io].
 [#onepiece](http://youtu.be/UGreqBriJkQ)
 [#wakfu](http://wakfu.com/fr/serie)
 [#maliki](http://maliki.com)
+[#ruby](https://ruby-lang.org)
 
 
 [alexherbo2.github.io]: https://github.com/alexherbo2/alexherbo2.github.io
