@@ -40,6 +40,7 @@ This site is built thanks to
 Sources are on [GitHub][alexherbo2.github.io].
 
 
+[#git](http://git-scm.com)
 [#exherbo](http://exherbo.org)
 [#kakoune](https://github.com/mawww/kakoune)
 [#i3](http://i3wm.org)
