@@ -140,7 +140,7 @@ function main
 
     set title (head -1 $source)
 
-    set link_no_html (echo $output | replace .html '')
+    set link (echo $output | replace .html '' | sed --regexp-extended s/'(main|index)$'//)
 
     set commit (git log -1 --format=%h $source)
 
@@ -148,7 +148,7 @@ function main
 
     set commit_iso_date (git log -1 --format=%ci $source)
 
-    echo "$commit_timestamp<h2 style=display:inline>[$title]($link_no_html)</h2> <a class=timeago href=https://github.com/alexherbo2/alexherbo2.github.io/commit/$commit><time class=timeago datetime='"$commit_iso_date"'></time></a><br>" >> $list_page.lock
+    echo "$commit_timestamp<h2 style=display:inline>[$title]($link)</h2> <a class=timeago href=https://github.com/alexherbo2/alexherbo2.github.io/commit/$commit><time class=timeago datetime='"$commit_iso_date"'></time></a><br>" >> $list_page.lock
   end
 
   sort --reverse $list_page.lock | sed --regexp-extended s/'^([0-9]+ ?)+'// > $list_page
@@ -162,7 +162,7 @@ function main
 
   for source in (files content)
 
-    set output (echo $source | sed s/content/site/';'s/.md'$'/.html/';'s/README/index/)
+    set output (echo $source | sed --regexp-extended s/content/site/';'s/.md'$'/.html/';'s/'(main|README)'/index/)
 
     make (dirname $output)
 
