@@ -213,15 +213,9 @@ Install and configure bootloader
 cave resolve syslinux
 ```
 
-1. install the files
-2. mark the partition active with the boot flag
-3. install the MBR boot code
-
-```sh
-1. extlinux --install /boot/syslinux
-2. fdisk /dev/sda
-3. dd if=/usr/share/syslinux/mbr.bin of=/dev/sda bs=440 count=1 (cave print-id-contents syslinux | grep mbr.bin)
-```
+1. install the files                            → `extlinux --install /boot/syslinux`
+2. mark the partition active with the boot flag → `fdisk /dev/sda`
+3. install the MBR boot code                    → `dd if=/usr/share/syslinux/mbr.bin of=/dev/sda bs=440 count=1` (`cave print-id-contents syslinux | grep mbr.bin`)
 
 Edit /boot/syslinux/syslinux.cfg
 
@@ -238,17 +232,10 @@ LABEL linux
 
 Install an init system
 
-1. Set systemd option globally in /etc/paludis/options.conf
-2. Install systemd
-3. Reinstall every package with the new option set
-4. Switch to systemd as your init system
-
-```
-1. */* systemd
-2. cave resolve sys-apps/systemd
-3. cave resolve world
-4. eclectic init set systemd
-```
+1. Set systemd option globally in /etc/paludis/options.conf → `*/* systemd`
+2. Install systemd                                          → `cave resolve sys-apps/systemd`
+3. Reinstall every package with the new option set          → `cave resolve world`
+4. Switch to systemd as your init system                    → `eclectic init set systemd`
 
 Configure your hostname for systemd
 
