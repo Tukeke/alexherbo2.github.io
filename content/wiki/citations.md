@@ -284,3 +284,1292 @@ Citations
 > et de son but.  Si vous l’appelez GNU/Linux, cela transporte (mais pas en
 > détail) une idée correcte.
 > << Richard Stallman  [Why GNU/Linux?](http://gnu.org/gnu/why-gnu-linux.html)
+
+
+René Descartes
+--------------
+
+### Discours de la méthode (1637)
+
+> Même les histoires les plus fidèles, si elles ne changent ni n’augmentent la
+> valeur des choses pour les rendre plus dignes d’être lues, au moins en
+> omettent-elles presque toujours les plus basses et moins illustres
+> circonstances, d’où vient que le reste ne paraît pas tel qu’il est.
+
+> C’est difficile de grandir.  Au départ, tout semble aller de soi.  Mais, on
+> finit toujours par ressembler à ceux qu’on a rejetés.  On se rend compte un jour
+> qu’on est devenu « grand ».  C’est assurément un progrès.  Mais le résultat ne
+> correspond pas forcément à ce qu’on envisageait : être adulte, c’est aussi
+> réaliser qu’un adulte est quelqu’un de plus fragile et de moins accompli que ce
+> qu’on s’en représentait étant enfant.  Être adulte, c’est également se retrouver
+> parent, maître, éducateur, conseiller, etc., c’est-à-dire occuper les places de
+> ceux qu’on a critiqués, remplir les fonctions dont on s’est moqué, reproduire
+> des mimiques et des postures auparavant détestées.  Reste alors à envisager de
+> ne pas (trop) mal vieillir en conservant un soupçon de l’enthousiasme des jeunes
+> années : être parent, maître, éducateur, conseiller, etc., certes, mais au moins
+> l’être (un peu) mieux que ceux que j’ai remplacés.
+
+
+Maliki
+------
+
+### Broie la vie en rose
+
+> La vie est parfois rose, mais peut aussi avoir un sale goût ; ce qui la rend
+> finalement à peu près vivable.
+
+> Non mais c’est vrai quoi !  Pourquoi j’irais me casser la tête à pondre des
+> scénarios extravagants, alors que la vie réelle est déjà complètement improbable
+> !  On cherche toujours une logique, une morale, des causes et des effets…  Alors
+> qu’en vérité, les choses arrivent, absurdes, et c’est tout.  Et c’est ça qui est
+> génial !…  Vous avez faim, c’est ça ?
+
+
+Desproges
+---------
+
+### Vivons heureux en attendant la mort
+
+> Qu’on me pardonne, mais c’est une phrase que j’ai beaucoup de mal à dire sans
+> rire: « Les hommes naissent tous libres et égaux en droits »
+
+
+> Il faut rire de tout.  C’est extrêmement important.  C’est la seule humaine
+> façon de friser la lucidité sans tomber dedans.
+
+
+> Gloire à toi, Archimède, qui fus le premier à démontrer que, lorsqu’on plonge un
+> corps dans une baignoire, le téléphone sonne.
+
+
+> […] leur imposer cette infinie humilité qui devrait être leur ligne de conduite
+> permanente face à l’insignifiance globale de leurs propres travaux.
+
+
+> Est-il vraiment indispensable d’être cultivé quand il suffit de fermer sa gueule
+> pour briller en société ?
+
+
+### Manuel de savoir-vivre à l’usage des rustres et des malpolis
+
+> Mais il ne faut pas désespérer des imbéciles.  Avec un peu d’entraînement, on
+> peut arriver à en faire des militaires.
+
+
+> Que choisir ?  Tout dans la vie, est une affaire de choix.  Cela commence par :
+> « La tétine ou le téton ? » Et cela s’achève par : « Le chêne ou le sapin ? »
+
+
+> Certes, il est pénible de vieillir, mais il est important de vieillir bien,
+> c’est-à-dire sans emmerder les autres.  C’est une simple question de bonne
+> éducation.
+
+
+> N’oubliez jamais que votre détresse humaine est légèrement ennuyeuse pour votre
+> entourage.
+
+
+Bachelard
+---------
+
+### La formation de l’esprit scientifique
+
+> Tout savoir scientifique doit être à tout moment reconstruit.
+
+
+> L’abstraction est un devoir, le devoir scientifique, la possession enfin épurée
+> de la pensée du monde !
+
+
+> La science est l’esthétique de l’intelligence.
+
+
+> Rien ne va de soi.  Rien n’est donné.  Tout est construit.
+
+
+> L’homme qui suit les lois du monde obéit déjà à un grand destin.
+
+
+> L’esprit scientifique doit se former en se réformant.
+
+
+> C’est de l’homme aujourd’hui que l’homme peut recevoir ses plus grandes
+> souffrances.
+
+
+> Le vertige qui nous prend devant les profondeurs de l’inconnu !
+
+
+> Bien des vocations de chimistes commencent par un accident.
+
+
+> Mieux vaudrait une ignorance complète qu’une connaissance privée de son principe
+> fondamental.
+
+
+> La science a dû modifier ses principes fondamentaux.  Ainsi prit naissance la
+> science relativiste.
+
+
+> Un cœur honnête, une âme blanche, animée de forces saines, réconciliant sa
+> nature particulière et la nature universelle trouvera naturellement la vérité.
+> Il la trouvera dans la nature parce qu’il la sent en lui-même.  La vérité du
+> cœur est la vérité du Monde.
+
+
+> La richesse d’un concept scientifique se mesure à sa puissance de déformation.
+
+
+> Ce qui limite une connaissance est souvent plus important, pour les progrès de
+> la pensée, que ce qui étend vaguement la connaissance.
+
+
+> Une connaissance générale est presque fatalement une connaissance vague.
+
+
+> Sans doute, tout auteur est animé par le désir de valoriser le sujet qu’il a
+> choisi.  Il veut montrer, dès sa préface, qu’il tient un sujet.
+
+
+> L’homme ne sait pas limiter l’utile.
+
+
+> La maturité scientifique ne va de pair avec la maturité psychologique.
+
+
+> Il suffit d’accumuler l’irrationnel pour donner l’illusion de la réaliTé.
+
+
+> Tout travail patient et rythmique, qui réclame une longue suite d’opérations
+> monotones, entraîne l’homo faber à la rêverie.
+
+
+> Il faudra dévaloriser le produit d’un travail patient si l’on veut psychanalyser
+> la connaissance objective.
+
+
+> Tous les avares sont réalistes.
+
+
+> Rien ne se perd, rien ne se crée, est un dire d’avare.
+
+
+> Le signe premier de la certitude scientifique, c’est qu’elle peut être revécue
+> aussi bien dans son analyse que dans sa synthèse.
+
+
+> Le meilleur est le plus caché.
+
+
+> C’est alors la passion vraie qui forme obstacle à la rectification de l’idée
+> fausse.
+
+
+> Pas de sympathie sans réciproque.
+
+
+> Soyez triste et vous serez philosophe.
+
+
+> La valeur est la qualité occulte la plus insidieuse.  C’est elle qu’on exorcise
+> la dernière.  Car c’est elle à laquelle l’inconscient s’attache le plus
+> longtemps, le plus énergiquement.
+
+
+> Il semble que la végétation soit un objet vénéré par l’inconscient.  Elle
+
+> Illustre le thème d’un devenir tranquille et fatal.
+
+
+> Mais parfois l’indice provoque une déviation totale.
+
+
+> Aux hommes les plus cultivés, il suffit parfois d’un commencement ou d’un
+> prétexte de rationalisation pour accepter la science de la baguette magique.
+
+
+> Le réaliste est un mangeur.
+
+
+> Le réel est de prime abord un aliment.
+
+
+> Si l’intelligence se développe en suivant la main qui caresse un solide,
+> l’inconscient s’invétère en mâchant, à pleine bouche, des pâtes.
+
+
+> Diderot n’aime pas les bouillies !  Rien n’est tant raisonné que l’alimentation
+> chez les bourgeois.
+
+
+> On ne critique pas la technique de ses pères.
+
+
+> Tout se mange.  Réciproquement, tout est mangé.
+
+
+> On ne croit pas avoir d’autres moyens de triompher de l’obstacle qu’en
+> l’amoindrissant, qu’en le tournant.  On ne sent pas que l’obstacle est dans
+> l’esprit même.
+
+
+> Les matières fécales ont fait l’objet de nombreuse distillations.
+
+
+> L’avoir et l’être ne sont rien devant le devenir.
+
+
+> C’est, comme on le voit, la complainte du mal marié.  On l’imagine assez bien
+> dans la bouche d’un savant qui quitte son foyer pour son laboratoire, qui vient
+> chercher près des beautés de la science des extases que lui interdit son épouse
+> disgraciée.
+
+
+> C’est la nuit, quand l’alchimiste rêve auprès du fourneau, quand l’objet n’est
+> encore que désir et espoir, que s’assemblent les métaphores.
+
+
+> Il semble que l’effort littéraire nous a habitués aux images gratuites, aux
+> images d’une heure, aux images qui, sans s’attacher aux choses, se bornent à en
+> traduire des nuances fugitives.
+
+
+> Tout travail instruit est monotone.
+
+
+> Si l’on va au fond des âmes, si l’on revit l’homme dans son long travail, dans
+> son travail facile dès qu’il est maîtrisé, dans le geste même d’un effort bien
+> conduit, il faut nous souvenir que sa pensée rêvait et que sa voix traduisait sa
+> caresse par des chants.
+
+
+> Si l’on voulait bien examiner ce qui se passe dans un esprit en formation, placé
+> devant une expérience nouvelle, on serait surpris de trouver de prime abord des
+> pensées sexuelles.
+
+
+> Ils jugent plus qu’ils n’enseignent !  Ils ne font rien pour guérir l’anxiété
+> qui saisit tout esprit devant la nécessité de corriger sa propre pensée et de
+> sortir de soi pour trouver la vérité objective.
+
+
+> Il faut réfléchir pour mesurer et non pas mesurer pour réfléchir.
+
+
+> Une précision sur un résultat , quand elle dépasse la précision sur les données
+> expérimentales , est très exactement la détermination du néant.
+
+
+> Les déterminations numériques ne doivent en aucun cas dépasser en exactitude les
+> moyens de détection.
+
+
+> Ils croient faire une expérience de physique ; ils font, dans de très mauvaises
+> conditions, une expérience sur la physiologie des émotions.
+
+
+> Il faut affirmer que tout n’est pas possible, dans la culture scientifique, et
+> qu’on ne peut retenir du possible , dans la culture scientifique , que ce dont
+> on a démontré la possibilité.
+
+
+> L’abandon des connaissances de sens commun est un sacrifice difficile.  Nous ne
+> devons pas nous étonner des naïvetés qui s’accumulent sur les premières
+> descriptions d’un monde inconnu.
+
+
+> L’hostilité aux mathématiques est un mauvais signe quand elle s’allie à une
+> prétention de saisir directement les phénomènes scientifiques.
+
+
+> Mais l’enseignement des résultats de la science n’est jamais un enseignement
+> scientifique.
+
+
+> On ne peut retenir qu’en comprenant.
+
+
+> Quand le résultat correct est maintenu dans la mémoire, c’est souvent grâce à la
+> construction de tout un échafaudage d’erreurs.
+
+
+> Peu à peu j’essayais de désancrer doucement l’esprit de son attachement à des
+> images privilégiées.  Je l’engageais dans les voies de l’abstraction,
+> m’efforçant de donner le goût des abstractions.  Bref, le premier principe de
+> l’éducation scientifique me parait, dans le règne intellectuel, cet ascétisme
+> qu’est la pensée abstraite.
+
+
+> L’esprit scientifique se constitue comme un ensemble d’erreurs rectifiées.
+
+
+> C’est à partir d’une spécialité que le savant veut et cherche la synthèse.
+
+
+> Pas de vérité sans erreur rectifiée.
+
+
+> L’homme qui aurait l’impression de ne se tromper jamais se tromperai toujours.
+
+
+> Avouons donc nos sottises pour que notre frère y reconnaisse les siennes.
+
+
+> Une instruction qu’on reçoit sans la transmettre forme des esprits sans
+> dynamisme, sans autocritique.
+
+
+> Avoir raison des hommes par les hommes, doux succès où se complaît la volonté de
+> puissance des hommes politiques !
+
+
+> Pour apprendre aux élèves à inventer, il est bon de leur donner le sentiment
+> qu’ils auraient pu découvrir.
+
+
+> Le savant est placé devant la nécessité, toujours renaissante, du renoncement à
+> sa propre intellectualité.
+
+
+> Je veux savoir pour pouvoir savoir, jamais pour utiliser.
+
+
+> L’homme est homme parce que son comportement objectif n’est ni immédiat ni
+> local.
+
+
+> La pensée scientifique moderne réclame qu’on résiste à la première réflexion.
+
+
+> L’intérêt à la vie est supplanté par l’intérêt à l’esprit.
+
+
+> Le cerveau est l’obstacle à la pensée scientifique.  Il est un obstacle en ce
+> sens qu’il est un coordonnateur de gestes et d’appétits.  Il faut penser contre
+> le cerveau.
+
+
+> Cette volonté d’esprit, si nette chez quelques âmes élevées, n’est de toute
+> évidence pas une valeur sociale.
+
+
+### Auteurs cités
+
+#### Kipling
+> Si tu peux voir s’écrouler soudain l’ouvrage de ta vie, et te remettre au
+> travail, si tu peux souffrir, lutter, mourir sans murmurer, tu seras un homme,
+> mon fils.
+
+
+#### R.P. Louis Castel
+> Tout le monde est un peu Physicien, plus ou moins suivant qu’on a l’esprit
+> plus ou moins attentif, et capable d’un raisonnement naturel.
+
+
+#### Ostwald
+> Quel que soit le phénomène considéré, il y a toujours un nombre extrêmement
+> considérable de circonstances qui sont sans influence mesurable sur lui.
+
+
+#### Hitchcock
+> Le grand effet de l’Amour est de tourner toute chose en sa propre nature, qui
+> est toute bonté, toute douceur et toute perfection.
+
+
+Einstein
+--------
+
+> Faire la même chose encore et encore et attendre un résultat différent.
+
+
+> L’invention n’est pas l’œuvre de la pensée logique, même si le produit final est
+> inséparable d’une mise en forme logique.
+
+
+> Ceux qui ne sont pas assez forts pour triompher seuls de la dureté de
+> l’existence cherchent dans la foi un réconfort à leur misère, comme cela s’est
+> toujours fait.
+
+
+> Vouloir la pensée pour elle-même, comme la musique !
+
+
+> Pour un homme dans mon genre, il se produit un tournant décisif dans son
+> évolution lorsqu’il cesse graduellement de s’intéresser exclusivement à ce qui
+> n’est que personnel et momentané pour consacrer tous ses efforts à
+> l’appréhension intellectuelle des choses.
+
+
+> Il devait donc y avoir derrière les choses quelque chose de profondément caché.
+
+
+> C’est une grave erreur de croire que le plaisir d’observer et de chercher puisse
+> être induit par la contrainte ou par le sentiment du devoir.
+
+
+> Il est souvent, et peut-être même toujours, possible de continuer à adhérer à un
+> fondement théorique et général en lui ajoutant des hypothèses artificielles qui
+> permettent de l’adapter aux faits.
+
+
+> Car ce qui est essentiel dans l’existence d’un homme comme moi, c’est ce qu’il
+> pense et comment il le pense, et non ce qu’il fait et ce qu’il éprouve.
+
+
+> Il me vint alors une idée.
+
+
+> La physique est une tentative pour appréhender ce qui est de façon conceptuelle,
+> comme quelque chose de pensé indépendamment du fait qu’il soit perçu.
+
+
+> Une théorie peut être vérifiée par l’expérience, mais il n’existe aucun chemin
+> menant de l’expérience à l’établissement d’une théorie.
+
+
+> Cet exposé aura atteint son but s’il a montré au lecteur comment les efforts de
+> toute une vie sont liés entre eux et en quoi ils m’ont conduit à avoir un type
+> bien particulier d’espérances.
+
+
+> Comme notre situation est étrange, à nous, enfants de la terre !  Nous ne
+> faisons que passer.  Nous ne savons pas pourquoi nous sommes là, même si parfois
+> nous croyons le sentir.  Mais par notre vie de tous les jours, sans qu’il soit
+> besoin de beaucoup réfléchir, nous savons une chose : nous sommes là pour les
+> autres.
+
+
+> Il me vient chaque jour, à d’innombrables reprises, la pensée que ma vie sociale
+> et intime repose sur le travail des hommes d’aujourd’hui et de ceux qui sont
+> maintenant disparus, et que je dois m’efforcer de donner dans les proportions
+> dans lesquelles j’ai reçu et je reçois encore.
+
+
+> J’ai aussi la conviction qu’un mode de vie simple et modeste est bon pour
+> chacun, pour le corps et pour l’esprit.
+
+
+> La question du sens ou de la finalité de mon existence et de l’existence en
+> général m’a toujours paru, d’un point de vue objectif, dénuée de signification.
+
+
+> Le plaisir et le bonheur n’ont jamais constitué à mes yeux une fin en soi (je
+> nomme aussi cette base éthique l’idéal du troupeau de porcs).  Mes idéaux à moi,
+> ceux qui ont toujours éclairé mes pas et aiguisé mon appétit et ma joie de
+> vivre, s’appellent bonté, beauté et vérité.
+
+
+> Si je n’avais pas eu pour occupation la recherche de la vérité objective, de ce
+> qui est à jamais inaccessible, en art comme en science, la vie m’aurait paru
+> vide.
+
+
+> Les fins auxquelles tendent ordinairement les aspirations humaines : la
+> propriété, la réussite sociale, le luxe, je les ai toujours considérées comme
+> méprisables.
+
+
+> L’héroïsme sur ordre, la violence sans raison et le déplorable patriotisme, avec
+> quelle hardeur je les hais, comme la guerre me paraît vulgaire et méprisable !
+> J’aimerai mieux me laisser couper en morceaux que de prendre part à une activité
+> aussi misérable…
+
+
+> La plus belle expérience que nous puissions faire, c’est celle du mystère de la
+> vie.
+
+
+> Je ne peux davantage ni ne veux imaginer un individu qui survive à sa mort
+> corporelle ; je laisse aux âmes faibles de telles pensées, dont elles se bercent
+> par crainte ou par un égoïsme ridicule.  Il me suffit, quant à moi, de songer au
+> mystère de l’éternité de la vie, d’avoir la conscience et l’intuition de la
+> merveilleuse construction de l’étant, et de m’efforcer humblement de comprendre
+> une parcelle, si minime soit-elle, de la raison qui se manifeste dans la nature.
+
+
+> _Rendre intuitive_ une théorie, c’est donc représenter cette masse d’expériences
+> dont l’ordre schématique est fixé par la théorie.
+
+
+> Le mathématicien sait des choses, incontestablement, mais ce ne sont
+> incontestablement pas celles que l’on veut de lui.
+
+
+> Le chercheur part donc toujours des faits, et le but de ses efforts est de les
+> relier entre eux.
+
+
+> Mais on ne peut jamais prouver la vérité d’une théorie.
+
+
+> En se consacrant en silence aux objectifs éternels qui sont communs à tous les
+> hommes de culture, on contribue plus efficacement à la guérison politique de
+> notre époque qu’en se répandant en considérations politiques et en professions
+> de foi.
+
+
+> Mais que personne ne vienne à penser que cette théorie, ou une autre, quelle
+> qu’elle soit, puisse jamais, à proprement parler, supplanter la grande œuvre
+> créée par Newton.  Ses idées, par leur grandeur et leur clarté, garderont, en
+> tant que fondement de toute notre conceptualisation dans le domaine de la
+> philosophie de la nature, leur éminente signification pour l’éternité.
+
+
+> Nous ne nous posons plus la question de la "vérité" d’une théorie, mais de son
+> utilité, de son efficacité.
+
+
+> Aucun de nous ne désespère au vu des énigmes et des discordances que nous
+> présente la nature.  Mais je crois que cet optimisme ne repose pas, chez les
+> gens de notre génération, sur une sous-estimation des difficultés.
+
+
+> N’écoutez pas ce qu’ils disent et tenez-vous en à ce qu’ils font.
+
+
+> Par la seule pensée logique, nous ne pouvons acquérir aucun savoir sur le monde
+> de l’expérience ; tout savoir sur la réalité part de l’expérience et aboutit à
+> elle.
+
+
+> En un certain sens, je considère qu’il est vrai que, comme l’avaient rêvé les
+> Anciens, la pensée peut saisir le réel.
+
+
+> Bien que je sois aujourd’hui un vieux bonhomme, je suis toujours d’attaque pour
+> travailler et je ne crois toujours pas que Dieu joue aux dés.
+
+
+> …  Voilà qu’il m’a de nouveau précédé de peu, en quittant ce monde étrange.
+> Cela ne signifie rien.  Pour nous, physiciens croyants, cette séparation entre
+> passé, présent et avenir ne garde que la valeur d’une illusion, si tenace
+> soit-elle.
+
+
+> La science n’est qu’un raffinement de la pensée quotidienne.
+
+
+> La science a pour premier objectif d’appréhender et de relier conceptuellement,
+> de la façon la plus complète qui soit, les impressions sensibles dans toute leur
+> diversité.
+
+
+> Il est hors de doute que la mécanique quantique a mis la main sur un beau
+> morceau de vérité.
+
+
+> Tout ce que les hommes font et inventent sert à satisfaire des besoins ou à
+> calmer des souffrances.
+
+
+> Pour ceux qui sont imprégnés de l’idée que les événements sont reliés par des
+> lois causales, l’idée d’un être qui intervient dans le déroulement des
+> événements est tout à fait impensable.
+
+
+> Un contemporain a dit, à juste titre, que les chercheurs sérieux sont, à notre
+> époque en général matérialiste, les seuls hommes profondément religieux.
+
+
+> Je crois qu’un sourire vaut mieux qu’une réponse.
+
+
+> Il est certain que la conviction – apparentée au sentiment religieux – que le
+> monde est rationnel, ou au moins intelligible, est à la base de tout travail
+> scientifique un peu élaboré.
+
+
+> Le désir d’atteindre à une connaissance objective fait partie des choses les
+> plus sublimes dont l’homme est capable.
+
+
+> Le destin suprême de l’homme est de servir librement et non de dominer et de
+> s’imposer d’une façon ou d’une autre.
+
+
+> Mais, si le désir d’atteindre le but est réellement vivant en nous, alors nous
+> ne manquerons pas de forces pour trouver les moyens nécessaires pour l’atteindre
+> et pour mettre ces moyens en pratique.
+
+
+> En premier lieu, je crois, avec Schopenhauer, que l’un des motifs les plus
+> puissants parmi ceux qui conduisent à l’art et à la science est le besoin de
+> s’évader hors de la vie quotidienne, de sa douloureuse grossièreté et de sa
+> désolante monotonie, hors des entraves de nos propres désirs éternellement
+> changeants.  Ce besoin pousse les plus sensibles à se dépouiller de leur
+> existence personnelle pour s’ouvrir au monde de la contemplation et de la
+> compréhension objectives.
+
+
+> La science est un outil puissant ; l’usage qu’on en fait, soit pour le salut de
+> l’homme soit pour sa malédiction, dépend de l’homme, pas de l’outil ; avec un
+> couteau, on peut tuer ou servir la vie.  Ce n’est donc pas de la science que
+> nous devons attendre le salut, mais de l’homme.
+
+
+> Pour moi, l’effort tendu vers la connaissance est un de ces objectifs autonomes
+> sans lesquels l’homme qui pense ne peut accepter consciemment la vie.
+
+
+> Comparées aux autres impulsions affectives élémentaires, celles de l’amour, de
+> la pitié et de l’amitié sont trop faibles et trop limitées pour amener la
+> société des hommes à une condition supportable.
+
+
+> Donc : ne pas surestimer la science et ses méthodes quand il s’agit de problèmes
+> humains !
+
+
+> Avec son existence courte et fragile, l’individu ne peut trouver de sens à sa
+> vie qu’au service de la société.
+
+
+> Tous ceux qui ont un travail peuvent craindre de le perdre.
+
+
+> Je ne crois pas que faire de la politique soit pour l’individu la meilleur
+> manière d’être efficace.
+
+
+> Les minorités dirigeantes détiennent avant tout l’école, la presse et la plupart
+> du temps également les organisations religieuses.  Par ces moyens, elles
+> dominent et dirigent les sentiments de la grande masse dont elles font un
+> instrument docile.
+
+
+> La vie de l’individu n’a de sens que si elle sert à embellir et à ennoblir la
+> vie de tous les êtres vivants.  La vie est sacrée, c’est-à-dire qu’elle est la
+> valeur suprême de laquelle dépendent tous les jugements de valeur.
+
+
+> Il ne m’est pas facile de surmonter la tendance qui me pousse à vivre dans le
+> silence de la réflexion.
+
+
+> Au service de la vie, le sacrifice devient une grâce.
+
+
+> La prédominance de l’esprit critique empêche qu’on suive aveuglément aucune
+> autorité humaine.
+
+
+> Ce n’est pas en parlant et en écoutant que se forment les personnalités mais en
+> travaillant et en agissant.
+
+
+> J’ai connu des enfants qui préféraient l’école aux vacances.
+
+
+> Si elle n’est pas perpétuellement recrée, la vérité nous échappe purement et
+> simplement.
+
+
+> Nos conceptions de la réalité physique ne pourront jamais être des conceptions
+> définitives.
+
+
+Feynman
+-------
+
+### La nature de la Physique
+
+> C’est toujours avec les idées raisonnables qu’on rencontre des problèmes.
+
+
+> Si ça ne s’accorde pas avec l’expérience, c’est faux.
+
+
+> On n’est jamais sûr d’avoir raison, on ne peut qu’être sûr de se tromper.
+
+
+> Comme toujours, l’imagination de la nature dépasse de loin la notre.
+
+
+> Chaque fois qu’on se trouve bloqué dans un fouillis d’ennuis et de problèmes,
+> c’est parce qu’on a utilisé les mêmes méthodes qu’avant.
+
+
+> Bien qu’elle soit incertaine, la science doit être utile.
+
+
+> Je trouve stupéfiant que l’on puisse prédire ce qui arrivera à l’aide des
+> mathématiques, qui consistent simplement à suivre des règles n’ayant vraiment
+> rien à voir avec ce qui se passe dans l’objet original.
+
+
+> La vérité peut se reconnaître à sa beauté, à sa simplicité.
+
+
+> Le monde apparaît tellement différent quand on sait !
+
+
+> Alors, ce que nous cherchons, c’est ce que nous trouverons, un point, c’est
+> tout.
+
+
+> Si seulement les philosophes pouvaient ne pas se prendre tellement au sérieux.
+
+
+> Je ne comprends pas les gens, moi y compris.
+
+
+> J’ai appris à vivre sans savoir.
+
+
+> Tout est intéressant, à partir du moment où on s’y consacre vraiment.
+
+
+Kersauson
+---------
+
+### Vieil Océan
+
+> Je pense que la vie réelle est dans la solitude.  Parce que tout ce qui est
+> important dans la vie se passe seul.  Même le voyage de l’amour est un voyage en
+> solitaire…
+
+
+> Chacun d’entre nous est une histoire, avec une naissance non voulue, une mort
+> généralement non souhaitée, et entre les deux des rêves, des souffrances, des
+> chagrins, et parfois un peu de bonheur.
+
+
+> Il faut se servir de la mort pour vivre.  Il faut se servir des gens qu’on a
+> aimés et qui sont morts pour essayer d’avoir une vie moins conne.
+
+
+> Profiter de la vie, c’est être digne, conscient, exigeant.  Ne pas se plaindre,
+> jamais, tant que l’on a la vie pour nous.
+
+
+### Homme libre…
+
+> Rien n’est plus abominable que de renoncer.
+
+
+> Je souffre, mais je suis ravi.  Je ne me plains pas : j’ai le bonheur d’avoir pu
+> choisir mes contraintes.
+
+
+> Même dans la difficulté, même dans l’adversité, même dans la déception, je sais
+> que rien de ce que je subis n’est inutile.
+
+
+> De la démence.  Ou de l’inconscience.  En tout cas, du grand art.
+
+
+> C’est très joli, mais je m’en fous.
+
+
+### Mémoires salées
+
+> Je pense que l’on paie toujours sa solitude.  À long terme, empêchant les
+> échanges extérieurs de pensée, elle ôte toute censure, laissant la porte ouverte
+> aux divagations, aux folies douces.
+
+
+> Il est possible de tout faire dans la vie, absolument n’importe quoi, mais
+> jamais avec n’importe qui.
+
+
+> Il n’y a aucune rencontre dont je me souvienne, avec une femme, qui ne m’ait pas
+> rendu moins con.
+
+
+> Une femme est une brèche dans le monde sordide.  Je les perçois comme des abris
+> ou l’on s’arrête, pour prendre autre chose que des coups dans la gueule.
+
+
+> Le sexe est tout, sauf un abrutissement.  C’est par là que circule le non-dit.
+> C’est là que réside l’expression de ce qui n’est pas perceptible, autrement.
+
+
+> L’amour physique est une des rares activités humaines qui peut se prendre enfin
+> – au premier degré.  Il était temps.
+
+
+> À mes yeux, je ne crois pas qu’il y aurait quelque chose de plus triste qu’une
+> terre sans femmes.  Elle deviendrait un monde sans rêve.
+
+
+> À mon avis, le paradis terrestre, ce fut quand Eve arriva.  Et l’enfer, ce fut
+> lorsqu’Adam en prit l’habitude.
+
+
+> Et puis, lorsque l’on aime une femme, elle devient vraiment la plus belle au
+> monde.  La question ne se pose plus.  Les autres n’existent pas.
+
+
+> L’amour est un sentiment particulièrement artificiel, qui se nourrit voracement
+> d’émotions particulièrement naturelles.
+
+
+> Le talent ce n’est pas chose facile à gérer.
+
+
+> Après un coup dur, rire, ne fût-ce qu’une minute est un cadeau encore plus
+> énorme, merveilleux, que lorsque tout va bien.
+
+
+> Pour moi, un homme dépourvu d’humour est un homme dangereux.  Comment
+> pourrait-il faire face à sa vie au premier degré ?
+
+
+> Pour moi, l’effet comique est un prout du cerveau qui sent fort bon.  C’est
+> indispensable.  Une forme de savoir-vivre, valable en toutes circonstances.
+
+
+> La plupart des gens vraiment très drôles sont souvent ceux qui ont à se faire
+> pardonner d’être moches, ou de ne pas être ce qu’ils auraient voulu.  Au fond
+> d’eux-mêmes, ce sont des tristes, beaucoup trop lucides.
+
+
+> Je pense que rien de ce qui est profondément important pour l’homme n’appartient
+> au rationnel.
+
+
+> Un homme politique, c’est un cerveau bien mou, dans un château fort bien dur.
+
+
+> Entre le rêve et la réalisation, la perfection n’existant pas, ce n’est pas
+> parce qu’elle ne sera jamais atteinte qu’il faut renoncer à l’obtenir.
+
+
+> Il n’y a que dans la mesure où on accepte que le pire puisse arriver que l’on
+> sait qu’on peut avoir le meilleur.
+
+
+### Auteurs cités
+
+#### La Rochefoucauld
+> Beaucoup d’êtres ne tomberaient pas amoureux, s’ils n’avaient pas entendu
+> parler d’amour !
+
+
+Nottale
+-------
+
+### La relativité dans tous ses états
+
+> La gravitation n’existe pas en soi, son existence même dépend du choix du
+> référentiel.
+
+
+> Il ne sert à rien de tenter de répondre à de mauvaises questions.  Il est plus
+> efficace de bien les formuler, et d’ailleurs ce seul travail de reformulation
+> suffit en général à faire émerger les réponses.
+
+
+> Là où le hasard règne, règnent les lois du hasard.
+
+
+> Voir les choses de plusieurs points de vue différents, retourner un problème
+> dans tous les sens, l’inverser, l’agiter, le manipuler, l’éclairer de multiples
+> directions, est souvent un élément clé de la découverte.
+
+
+> Découvrir, c’est souvent voir autrement.
+
+
+> Seuls existent les rapports entre les objets, non les objets par eux-mêmes.
+
+
+> Beaucoup de problèmes apparemment insolubles trouvent une solution par la seule
+> extension de nos structures mentales.  Ce qui paraît impossible à une époque
+> donnée ne l’est plus un jour, non parce que le monde extérieur a changé, mais
+> parce que notre esprit s’est ouvert à des possibilités nouvelles, auparavant
+> cachées.
+
+
+> Si, un jour, l’homme accède à des vitesses proches de la vitesse de la lumière,
+> il verra l’espace-temps !
+
+
+> La flèche du temps, elle aussi, est dépendante de l’échelle.
+
+### Auteurs cités
+
+#### Poincaré
+> Un système décrit par des lois parfaitement déterministes peut avoir un
+> comportement relevant du hasard !
+
+
+#### Feynman
+> J’espère donc que vous accepterez la Nature telle qu’elle est : absurde.
+
+
+#### Hawking
+> Non seulement Dieu joue aux dés, mais Il les lance là où on ne peut pas les
+> voir.
+
+
+#### Einstein
+> Les lois de la nature ont la plus grande simplicité logique imaginable.
+
+
+Plank
+-----
+
+### Initiations à la Physique
+
+> Il n’est pas moins difficile de poser un problème que de le résoudre.
+
+
+> Les faits restent en effet toujours la clef de voûte de laquelle dépend la
+> stabilité de toute théorie, si importante qu’elle puisse être.
+
+
+> Ce qui peut être mesuré doit forcément exister.
+
+
+> Comment donc tout cela est-il possible?
+
+
+> Une loi doit être d’autant plus simple qu’elle est plus générale.
+
+
+> Chacun de nous fait partie, sans conteste, du grand univers et par suite se
+> trouve soumis à ses lois comme tous les autres êtres.
+
+
+> Notre âme, au moment de notre naissance est comme une page blanche où
+> l’expérience écrira ses premières lettres.
+
+
+> Non, il n’est pas possible de ranger tout dans le relatif, pas plus qu’il n’est
+> possible de tout définir et de tout prouver.
+
+
+> Nous devons tenir pour très certain que jamais nous ne parviendrons à étreindre
+> véritablement l’absolu.
+
+
+> Toute vie saine et vigoureuse s’épanouit par le travail.
+
+
+> Le contenu d’une expérience est d’autant plus riche que les mesures qui en sont
+> à la base sont plus exactes.
+
+
+> Il n’existe même pas de preuve purement logique de l’existence du monde réel.
+
+
+> Il n’y a qu’à se faire une idée raisonnable de l’univers.
+
+
+> C’est un monde étrange que celui où nous vivons.
+
+
+> Dans la science aussi s’applique l’adage : « La fortune sourit aux audacieux »
+
+
+> Ce qui est enseigné à l’école est moins important que la façon dont on
+> l’enseigne.
+
+
+Nietzsche
+---------
+
+### Ainsi parla Zarathoustra
+
+> J’aime ceux qui ne savent vivre autrement que pour disparaître.
+
+
+> Ce n’est pas une petite chose que de savoir dormir: il faut savoir veiller tout
+> le jour pour pouvoir bien dormir.
+
+
+> Il y a toujours un peu de folie dans l’amour.  Mais il y a toujours un peu de
+> raison dans la folie.
+
+
+> La guerre et le courage ont fait plus de grandes choses que l’amour du prochain.
+
+
+> Pourtant ta solitude te fatiguera un jour, ta fierté se courbera et ton courage
+> grincera des dents.  Tu crieras un jour: « Je suis seul ! »
+
+
+> Tu crieras un jour: « Tout est faux ! »
+
+
+> Le courage est le meilleur des meurtriers.
+
+
+> Il y a une chose qui sera toujours impossible – c’est d’être raisonnable !
+
+
+> Quant à toi, fou, je t’apprends ceci en guise d’adieu : là où l’on ne peut plus
+> aimer, il faut – passer son chemin !
+
+
+> Sur quel pont le Maintenant passe-t-il à l’Autrefois ?
+
+
+> Et il y a des choses de toutes sortes qui sont si bien trouvées qu’elles sont
+> comme les seins des femmes : utiles et agréables à la fois.
+
+
+> Efface le sommeil de tes yeux en les frottant, fais-en fuir toute la stupidité
+> et tout l’aveuglement !
+
+
+> Seul apprend celui qui fait.
+
+
+> Celui qui ne peut pas mentir, il ne sait pas ce qu’est la vérité.
+
+
+### Ecce Homo
+
+> La vie m’est apparue facile, le plus facile quand elle exigeait de moi les
+> choses les plus difficiles.
+
+
+> La connaissance est pour l’humanité un magnifique moyen de s’anéantir elle-même.
+
+
+Shopenhauer
+-----------
+
+### Essai sur le libre arbitre
+
+> Nul ne peut savoir comment un autre homme, ni même comment lui en personne agira
+> dans une circonstance déterminée, avant qu’il ne s’y soit trouvé.
+
+
+> Tout ce qui arrive, les plus petites choses comme les plus grandes, arrive
+> nécessairement.
+
+
+> Par ce que nous faisons seulement, nous apprenons ce que nous sommes.
+
+
+Stewart
+-------
+
+### Les mathématiques du chaos
+
+> La question n’est pas tant : Dieu joue-t-il aux dés ?  mais comment joue-t-il
+> aux dés ?
+
+
+> Si Dieu jouait aux dés…  Il gagnerait.
+
+
+> Les mathématiques sont la méthode la plus efficace et la plus digne pour
+> comprendre ce que nous voyons autour de nous.
+
+
+### Auteurs cités
+
+#### Ernest Rutherford
+> Le qualitatif est du mauvais quantitatif.
+
+
+#### Anatole France
+> Le hasard est le pseudonyme de Dieu quand il ne voulait pas signer.
+
+
+Tolstoï
+-------
+
+### La Mort d’Ivan Illitch
+
+> La journée se compose de vingt-quatre heures, et chaque heure est un supplice.
+
+> Je ne serai plus.  Mais qu’y aura-t-il donc ?…  Rien du tout.  Et où serai-je,
+> quand je ne serai plus ?  Est-ce la mort ?…  Oh !  Je ne veux pas !
+
+> Et toujours plus près du gouffre.  Moins de forces.  Et le gouffre tout proche.
+> Je dépéris : plus de lumière dans les yeux.
+
+> Toujours la même chose…  Une lueur d’espoir qui sombre aussitôt dans un océan de
+> découragement, dont les flots enflent, montent…  La douleur, encore la douleur,
+> toujours la douleur…  Tristesse et nostalgie sans fin…
+
+> De nouveau, les minutes succédèrent aux minutes, et les heures aux heures…  Et
+> le terme toujours plus proche, plus effrayant…
+
+> Seule l’enfance trouvait grâce : elle seule valait d’être vécue si la vie
+> revenait.
+
+> Qu’est-ce que cela signifie ?…  Pourquoi ?…  Ce n’est pas possible !…  Il ne se
+> peut pas que la vie soit aussi laide, stupide !
+
+> Peut-être n’ai-je pas vécu comme je devais vivre ?
+
+> Ivan Illictch aspira une bouffée d’air, s’arrêta à mi-souffle, étira ses membres
+> et mourut.
+
+### Maître et serviteur
+
+> Travaille !  Et Dieu t’aidera.
+
+> La pensée qu’il pouvait, qu’il devait même vraisemblablement périr cette nuit,
+> lui vint à l’esprit ; mais cette pensée ne lui parut pas très désagréable, ni
+> trop effrayante.  Elle ne lui parut pas trop désagréable, parce que son
+> existence n’avait nullement été une fête continuelle, mais avait été au
+> contraire une servitude incessante et dont il commençait à être las.
+
+> Il ne savait pas s’il mourait ou s’il s’endormait, mais il se sentait prêt aussi
+> bien à l’un qu’à l’autre.
+
+> Et Vassili Andréitch après cela ne vit, n’entendit, ne sentit plus rien dans ce
+> monde.
+
+> C’est pénible, cependant.  Mais on ne meurt pas deux fois.  Pourvu que cela ne
+> traîne pas !
+
+> A-t-il éprouvé une déception ou bien a-t-il trouvé là-bas précisément ce qu’il
+> attendait et espérait ?  Nous le saurons tous bientôt.
+
+### Trois morts
+
+> Les feuilles luisantes, calmes, murmuraient dans les cimes, et les branches des
+> arbres vivants s’agitaient lentement, majestueusement au dessus de l’arbre
+> abattu, mort.
+
+### Autres
+
+> Quand on réfléchit que la mort est la fin de tout, il n’y a rien de pire que la
+> vie.
+
+
+Schrodinger
+-----------
+
+### L’esprit et la matière
+
+> Je vais à contre courant, mais le vent tournera.
+
+
+> La nature n’a pas de respect envers la vie.  La nature traite la vie comme si
+> elle était ce qui a le moins de valeur au monde.
+
+
+> Une vérité mathématique est intemporelle, elle ne naît pas lorsque nous la
+> découvrons.  Pourtant, sa découverte est un événement très réel, elle peut être
+> une émotion, comme un magnifique cadeau offert par une fée.
+
+
+> On croît aisément que les théories rendent compte des qualités sensibles ; ce
+> qu’elles ne font bien sur jamais.
+
+
+JRR. Tolkien
+------------
+
+### La Communauté de l’Anneau (1954)
+
+> Le monde a changé.  Beaucoup de ce qui existait jadis est perdu.  Car aucun de
+> ceux qui vivent aujourd’hui ne s’en souvient.
+
+
+> Trois Anneaux pour les Rois Elfes sous le ciel,  
+> Sept pour les Seigneurs Nains dans leurs demeures de pierre,  
+> Neuf pour les Hommes Mortels destinés au trépas,  
+> Un pour le Seigneur Ténébreux sur son sombre trône,  
+> Dans le Pays de Mordor où s’étendent les Ombres.  
+> Un Anneau pour les gouverner tous.  Un Anneau pour les trouver,  
+> Un Anneau pour les amener tous et dans les ténèbres les lier  
+> Au Pays de Mordor où s’étendent les Ombres.  
+
+
+Scrubs
+------
+
+> La seule façon de se voir tel que l’on est, c’est de se regarder à travers les
+> yeux d’un autre.  Si vous n’aimez pas ce que vous y voyez, espérez ne pas avoir
+> coupé trop de ponts.  << 110, Mon surnom
+
+
+> C’est curieux comme on peut avoir une mauvaise perception des choses.  Comme
+> quand on cherche comme un dingue un endroit où on se sent bien, sans
+> s’apercevoir que cet endroit, on y est déjà.
+
+> Souvent on reste fidèle à la première impression qu’on fait.
+
+
+> Pour résoudre un problème, il faut d’abord reconnaître qu’on en a un.  Après,
+> c’est facile d’accepter d’être comme on est.
+
+
+> Au bout du compte, le sacrifice – qu’il soit petit ou grand – c’est faire des
+> choses que, profondément, on a pas envie de faire.
+
+
+> À chaque fois qu’on prend un gros risque dans sa vie, peu importe comment ça se
+> termine, on est toujours content de l’avoir pris.
+
+
+> Ce qui nous fait avancer, ce sont les risques qu’on est prêt à prendre.  Pour
+> moi, risquer de prendre un risque, c’est déjà pas mal.
+
+
+> La première étape pour résoudre un problème est d’admettre qu’on en a un.
+> Après, on peut commencer à travailler pour se sentir comme avant.
+
+
+> Certains aspects de mon travail sont devenus une seconde nature ; le seul
+> problème, c’est que ça me laisse beaucoup trop de temps pour penser.
+
+
+> C’est dur de se regarder en face et d’accepter ce qu’on est.  Tout ce qu’on peut
+> faire, c’est positiver… et voir ça comme un point de départ pour s’améliorer.
+
+
+> Un des sentiments les plus universels, c’est celui de la solitude.  On ne s’en
+> doute pas, mais y’a des milliers de gens qui en souffrent au même moment que
+> nous.
+
+
+> Quand on passe son temps en groupe, scotchés les uns avec les autres, se
+> retrouver seul en tête-à-tête peut être délicat.  Il peut y avoir des silences
+> pour le moins gênants.
+
+
+> Les relations sont définies par de grands moments qui n’arrivent pas, ou par de
+> petits moments qui arrivent.  Bien sûr, les grands moments sont importants ;
+> mais les petits moments le sont peut-être encore plus.
+
+
+> Des choses qu’on aurait même pas relevé huit jours plus tôt avec une amie,
+> prennent tout à coup une importance capitale, du jour où on a couché avec elle.
+> Je crois que c’est plus facile si on est pas l’ami de sa petite amie.
+
+
+> J’ai deux théories dans la vie.  La première, c’est que les fleurs font toujours
+> plaisir.  La seconde, c’est qu’il n’y a rien de plus important que les amis.
+> Car même si ça vous brise le cœur de rester amis, quand on tient à quelqu’un, on
+> l’assume.
+
+
+> En général, j’aime pas trop penser à l’avenir.  C’est vrai, on peut jamais
+> prévoir ce qui va se passer.  Et quelques fois, ce qu’on attendait le moins,
+> c’est ce qu’on désirait le plus.  Alors il vaut mieux vivre dans le présent, et
+> profiter à fond de chaque instant.
+
+
+> Je crois que notre comportement est conditionné par la façon dont on veut que
+> les autres nous voient.  Certains veulent être vus comme des rebelles.
+> D’autres, veulent être vus, point.  Moi, c’est quand j’ai arrêté de me soucier
+> du regard des autres que j’ai commencé à avoir une meilleure image.
+
+
+> Bizut, la seule chose qui te permettrait d’être moins productif, là, tout de
+> suite, serait que tu deviennes en fait le mur contre lequel tu t’adosses.  Bien
+> sûr, tu ne serais pas à l’abri qu’un pauvre crétin vienne s’adosser contre toi,
+> ce qui soulèverait une question : lequel est le plus crétin des deux ?  Je sais,
+> oui, c’est une énigme !  Mais surtout ne t’inquiète pas, je vais me creuser le
+> citron et je te donnerai la réponse.
+
+
+> Des choses qu’on aurait même pas relevé huit jours plus tôt avec une amie,
+> prennent tout à coup une importance capitale, du jour où on a couché avec elle.
+> Je crois que c’est plus facile si on est pas l’ami de sa petite amie.  Du tout.
+
+
+> On finissait notre deuxième année, et pour nous, les jours se ressemblaient de
+> plus en plus.  Au bout d’un moment, l’internat se résume à deux ou trois choses
+> : de la paperasse ; des examens de routine ; et bien entendu, de la paperasse !
