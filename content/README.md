@@ -45,6 +45,7 @@ Sources are on [GitHub][alexherbo2.github.io].
 [#rust](http://rust-lang.org)
 [#haskell](http://haskell.org)
 [#exherbo](http://exherbo.org)
+[#manjaro](http://manjaro.org)
 [#kakoune](https://github.com/mawww/kakoune)
 [#i3](http://i3wm.org)
 [#uzbl](http://uzbl.org)
