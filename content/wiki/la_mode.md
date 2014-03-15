@@ -1,5 +1,8 @@
+La mode
+=======
+
 Comment la mode a-t-elle évolué au cours des siècles, et que nous apprend-t-elle sur la société ?
-=================================================================================================
+-------------------------------------------------------------------------------------------------
 
 [X:enius – 2010-07-22.Thu](http://arte.tv/fr/semaine/244,broadcastingNum=1127618,day=6,week=29,year=2010.html)
 
