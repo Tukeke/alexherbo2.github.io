@@ -140,7 +140,7 @@ function main
 
     set title (head -1 $source)
 
-    set link (echo $output | replace .html '' | sed --regexp-extended s/'(main|index)$'//)
+    set link (echo $output | replace .html '' | esed s/'(main|index)$'//)
 
     set commit (git log -1 --format=%h $source)
 
@@ -151,7 +151,7 @@ function main
     echo "$commit_timestamp<h2 style=display:inline>[$title]($link)</h2> <a class=timeago href=https://github.com/alexherbo2/alexherbo2.github.io/commit/$commit><time class=timeago datetime='"$commit_iso_date"'></time></a><br>" >> $list_page.lock
   end
 
-  sort --reverse $list_page.lock | sed --regexp-extended s/'^([0-9]+ ?)+'// > $list_page
+  sort --reverse $list_page.lock | esed s/'^([0-9]+ ?)+'// > $list_page
 
   # 7. Build pages ─────────────────────────────────────────────────────────────
 
@@ -162,7 +162,7 @@ function main
 
   for source in (files content)
 
-    set output (echo $source | sed --regexp-extended s/content/site/';'s/.md'$'/.html/';'s/'(main|README)'/index/)
+    set output (echo $source | esed s/content/site/';'s/.md'$'/.html/';'s/'(main|README)'/index/)
 
     make (dirname $output)
 
@@ -280,8 +280,12 @@ function files
   find $argv -type f
 end
 
+function esed
+  sed --regexp-extended $argv
+end
+
 function sub
-  sed --in-place --regexp-extended $argv
+  esed --in-place $argv
 end
 
 function include
