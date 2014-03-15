@@ -310,4 +310,6 @@ function include
 end
 
 
-main $argv
+begin
+  main $argv
+end >/dev/null 2>&1
