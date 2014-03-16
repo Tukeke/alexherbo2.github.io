@@ -181,8 +181,8 @@ cave sync
 Download the latest stable [kernel][] and verify its signature.
 
 ```sh
-wget kernel.org/pub/linux/kernel/v3.x/linux-3.11.3.tar.xz
-wget kernel.org/pub/linux/kernel/v3.x/linux-3.11.3.tar.sign
+wget kernel.org/pub/linux/kernel/v3.x/linux-3.13.6.tar.xz
+wget kernel.org/pub/linux/kernel/v3.x/linux-3.13.6.tar.sign
 unxz linux*xz
 gpg --verify linux*sign #=> key ID
 gpg --recv-keys $key_id
