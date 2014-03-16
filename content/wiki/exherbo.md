@@ -45,12 +45,19 @@ needs and preferences.
 
 ### 2. Boot a live system
 
+[Get Manjaro][] and verify the integrity of the ISO.
+
 ```sh
-wget http://releases.ubuntu.com/saucy/ubuntu-13.10-desktop-amd64.iso
-wget http://releases.ubuntu.com/saucy/SHA1SUMS
-grep ubuntu-13.10-desktop-amd64.iso SHA1SUMS | sha1sum --check
-dd if=ubuntu-13.10-desktop-amd64.iso of=/dev/sdb
+grep manjaro-xfce-0.8.9-x86_64.iso manjaro-xfce-0.8.9-sha1sum.txt | sha1sum --check
 ```
+
+Then write [Manjaro][] on your device (be careful, it’s `sdb` in my case).
+
+```sh
+dd if=manjaro-xfce-0.8.9-x86_64.iso of=/dev/sdb
+```
+
+Boot Manjaro then you’re ready to the next step :) __Prepare the hard disk__
 
 ### 3. Prepare the hard disk
 
@@ -533,11 +540,13 @@ Commands and aliases:
 !pq https://github.com/alexherbo2/exheres ::unavailable-unofficial alexherbo2’s supplemental repository
 ```
 
-[Exherbo]:  http://exherbo.org
-[LFS]:      http://linuxfromscratch.org
-[Paludis]:  http://paludis.exherbo.org
-[kernel]:   http://kernel.org
-[#exherbo]: http://webchat.freenode.net/?channels=exherbo
+[Exherbo]:     http://exherbo.org
+[Manjaro]:     http://manjaro.org
+[Get Manjaro]: http://manjaro.org/get-manjaro
+[LFS]:         http://linuxfromscratch.org
+[Paludis]:     http://paludis.exherbo.org
+[kernel]:      http://kernel.org
+[#exherbo]:    http://webchat.freenode.net/?channels=exherbo
 
 
 coffee
