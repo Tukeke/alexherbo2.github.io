@@ -32,7 +32,7 @@ $ ->
 
     # Place scrolly node ───────────────────────────────────────────────────────
 
-    place_scrolly_node = (node, selectors, id) ->
+    place_scrolly_node = (node, selectors, node_, stop_y = 0) ->
         soff = 75
         y = $(window).scrollTop()
 
@@ -56,12 +56,12 @@ $ ->
                     next_node_distance = next_node_y - y
                     opacity = 1.0 / (soff - next_node_distance / 2) if next_node_distance <= soff * 2
 
-        selected_element = $("##{id}")
-        return if not selected_element
-        selected_element.css(opacity:opacity).html target_content
-        return if not node_reference
-        selected_element.one 'click', ->
+        return node_y if node_y < stop_y
+        node_.css(opacity:opacity).html target_content
+        return node_y if not node_reference
+        node_.one 'click', ->
             node_reference.scrollIntoView()
+        node_y
 
     if $('#leaf-content').length
         $('body').append '
@@ -72,6 +72,9 @@ $ ->
           <a id=scrolling-h4 href=#>
         </div>'
         node = $('#leaf-content')
-        for id, selectors of {'scrolling-h1':'h1','scrolling-h2':'h2','scrolling-h3':'h3','scrolling-h4':'h4'}
-            $(window).scroll(place_scrolly_node.bind(null, node, selectors, id))
-            $(window).resize(place_scrolly_node.bind(null, node, selectors, id))
+        snip = ->
+            for id, selectors of {'scrolling-h1':'h1','scrolling-h2':'h2','scrolling-h3':'h3','scrolling-h4':'h4'}
+                node_ = $("##{id}"); node_.html ''
+                stop_y = place_scrolly_node(node, selectors, node_, stop_y or 0)
+        $(window).scroll(snip)
+        $(window).resize(snip)
