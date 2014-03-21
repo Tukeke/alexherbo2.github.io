@@ -3,8 +3,7 @@ $ ->
     article = $('article')
 
     # requires jQuery time ago
-    jQuery(document).ready ->
-        jQuery('time.timeago').timeago()
+    $('time.timeago').timeago()
 
     # classify hash tags
     for link in document.links
