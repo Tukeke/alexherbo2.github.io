@@ -8,7 +8,7 @@ $ ->
     # classify hash tags
     for link in document.links
         if link.innerHTML.match '#'
-            link.className += 'tag'
+            $(link).addClass 'tag'
 
     # link:visited:after emulation
 
@@ -27,7 +27,7 @@ $ ->
 
     article_links.each ->
         this.addEventListener 'click', (link) ->
-            link.target.className += 'visited'
+            $(link.target).addClass 'visited'
             localStorage.setItem 'visited_links', localStorage.getItem('visited_links') + [link.target.href]
 
     # Place scrolly node ───────────────────────────────────────────────────────
