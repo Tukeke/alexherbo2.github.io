@@ -82,14 +82,14 @@ function main
 
   # 3. Sass to CSS ─────────────────────────────────────────────────────────────
 
-  set css site/css; and make $css
+  echo 'preferred_syntax = :sass
+        css_dir          = "site/css"
+        sass_dir         = "assets/sass"
+        images_dir       = "images"
+        fonts_dir        = "fonts"
+       ' > config.rb
 
-  for input in (files assets/sass)
-
-    set output (echo $input | sed s/assets/site/';'s/sass/css/g)
-
-    sass --compass $input $output
-  end
+  compass compile
 
   # 4. Coffee to JS ────────────────────────────────────────────────────────────
 
