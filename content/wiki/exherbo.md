@@ -51,7 +51,7 @@ needs and preferences.
 grep manjaro-xfce-0.8.9-x86_64.iso manjaro-xfce-0.8.9-sha1sum.txt | sha1sum --check
 ```
 
-Then write [Manjaro][] on your device (be careful, it’s `sdb` in my case).
+Then write Manjaro on your device (be careful, it’s `sdb` in my case).
 
 ```sh
 dd if=manjaro-xfce-0.8.9-x86_64.iso of=/dev/sdb
