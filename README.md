@@ -45,7 +45,7 @@ alexherbo2’s user site dependencies are:
  * [fish](http://fishshell.com) (used as a glue to other tools)
  * [Pandoc](http://johnmacfarlane.net/pandoc)
  * [Haml](http://haml.info)
- * [Sass](http://sass-lang.com) with [Compass](http://compass-style.org)
+ * [Compass](http://compass-style.org) which uses [Sass](http://sass-lang.com)
  * [CoffeeScript](http://coffeescript.org)
  * [Kakoune](https://github.com/mawww/kakoune)
 
