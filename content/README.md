@@ -1,7 +1,7 @@
 alexherbo2’s user site
 ======================
 
-[![Stormtroopocat](/images/stormtroopocat.png 'Stormtroopocat')](http://octodex.github.com/stormtroopocat)
+[![Stormtroopocat](/images/stormtroopocat.png)](https://github.com/alexherbo2)
 
 Hi I’m Alex.  
 I’m a programmer from Eaubonne, France.  
