@@ -2,6 +2,10 @@ $ ->
     # document
     article = $('article')
 
+    # anchor headings
+    article.find('h1,h2,h3,h4').each ->
+        $(this).html "<a class=anchored href=##{this.id}>#{this.innerHTML}</a>"
+
     # requires jQuery time ago
     $('time.timeago').timeago()
 
