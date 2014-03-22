@@ -1,6 +1,8 @@
 alexherbo2’s user site
 ======================
 
+[![Stormtroopocat](/images/stormtroopocat.png 'Stormtroopocat')](http://octodex.github.com/stormtroopocat)
+
 Hi I’m Alex.  
 I’m a programmer from Eaubonne, France.  
 I really like huskies, CHRISTMAS, horror movies and anything sparkly.  
@@ -64,3 +66,12 @@ Sources are on [GitHub][alexherbo2.github.io].
 
 
 [alexherbo2.github.io]: https://github.com/alexherbo2/alexherbo2.github.io
+
+
+coffee
+    for image in document.images
+        image.style.cssFloat    = 'left'
+        image.style.marginLeft  = '-4em'
+        image.style.marginRight = '.4em'
+        image.width             = 120
+        image.height            = 120
