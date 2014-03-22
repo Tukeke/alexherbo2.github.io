@@ -36,17 +36,19 @@ $ ->
 
     # Place scrolly node ───────────────────────────────────────────────────────
 
-    place_scrolly_node = (node, selectors, node_, stop_y = 0) ->
+    place_scrolly_node = (node, selectors, node_, stop_y = 0, min_opacity = 1.0) ->
+        X = [stop_y, min_opacity]
+
         soff = 75
         y = $(window).scrollTop()
 
         [node_reference, target_content, opacity, node_y] = [null, null, null, null]
 
         nodes = node.find selectors
-        return if not nodes.length
+        return X if not nodes.length
         nodes.each ->
             pre_node_y = $(this).position()['top'] - soff
-            return false if y < pre_node_y
+            return X if y < pre_node_y
             node_y = pre_node_y
             node_reference = $(this)
             target_content = $(this).html()
@@ -59,13 +61,16 @@ $ ->
                     next_node_y = next_nodes.first().position()['top']
                     next_node_distance = next_node_y - y
                     opacity = 1.0 / (soff - next_node_distance / 2) if next_node_distance <= soff * 2
+                    opacity = min_opacity if opacity > min_opacity and next_node_distance <= soff * 2
 
-        return node_y if node_y < stop_y
+        X = [node_y, opacity]
+
+        return X if node_y < stop_y
         node_.css(opacity:opacity).html target_content
-        return node_y if not node_reference
+        return X if not node_reference
         node_.one 'click', ->
             node_reference.scrollIntoView()
-        node_y
+        X
 
     if $('#leaf-content').length
         $('body').append '
@@ -79,6 +84,6 @@ $ ->
         snip = ->
             for id, selectors of {'scrolling-h1':'h1','scrolling-h2':'h2','scrolling-h3':'h3','scrolling-h4':'h4'}
                 node_ = $("##{id}"); node_.html ''
-                stop_y = place_scrolly_node(node, selectors, node_, stop_y or 0)
+                [stop_y, opacity] = place_scrolly_node(node, selectors, node_, stop_y or 0, opacity or 1.0)
         $(window).scroll(snip)
         $(window).resize(snip)
