@@ -42,7 +42,7 @@ Building
 
 alexherbo2’s user site dependencies are:
 
- * [fish](http://fishshell.com) (used as a glue to other tools)
+ * [fish](http://fishshell.com) which is used as a glue to other tools
  * [Pandoc](http://johnmacfarlane.net/pandoc)
  * [Haml](http://haml.info)
  * [Compass](http://compass-style.org) which uses [Sass](http://sass-lang.com)
