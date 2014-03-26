@@ -60,6 +60,7 @@ Plug-in
    - [scrollIntoView](http://arwid.github.io/jQuery.scrollIntoView)
  * [Disqus](http://disqus.com)
  * [Spotify Play Button](https://developer.spotify.com/technologies/widgets/spotify-play-button)
+ * [YouTube Player](https://developers.google.com/youtube)
 
 Caching
 -------
