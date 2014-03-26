@@ -174,7 +174,7 @@ Citations
 > au sérieux.  << H. De Montherlant
 
 
-> Ne vous blâmez pas ainsi, la perfection n'existe pas.  Ce monde est imparfait,
+> Ne vous blâmez pas ainsi, la perfection n’existe pas.  Ce monde est imparfait,
 > vous le constatez tous les jours.  Et c’est pour ça qu’il est intéressant d’y
 > vivre.  << Roy Mustang, Fullmetal Alchemist
 
