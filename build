@@ -258,6 +258,7 @@ function main
   mv $work/assets/fonts  .
   mv $work/assets/js     .
   mv $work/site/*        .
+  mv $work/CNAME         . # custom domain name
   rm READING
 
   git add --update

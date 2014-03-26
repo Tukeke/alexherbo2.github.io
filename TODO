@@ -6,7 +6,7 @@ TODO
 * [?] Replace [CoffeeScript][] with [ClojureScript][]
 * [?] Provide (dark|light) color scheme
 * [ ] How to build alexherbo2’s user site
-* [?] [CNAME][] (custom domain name)
+* [✓] [CNAME][] (custom domain name)
 * [✓] Use [nginx][]
 * [✓] Use [fish][]
 * [?] Use [Ruby][]
