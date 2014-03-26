@@ -273,3 +273,19 @@ Citations
 
 
 > Pourquoi ça ne suffit pas d’aimer ?  << Closer – entre adultes consentants
+
+
+> Nous ne cessons de rêver d’une existence plus libre tout en nous enferrant de
+> plus en plus dans les obligations, dans les pièges domestiques.  Nous
+> aimerions tant partir, voyager légers, et cependant nous ne cessons pas
+> d’accumuler de nouveaux poids qui nous entravent et nous enracinent.  La faute
+> nous en incombe parce que, au-delà du rêve d’évasion, auquel nous ne renonçons
+> jamais, il y aussi l’attrait irrésistible des responsabilités : la carrière,
+> la maison, les scrupules parentaux, les dettes, tout cela nous remet sans
+> cesse les pieds sur terre, nous offre cette sécurité tant recherchée, nous
+> donne simplement une raison de sortir du lit le matin.  En réduisant
+> inexorablement le champ du « choix », cette vie nous accorde le soulagement
+> des certitudes.  Alors, même si tous les hommes que je connais enragent en
+> secret d’être tombés dans un cul-de-sac domestique, nous continuons à y entrer
+> et à nous y installer, tous.  La rage au cœur, le désir de vengeance aux
+> tripes.  << Douglas Kennedy, L’homme qui voulait vivre sa vie
