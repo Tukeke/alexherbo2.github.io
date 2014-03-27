@@ -31,7 +31,7 @@ Citations
 >
 > [HIMYM717] << Florence + the Machine, Shake It Out
 
-%spotify 7aliOjqVEBd3ZZ8NMkuifd
+%youtube s0m2F6MNSl8
 
 
 > Je ne sais pas ce qui est beau, mais je sais ce que j’aime et je trouve ça
@@ -245,7 +245,7 @@ Citations
 >
 > << Rose, Doctor Who
 
-%spotify 6iO0CP8x5AWYCeqgzVDryZ
+%youtube CiIAEzJwqaw
 
 
 > Go ahead and experiment.  Don’t think too much.  Let intuition be your guide.
