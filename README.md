@@ -1,6 +1,7 @@
 Blog,
 Drafts,
 Personal wiki / recipes.
+All static.
 
 Design
 ------
