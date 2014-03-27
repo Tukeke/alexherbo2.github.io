@@ -160,6 +160,12 @@ function main
   sh -c 'replace "\$list\$"    "<div style=white-space:nowrap>`cat     '$list_page'`</div>" -- content/README.md'
   sh -c 'replace "\$reading\$" "<pre style=border:0          >`cat  content/READING`</pre>" -- content/README.md'
 
+  # Page not found — 404
+  cp content/{README,404}.md
+  replace 'alexherbo2’s user site' 'Page not found' -- content/404.md
+  replace  Stormtroopocat           Octobiwan       -- content/404.md
+  replace  stormtroopocat           octobiwan       -- content/404.md
+
   for source in (files content)
 
     set output (echo $source | esed s/content/site/';'s/.md'$'/.html/';'s/'(main|README)'/index/)
