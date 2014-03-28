@@ -35,7 +35,8 @@ Source structure
 │   ├── base.haml
 │   ├── page.haml
 │   └── post.haml
-└── nginx.conf
+├── nginx.conf
+└── CNAME
 ```
 
 Building
