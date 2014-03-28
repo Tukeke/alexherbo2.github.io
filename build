@@ -134,7 +134,7 @@ function main
 
     set output (echo $source | sed s/content//';'s/.md'$'/.html/)
 
-    if echo $source | egrep '(README|READING|HOWTO)'
+    if echo $source | egrep '(README|READING|HOWTO|.sh$)'
       continue
     end
 
@@ -160,13 +160,21 @@ function main
   sh -c 'replace "\$list\$"    "<div style=white-space:nowrap>`cat     '$list_page'`</div>" -- content/README.md'
   sh -c 'replace "\$reading\$" "<pre style=border:0          >`cat  content/READING`</pre>" -- content/README.md'
 
-  # Page not found — 404
-  cp content/{README,404}.md
-  replace 'alexherbo2’s user site' 'Page not found' -- content/404.md
-  replace  Stormtroopocat           Octobiwan       -- content/404.md
-  replace  stormtroopocat           octobiwan       -- content/404.md
-
   for source in (files content)
+
+    # Switches to source file type
+    # * Markdown
+    # * Shell script handling → Markdown
+    switch $source
+    case '*.md'
+    case '*.sh'
+      set output (echo $source | replace .sh .md); and set work_ (dirname $source)
+      cd $work_; sh $source > $output
+      cd -
+      set source $output
+    case '*'
+      continue
+    end
 
     set output (echo $source | esed s/content/site/';'s/.md'$'/.html/';'s/'(main|README)'/index/)
 
