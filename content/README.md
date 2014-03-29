@@ -53,6 +53,7 @@ Sources are on [GitHub][alexherbo2.github.io].
 [#uzbl](http://uzbl.org)
 [#pentadactyl](http://5digits.org)
 [#mpd](http://musicpd.org)
+[#ncmpcpp](http://ncmpcpp.rybczak.net)
 [#lichess](http://lichess.org)
 [#vindinium](http://vindinium.org)
 [#radio01](http://radio01.net)
