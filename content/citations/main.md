@@ -289,3 +289,7 @@ Citations
 > secret d’être tombés dans un cul-de-sac domestique, nous continuons à y entrer
 > et à nous y installer, tous.  La rage au cœur, le désir de vengeance aux
 > tripes.  << Douglas Kennedy, L’homme qui voulait vivre sa vie
+
+
+> And just remember if you want something in life, reach out and grab it.
+> << Into the Wild
