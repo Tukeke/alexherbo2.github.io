@@ -169,8 +169,8 @@ function main
     switch $source
     case '*.md'
     case '*.sh'
-      set output (echo $source | replace .sh .md); and set work_ (dirname $source)
-      cd $work_; sh $source > $output
+      set output (echo $source | replace .sh .md)
+      cd (dirname $source); sh (basename $source) > (basename $output)
       cd -
       set source $output
     case '*'
