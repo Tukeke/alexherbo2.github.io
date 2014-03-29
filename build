@@ -161,21 +161,13 @@ function main
   sh -c 'replace "\$list\$"    "<div style=white-space:nowrap>`cat     '$list_page'`</div>" -- content/README.md'
   sh -c 'replace "\$reading\$" "<pre style=border:0          >`cat  content/READING`</pre>" -- content/README.md'
 
-  for source in (files content)
+  for source in (files content -name '*.sh')
+    set output (echo $source | replace .sh .md)
+    cd (dirname $source); sh (basename $source) > (basename $output)
+    cd -
+  end
 
-    # Switches to source file type
-    # * Markdown
-    # * Shell script handling → Markdown
-    switch $source
-    case '*.md'
-    case '*.sh'
-      set output (echo $source | replace .sh .md)
-      cd (dirname $source); sh (basename $source) > (basename $output)
-      cd -
-      set source $output
-    case '*'
-      continue
-    end
+  for source in (files content -name '*.md')
 
     set output (echo $source | esed s/content/site/';'s/.md'$'/.html/';'s/'(main|README)'/index/)
 
