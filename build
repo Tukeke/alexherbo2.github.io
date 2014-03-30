@@ -1,5 +1,10 @@
 #!/usr/bin/env fish
 #│
+#│ Usage
+#│ ‾‾‾‾‾
+#│ → build [test] [push] (ignores unrecognized commands)
+#│ → build then test and push
+#│
 #│ Source structure
 #│ .
 #│ ├── assets
@@ -271,7 +276,25 @@ function main
   git add --update
   git add .
   git amend --message=(date)
-  git push --force
+
+  if echo $argv | grep push
+    git push --force
+  end
+
+  if echo $argv | grep test
+    make ~/log/nginx \
+         ~/www/alexherbo2.github.io
+    rsync --archive --compress --delete * ~/www/alexherbo2.github.io
+
+    if diff /etc/nginx/nginx.conf $work/nginx.conf | grep .
+      sudo mv /etc/nginx/nginx.conf{,~}
+      sudo mv $work/nginx.conf /etc/nginx
+    end
+
+    if not systemctl list-units | grep nginx
+      sudo systemctl start nginx
+    end
+  end
 
   git checkout -
   git stash apply
