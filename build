@@ -253,10 +253,10 @@ function main
       # sub s_' (https?://\S+\.[a-z]+)'_' [\1](\1)'_g $source
 
       # Spotify
-      sub s+'^%spotify (.*)'+'<iframe src=https://embed.spotify.com/?uri=spotify:track:\1       width=300 height=080 frameborder=0></iframe>'+ $source
+      sub s+'^%spotify (.*)'+'<iframe src=https://embed.spotify.com/?uri=spotify:track:\1\&theme=white width=300 height=080 frameborder=0></iframe>'+ $source
 
       # YouTube
-      sub s+'^%youtube (.*)'+'<iframe src=https://youtube.com/embed/\1?theme=light\&color=white width=420 height=315 frameborder=0></iframe>'+ $source
+      sub s+'^%youtube (.*)'+'<iframe src=https://youtube.com/embed/\1?theme=light\&color=white        width=420 height=315 frameborder=0></iframe>'+ $source
 
       # Pandoc front matter
       set   regexp_front_matter '^''%''[a-z]''+'
