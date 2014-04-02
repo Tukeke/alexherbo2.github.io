@@ -38,7 +38,7 @@ This site is built thanks to
   [Haml](http://haml.info),
   [Compass](http://compass-style.org),
   [CoffeeScript](http://coffeescript.org) and
-  [Kakoune](https://github.com/mawww/kakoune) !
+  [Kakoune](https://github.com/mawww/kakoune) !
 Sources are on [GitHub][alexherbo2.github.io].
 
 
