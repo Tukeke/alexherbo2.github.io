@@ -293,3 +293,7 @@ Citations
 
 > And just remember if you want something in life, reach out and grab it.
 > << Into the Wild
+
+
+L’ennui est une maladie dont le travail est le remède ; le plaisir n’est qu’un
+palliatif.  [Natacha](http://instinctive.eu) << Duc de Lévis
