@@ -5,6 +5,8 @@ Scrubs
 > yeux d’un autre.  Si vous n’aimez pas ce que vous y voyez, espérez ne pas avoir
 > coupé trop de ponts.  << 110, Mon surnom
 
+%spotify 6GNLflz1UF1FHNrD71C8yX
+
 
 > C’est curieux comme on peut avoir une mauvaise perception des choses.  Comme
 > quand on cherche comme un dingue un endroit où on se sent bien, sans
