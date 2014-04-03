@@ -36,7 +36,7 @@ interrompit le cours, avant même qu’elle ouvre la bouche.
 Aurélien
 --------
 
-Évidemment, ne t’imagines pas que je vais approuver ce texte (j’ai d’ailleurs
+Évidemment, ne t’imagine pas que je vais approuver ce texte (j’ai d’ailleurs
 pas mal réfléchi à ce sujet, au point qu’il y aurait matière à faire un essai,
 j’appelle ça _penser l’art en bourgeois_ – ce qui au passage est le vice le plus
 répandu dans la sphère des non-initiés et leur principal, peut-être même unique,
