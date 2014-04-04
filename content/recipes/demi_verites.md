@@ -2,8 +2,7 @@ Les demi-vérités
 ================
 
 %author Natacha Kerensikova
-
-[http://instinctive.eu/articles/demi-verites](↑)
+%source http://instinctive.eu/articles/demi-verites
 
 Dans mon article précédent, le réveil n’a pas sonné, j’ai décrit ce que
 j’appelle une __demi-vérité__.  Ceux qui me côtoient l’ont probablement déjà
