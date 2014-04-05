@@ -8,6 +8,13 @@ Scrubs
 %spotify 6GNLflz1UF1FHNrD71C8yX
 
 
+> Ce qui nous fait avancer, ce sont les risques qu’on est prêt à prendre.  Pour
+> moi, risquer de prendre un risque c’est déjà pas mal.  << 207, Mes premiers
+> pas
+
+%youtube K8lyVF0Uj5Y
+
+
 > C’est curieux comme on peut avoir une mauvaise perception des choses.  Comme
 > quand on cherche comme un dingue un endroit où on se sent bien, sans
 > s’apercevoir que cet endroit, on y est déjà.
