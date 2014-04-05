@@ -32,7 +32,7 @@ aurait dû sonner, et que je comptais sur le fait qu’il sonne pour arriver à
 l’heure.  Ces informations sous-entendues sont clairement fausses d’après cet
 articles, mais ce ne sont pas des informations que j’ai communiquées.  Ce sont
 des informations qui ont été _inventées_ par l’interlocuteur.  Ce n’est quand
-même pas faute s’il surinterpréte ce que dis, si ?
+même pas faute s’il surinterpréte ce que je dis, si ?
 
 Toute la force de la demi-vérité est là.  Ça utilise le fait qu’on ne peut pas
 dire _toute_ la vérité, et que l’interlocuteur ajoute forcément des informations
