@@ -6,8 +6,10 @@ All static.
 Design
 ------
 
-Theme is inspired by [CLIs][] and [Man][],
+Theme is inspired by [text-based web browsers][text-based web browser],
 color palette is [Solarized][] and font [Menlo][] (not free).
+
+[![](http://i.imgur.com/yPfzzQrl.png 'Lynx text web browser')](http://i.imgur.com/yPfzzQr.png)
 
 Source structure
 ----------------
@@ -76,8 +78,7 @@ then enter `localStorage.clear()` JS code in [❯ Console][].
 [alexherbo2.github.io]: http://alexherbo2.github.io
 [source]: https://github.com/alexherbo2/alexherbo2.github.io/tree/source
 [master]: https://github.com/alexherbo2/alexherbo2.github.io/tree/master
-[CLIs]: https://en.wikipedia.org/wiki/Command-line_interface
-[Man]: https://en.wikipedia.org/wiki/Man_page
+[text-based web browser]: http://en.wikipedia.org/wiki/Text-based_web_browser
 [Solarized]: http://ethanschoonover.com/solarized
 [Menlo]: http://leancrew.com/all-this/2009/10/the-compleat-menlovera-sans-comparison
 [localStorage]: http://en.wikipedia.org/wiki/Web_storage#localStorage
