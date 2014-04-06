@@ -12,7 +12,7 @@ Scrubs
 > moi, risquer de prendre un risque c’est déjà pas mal.  << 207, Mes premiers
 > pas
 
-%youtube K8lyVF0Uj5Y
+%youtube YGmgLDx2Psc
 
 
 > C’est curieux comme on peut avoir une mauvaise perception des choses.  Comme
