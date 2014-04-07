@@ -29,10 +29,6 @@ Why Exherbo?
 Installing
 ----------
 
-Table of contents:
-
-$toc$
-
 Note that most of you will see below is borrowed from the official [Exherbo
 Install Guide](http://exherbo.org/docs/install-guide.html) but adapted for my
 needs and preferences.
