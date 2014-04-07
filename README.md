@@ -66,14 +66,6 @@ Plug-in
  * [Spotify Play Button](https://developer.spotify.com/technologies/widgets/spotify-play-button)
  * [YouTube Player](https://developers.google.com/youtube)
 
-Caching
--------
-
-The site caches meta data in [localStorage][].
-Hence it can display visited links differently.
-To clear, open the [page inspector][] (`ctrl+shift+i` in major browsers),
-then enter `localStorage.clear()` JS code in [❯ Console][].
-
 
 [alexherbo2.github.io]: http://alexherbo2.github.io
 [source]: https://github.com/alexherbo2/alexherbo2.github.io/tree/source
@@ -81,6 +73,3 @@ then enter `localStorage.clear()` JS code in [❯ Console][].
 [text-based web browser]: http://en.wikipedia.org/wiki/Text-based_web_browser
 [Solarized]: http://ethanschoonover.com/solarized
 [Menlo]: http://leancrew.com/all-this/2009/10/the-compleat-menlovera-sans-comparison
-[localStorage]: http://en.wikipedia.org/wiki/Web_storage#localStorage
-[page inspector]: https://developer.mozilla.org/docs/Tools/Page_Inspector
-[❯ Console]: https://developer.mozilla.org/docs/Tools/Web_Console

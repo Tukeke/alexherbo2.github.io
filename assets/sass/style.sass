@@ -31,11 +31,8 @@
       text-align                                        : right
       content                                           : counter(X) '. '
 
-// We are not allowed to link:visited:after → content
-// Visited class does the trick anyway.
-// https://developer.mozilla.org/en-US/docs/Web/CSS/Privacy_and_the_:visited_selector
-.visited:after
-  content: '✓'
+a:visited
+  color                                                 : darken($green, 5%)
 
 .anchored
   color                                                 : white

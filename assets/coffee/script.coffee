@@ -14,26 +14,6 @@ $ ->
         if link.innerHTML.match '#'
             $(link).addClass 'tag'
 
-    # link:visited:after emulation
-
-    # We are not allowed to link:visited:after → content
-    # Visited class does the trick anyway.
-    # https://developer.mozilla.org/en-US/docs/Web/CSS/Privacy_and_the_:visited_selector
-    visited_links = localStorage.getItem 'visited_links'
-
-    article_links = article.find 'a'
-
-    if not visited_links?
-        localStorage.setItem 'visited_links', []
-    else
-        article_links.each ->
-            this.className += 'visited' if visited_links.indexOf(this.href) >-1
-
-    article_links.each ->
-        this.addEventListener 'click', (link) ->
-            $(link.target).addClass 'visited'
-            localStorage.setItem 'visited_links', localStorage.getItem('visited_links') + [link.target.href]
-
     # Place scrolly node ───────────────────────────────────────────────────────
 
     place_scrolly_node = (node, selectors, node_, stop_y = 0, min_opacity = 1.0) ->
