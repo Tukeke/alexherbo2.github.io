@@ -1,7 +1,7 @@
 Blog,
 Drafts,
 Personal wiki / recipes.
-All static.
+Static site, with [no Jekyll][Jekyll].
 
 Design
 ------
@@ -70,6 +70,7 @@ Plug-in
 [alexherbo2.github.io]: http://alexherbo2.github.io
 [source]: https://github.com/alexherbo2/alexherbo2.github.io/tree/source
 [master]: https://github.com/alexherbo2/alexherbo2.github.io/tree/master
+[Jekyll]: http://jekyllrb.com
 [text-based web browser]: http://en.wikipedia.org/wiki/Text-based_web_browser
 [Solarized]: http://ethanschoonover.com/solarized
 [Menlo]: http://leancrew.com/all-this/2009/10/the-compleat-menlovera-sans-comparison
