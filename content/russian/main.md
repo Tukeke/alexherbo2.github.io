@@ -23,3 +23,9 @@ p   r   s   t   u   f   x   c   č   š   šč  ''  y   '   è   ju  ja
 ## Vocabulaire
 
  * ЁЖ (hérisson)
+
+# 2014-04-08.Tue
+
+## Vocabulaire
+
+ * Udatchi
