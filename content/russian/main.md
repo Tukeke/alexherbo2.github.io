@@ -19,3 +19,7 @@ p   r   s   t   u   f   x   c   č   š   šč  ''  y   '   è   ju  ja
                 ou     jota ts  tch ch  chtch               you ya
 Π   Ρ       Τ   Υ   Φ   Χ
 ```
+
+## Vocabulaire
+
+ * ЁЖ (hérisson)
