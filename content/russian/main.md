@@ -1,7 +1,12 @@
-Russian
-=======
+русский язык
+============
 
-Macha at Mabillon
+Маша at Mabillon
+
+# Cours
+
+ * [Let’s Go 1 Russian for Adults a Course for](https://docs.google.com/file/d/0B9BvHYjyeIQgVmd4UHRVUlkwQjA)
+ * [Speak Russian](http://speak-russian.cie.ru)
 
 # Lesson 1 — 2014-04-07.Mon
 
@@ -23,6 +28,12 @@ p   r   s   t   u   f   x   c   č   š   šč  ''  y   '   è   ju  ja
 ## Vocabulaire
 
  * ЁЖ (hérisson)
+ * Удачи! (Bonne chance!)
+
+## Devoir
+
+Travailler sur la première leçon (aéroport) – essaie d’écouter et de lire les
+textes.  Le cahier pour les mots sera aussi utile.
 
 # 2014-04-08.Tue
 
