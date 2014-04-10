@@ -154,7 +154,7 @@ Citations
 
 
 > Cherchons une base.  La chimère ou le rêve ne sont pas des synonymes d’utopie.
-> Au sens premier, « utopie » désigne un pays imaginaire où un gouvernement idéal
+> Au sens premier, _utopie_ désigne un pays imaginaire où un gouvernement idéal
 > règne sur un peuple heureux.  Imaginaire, oui, tant qu’on n’a pas essayé de le
 > concrétiser.  Par conséquent, rien n’empêche de chercher à construire une
 > utopie…  Et, au vu de notre actuelle société, je dirais même que c’est plutôt
@@ -284,7 +284,7 @@ Citations
 > la maison, les scrupules parentaux, les dettes, tout cela nous remet sans
 > cesse les pieds sur terre, nous offre cette sécurité tant recherchée, nous
 > donne simplement une raison de sortir du lit le matin.  En réduisant
-> inexorablement le champ du « choix », cette vie nous accorde le soulagement
+> inexorablement le champ du _choix_, cette vie nous accorde le soulagement
 > des certitudes.  Alors, même si tous les hommes que je connais enragent en
 > secret d’être tombés dans un cul-de-sac domestique, nous continuons à y entrer
 > et à nous y installer, tous.  La rage au cœur, le désir de vengeance aux
