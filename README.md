@@ -59,6 +59,7 @@ deployed in [master][] branch.  It is best viewed at [alexherbo2.github.io][].
 Plug-in
 -------
 
+ * [GitHub](https://github.com)
  * [jQuery](http://jquery.com)
    - [timeago](http://timeago.yarp.com)
    - [scrollIntoView](http://arwid.github.io/jQuery.scrollIntoView)
