@@ -295,5 +295,5 @@ Citations
 > << Into the Wild
 
 
-L’ennui est une maladie dont le travail est le remède ; le plaisir n’est qu’un
-palliatif.  [Natacha](http://instinctive.eu) << Duc de Lévis
+> L’ennui est une maladie dont le travail est le remède ; le plaisir n’est qu’un
+> palliatif.  [Natacha](http://instinctive.eu) << Duc de Lévis
