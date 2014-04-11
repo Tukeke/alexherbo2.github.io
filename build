@@ -313,6 +313,9 @@ function main
     mv $work/CNAME         . # custom domain name
     rm READING
 
+    # Handle IP updates
+    files * | xargs replace __IP__ (dyndns_checkip) -- {}
+
     git add --update
     git add .
     git amend --message=(date)
@@ -392,6 +395,10 @@ function include
 
   main ARGV
   ' $argv
+end
+
+function dyndns_checkip
+  curl --silent checkip.dyndns.org | egrep --only-matching '([0-9]+[.]?)+'
 end
 
 

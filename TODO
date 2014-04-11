@@ -22,6 +22,8 @@ TODO
 * [✓] [404][]
 * [✓] Shell script handling → Markdown
 * [✓] MPD support
+* [✓] Handle IP updates
+* [ ] Replace Python-like namespaces with Haskell-like namespaces
 
 
 [Jekyll]: http://jekyllrb.com
