@@ -64,6 +64,7 @@ Sources are on [GitHub][alexherbo2.github.io].
 [#wakfu](http://wakfu.com/fr/serie)
 [#maliki](http://maliki.com)
 [#paris8](http://www.univ-paris8.fr)
+[#fabelier](http://fabelier.org)
 …
 
 
