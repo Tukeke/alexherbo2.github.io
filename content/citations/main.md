@@ -297,3 +297,11 @@ Citations
 
 > L’ennui est une maladie dont le travail est le remède ; le plaisir n’est qu’un
 > palliatif.  [Natacha](http://instinctive.eu) << Duc de Lévis
+
+
+> _I Wanna Hold Your Hand._  That’s the first single.  It’s F-ing brilliant,
+> right?  Because that’s what everybody wants, Nicky.  They don’t want a 24-hour
+> hump sesh.  They don’t wanna be married to you for a hundred years.  They just
+> wanna hold your hand.  << Nick and Norah’s Infinite Playlist
+
+%spotify 5uqlDIAv2oIC18IdrKuHCE
