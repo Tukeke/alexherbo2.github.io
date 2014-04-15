@@ -23,7 +23,7 @@ Why Exherbo?
 
  * source based Linux distribution with [Paludis][]
  * decentralised (It is very easy to make/maintain it’s [own packages](http://exherbo.org/docs/exheres-for-smarties.html) and add those from other)
- * friendship community (join [#exherbo][] on freenode)
+ * friendly community (join [#exherbo][] on freenode)
  * easy to contribute using the [patchbot](http://exherbo.org/docs/patchbot.html)
 
 Installing
