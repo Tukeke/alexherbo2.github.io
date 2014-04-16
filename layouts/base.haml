@@ -22,8 +22,8 @@
         %h1#title
           =link_to 'alexherbo2.github.io', 'https://github.com/alexherbo2/alexherbo2.github.io'
           —
-          %span{title: '$title$'}
-            $title$
+          =link_to '$title$', 'https://github.com/alexherbo2/alexherbo2.github.io/blob/source/content/$path$'
+
         %a.raw{href: 'https://github.com/alexherbo2/alexherbo2.github.io/edit/source/content/$path$', title: 'Edit Page'}
           
     $body$

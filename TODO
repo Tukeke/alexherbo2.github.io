@@ -25,6 +25,7 @@ TODO
 * [✓] Handle IP updates
 * [ ] Replace Python-like namespaces with Haskell-like namespaces
 * [✓] Edit page support
+* [✓] View page on GitHub
 
 
 [Jekyll]: http://jekyllrb.com
