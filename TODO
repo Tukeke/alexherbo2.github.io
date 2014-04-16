@@ -24,6 +24,7 @@ TODO
 * [✓] MPD support
 * [✓] Handle IP updates
 * [ ] Replace Python-like namespaces with Haskell-like namespaces
+* [✓] Edit page support
 
 
 [Jekyll]: http://jekyllrb.com
