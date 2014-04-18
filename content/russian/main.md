@@ -3,7 +3,37 @@
 
 Маша at Mabillon
 
-# Cours
+Keyboard layout
+---------------
+
+`setxkbmap` [qwerty-cyrillic](https://github.com/alexherbo2/alexherbo2.github.io/blob/X11/xkb/symbols/qwerty-cyrillic)
+
+```
+╔════╦════╦════╦════╦════╦════╦════╦════╦════╦════╦════╦════╦════╦════╦════╗
+║esc.║ F1 ║ F2 ║ F3 ║ F4 ║ F5 ║del ║ F6 ║ F7 ║ F8 ║ F9 ║ F10║ F11║ F12║num.║
+╚════╩════╩════╩════╩════╩════╣ ins╠════╩════╩════╩════╩════╩════╩════╬════╣
+│ ~  │ ! ¡│ @  │ #  │ $ £│ %  ╠════╣ ^  │ &  │ * ×│ (  │ ) ∅│ _ ‾│ + ±║calc║
+│ `  │ 1  │ 2  │ 3  │ 4 €│ 5  ║ ⌫  ║ 6 ¬│ 7  │ 8 ∞│ 9  │ 0 °│ - −│ = ≠║    ║
+╔════╗────┼────┼────┼────┼────║    ║────┼────┼────┼────┼────┼────┼────╠════╣
+║ ↹  ║    │    │ Э  │ Р  │ Т  ║    ║ Й Ё│ У  │ И Е│ О  │ П  │ {  │ }  ║mail║
+║    ║    │    │ E  │ R  │ T  ║    ║ Y  │ U  │ I  │ O  │ P §│ [  │ ]  ║   ⇤║
+╠════╣────┼────┼────┼────┼────╠════╣────┼────┼────┼────┼────┼────╔════╬════╣
+║ ⇧  ║ А  │ С  │ Д  │ Ф  │ Г  ║ ⏎  ║ Х ↙│ Ж ↖│ К ↗│ Л ↘│ : ↕│ "  ║ ⇧  ║ ⇪  ║
+║    ║ A  │ S  │ D  │ F  │ G  ║    ║ H ←│ J ↓│ K ↑│ L →│ ☠ ↔│ '  ║    ║  AC║
+║    ║────┼────┼────┼─══─┼────║    ║────┼─══─┼────┼────┼────┼────║    ╠════╣
+║    ║ З  │ Ц Ч│ Ш Щ│ В  │ Б  ║    ║ Н  │ М  │ ;  │ :  │ ? †│ |  ║    ║www ║
+║    ║ Z  │ TS │ CH │ V  │ B  ║   ‐║ N  │ M  │ , •│ . …│ / ÷│ \  ║   +║   ⌫║
+╠════╬════╦════╦════╦════╧════╩════╩════╧════╦════╦════╦════╦════╬════╬════╣
+║ctrl║    ║app ║shuf║ :                      ║desk║ ⇱  ║ ⇑  ║ ⇲  ║ctrl║ ⇞  ║
+║    ║cut ║copy║past║                        ║    ║    ║    ║    ║    ║  bk║
+╠════╬════╩═╦══╩════╣ ␣ space                ╠════╬════╬════╬════╣    ╠════╣
+║fn  ║start ║alt    ╠════════════════════════╣alt ║ ⇐  ║ ⇓  ║ ⇒  ║    ║ ⇟  ║
+║    ║      ║       ║                        ║ gr ║    ║    ║    ║entr║  fw║
+╚════╩══════╩═══════╝                        ╚════╩════╩════╩════╩════╩════╝
+```
+
+Cours
+-----
 
  * [Let’s Go 1 Russian for Adults a Course for](https://docs.google.com/file/d/0B9BvHYjyeIQgVmd4UHRVUlkwQjA)
  * [Speak Russian](http://speak-russian.cie.ru)
@@ -27,8 +57,8 @@ p   r   s   t   u   f   x   c   č   š   šč  ''  y   '   è   ju  ja
 
 ## Vocabulaire
 
- * ЁЖ (hérisson)
- * Удачи! (Bonne chance!)
+ * ёж (hérisson)
+ * удачи! (bonne chance!)
 
 ## Devoir
 
@@ -39,4 +69,12 @@ textes.  Le cahier pour les mots sera aussi utile.
 
 ## Vocabulaire
 
- * Udatchi
+# Lesson 2 — 2014-04-15.Tue
+
+## Vocabulaire
+
+ * привет
+ * как дела?
+ * спасибо, хорошо!
+ * пока
+ * братуа
