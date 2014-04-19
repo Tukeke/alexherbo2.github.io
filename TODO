@@ -25,6 +25,7 @@ TODO
 * [ ] Replace Python-like namespaces with Haskell-like namespaces
 * [✓] Edit page support
 * [✓] View page on GitHub
+* [✓] Prettify links
 
 
 [Jekyll]: http://jekyllrb.com
