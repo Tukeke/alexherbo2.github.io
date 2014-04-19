@@ -468,7 +468,7 @@ nspluginwrapper --verbose --auto --install
 
 ### 8. Contributing
 
- * <http://imagination-land.org/posts/2013-01-03-knowing-your-system---part-7---contributing-to-exherbo.html>
+ * [Knowing your system — Part 7 — Contributing to Exherbo](http://imagination-land.org/posts/2013-01-03-knowing-your-system---part-7---contributing-to-exherbo.html)
  * <https://github.com/alexherbo2/paludis>
 
 _/home/alex/paludis/repositories/arbor.conf_
@@ -527,7 +527,7 @@ Commands and aliases:
 
 ### 9. Make your supplemental repository
 
- * <http://exherbo.org/docs/exheres-for-smarties.html>
+ * [Exheres for Smarties](http://exherbo.org/docs/exheres-for-smarties.html)
  * <https://github.com/alexherbo2/exheres>
 
 ### 10. Submit your personal repository
