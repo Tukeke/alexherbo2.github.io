@@ -35,7 +35,7 @@ needs and preferences.
 
 ### 1. Read the documentation
 
- * Re-read everything on http://paludis.exherbo.org and http://exherbo.org
+ * Re-read everything on <http://paludis.exherbo.org> and <http://exherbo.org>
  * Check [recent mailing list posts](http://lists.exherbo.org/pipermail/exherbo-dev)
    for any possible issues, especially Paludis upgrade information
 
@@ -468,8 +468,8 @@ nspluginwrapper --verbose --auto --install
 
 ### 8. Contributing
 
- * http://imagination-land.org/posts/2013-01-03-knowing-your-system---part-7---contributing-to-exherbo.html (Keruspe)
- * https://github.com/alexherbo2/paludis
+ * <http://imagination-land.org/posts/2013-01-03-knowing-your-system---part-7---contributing-to-exherbo.html>
+ * <https://github.com/alexherbo2/paludis>
 
 _/home/alex/paludis/repositories/arbor.conf_
 
@@ -527,8 +527,8 @@ Commands and aliases:
 
 ### 9. Make your supplemental repository
 
- * http://exherbo.org/docs/exheres-for-smarties.html
- * https://github.com/alexherbo2/exheres
+ * <http://exherbo.org/docs/exheres-for-smarties.html>
+ * <https://github.com/alexherbo2/exheres>
 
 ### 10. Submit your personal repository
 

@@ -249,9 +249,6 @@ function main
       replace '$commit-date$'     "$commit_date"     -- $template
       replace '$commit-iso-date$' "$commit_iso_date" -- $template
 
-      # Clickable URLs
-      # sub s_' (https?://\S+\.[a-z]+)'_' [\1](\1)'_g $source
-
       # Spotify
       sub s+'^%spotify (.*)'+'<iframe src=https://embed.spotify.com/?uri=spotify:track:\1\&theme=white width=300 height=080 frameborder=0></iframe>'+ $source
 
