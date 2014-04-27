@@ -51,6 +51,8 @@ Sources are on [GitHub][alexherbo2.github.io].
 [#manjaro](http://manjaro.org)
 [#kakoune](https://github.com/mawww/kakoune)
 [#i3](http://i3wm.org)
+[#chromium](http://chromium.org)
+[#vimium](http://vimium.github.io)
 [#mpd](http://musicpd.org)
 [#ncmpcpp](http://ncmpcpp.rybczak.net)
 [#lichess](http://lichess.org)
