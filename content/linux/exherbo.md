@@ -439,6 +439,16 @@ cave resolve x11-wm/i3
 startx
 ```
 
+Start X at Login
+
+```fish
+if status --is-login
+  if not test "$DISPLAY"
+    startx
+  end
+end
+```
+
 #### Fonts
 
 ```sh
