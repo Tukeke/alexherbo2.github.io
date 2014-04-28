@@ -180,7 +180,7 @@ Download the latest stable [kernel][] and verify its signature.
 wget kernel.org/pub/linux/kernel/v3.x/linux-3.13.6.tar.xz
 wget kernel.org/pub/linux/kernel/v3.x/linux-3.13.6.tar.sign
 unxz linux*xz
-gpg --verify linux*sign #=> key ID
+gpg --verify linux*sign → key ID
 gpg --recv-keys $key_id
 gpg --verify linux*sign
 ```
@@ -478,7 +478,7 @@ cave resolve net-plugins/adobe-flash
 ```
 
 ```sh
-cave print-id-contents adobe-flash #=> /opt/netscape/plugins/libflashplayer.so ...
+cave print-id-contents adobe-flash → /opt/netscape/plugins/libflashplayer.so […]
 ln --symbolic /opt/netscape /usr/lib/mozilla
 ```
 
