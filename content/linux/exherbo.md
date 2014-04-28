@@ -468,7 +468,9 @@ ln --symbolic /usr/share/fontconfig/conf.avail/70-no-bitmaps.conf /etc/fonts/con
 #### Browser
 
 ```sh
-cave resolve net-www/uzbl
+cave resolve net-www/chromium-dev                                              \
+             net-www/chromium-dev-flash-plugin                                 \
+             net-www/chromium-dev-pdf-plugin
 ```
 
 ```sh
