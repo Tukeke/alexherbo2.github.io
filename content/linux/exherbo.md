@@ -362,6 +362,12 @@ Or, if you want to add all packages of the stages set to the world set:
 cave update-world --set stages
 ```
 
+#### Shell
+
+```sh
+cave resolve fish-shell
+```
+
 #### Network configuration
 
 Start dhcpcd
