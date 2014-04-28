@@ -296,6 +296,16 @@ Set user password
 passwd USERNAME
 ```
 
+Automatic login to virtual console
+
+_/etc/systemd/system/getty@tty1.service.d/autologin.conf_
+
+```
+[Service]
+ExecStart=
+ExecStart=-/usr/bin/agetty --autologin USERNAME --noclear %I 38400 linux
+```
+
 Install sudo
 
 ```sh
