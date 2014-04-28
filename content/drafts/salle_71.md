@@ -3,6 +3,7 @@ Salle 71
 
 %author Alex Leferry 2>
 %date   2009-12-27
+%unlicense
 
 Flou.  Ses contours étaient flous.  Mise au point.  Toujours pas net.  Encore un
 réglage et les cernes apparurent avec le rictus blasé, le regard distant, l’air
