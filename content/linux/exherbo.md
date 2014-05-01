@@ -412,15 +412,10 @@ Device Drivers
 cave resolve sys-sound/alsa-utils
 ```
 
-All channels are muted by default.
-
 ```sh
-amixer set {Master,PCM} on
+cave resolve media-sound/pulseaudio
+cave resolve media-sound/pulseaudio-applet
 ```
-
-In `alsamixer`, the _MM_ label below a channel indicates that the channel is
-muted, and _00_ indicates that it is open.  `m` command enables to switch this
-state.
 
 #### Window manager
 
