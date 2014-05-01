@@ -376,18 +376,16 @@ Start dhcpcd
 dhcpcd
 ```
 
-Install and configure wicd
+Install and configure NetworkManager
 
 ```sh
-cave resolve wicd
+cave resolve net-apps/NetworkManager
+cave resolve gnome-desktop/gnome-keyring
+cave resolve gnome-desktop/network-manager-applet
 ```
 
 ```sh
-systemctl enable wicd
-```
-
-```sh
-wicd-{gtk,curses,cli}
+systemctl enable NetworkManager
 ```
 
 Stop dhcpcd
