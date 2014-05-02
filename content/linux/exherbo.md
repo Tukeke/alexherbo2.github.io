@@ -100,7 +100,7 @@ grep exherbo-adm64-current.tar.xz sha1sum | sha1sum --check
 Extract the stage
 
 ```sh
-unxz --to-stdout exherbo*xz | tar --extract --preserve --file -
+unxz --to-stdout exherbo*xz | tar --extract --preserve-permissions --preserve-order --file -
 ```
 
 Update etc/fstab
@@ -188,7 +188,7 @@ gpg --verify linux*sign
 Extract
 
 ```sh
-tar --extract --preserve --file linux*tar
+tar --extract --preserve-permissions --preserve-order --file linux*tar
 ```
 
 Install the kernel
