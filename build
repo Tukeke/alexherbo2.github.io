@@ -212,7 +212,8 @@ function main
 
       make (dirname $output)
 
-      kak -n -e edit\ $source';'"$kak_filters"
+      kak -n -e edit\ $source';'"$kak_filters" \
+      >/dev/tty # stdout must be a tty
 
       set title (head -1 $source)
 
