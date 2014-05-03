@@ -125,15 +125,11 @@ Note: my laptop has a SSD, so it takes extra care options to stretch its lifetim
  * barrier=0
  * discard
 
-### 4. Chroot into the system
+### 4. Run Exherbo
 
-Mount everything for the chroot
+Mount home in the name space container
 
 ```sh
-mount --options rbind /dev dev
-mount --options bind /sys sys
-mount --types   proc none proc
-
 mount /dev/sdb1 home
 ```
 
@@ -150,12 +146,17 @@ nameserver 8.8.4.4
 # https://developers.google.com/speed/public-dns/docs/using
 ```
 
-Change your root
+Spawn Exherbo name space container
 
 ```sh
-env --ignore-environment TERM=$TERM SHELL=/bin/bash HOME=$HOME $(which chroot) . /bin/bash
+systemd-nspawn
+```
+
+Then when in Exherbo
+
+```sh
 source /etc/profile
-PS1="(chroot) $PS1"
+PS1=(Exherbo)\ $PS1
 ```
 
 ### 5. Update the install
