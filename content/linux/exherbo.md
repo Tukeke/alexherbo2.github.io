@@ -152,6 +152,16 @@ Spawn Exherbo name space container
 systemd-nspawn
 ```
 
+_Note_ If for some reason it does not work, mount everything needed then
+chroot into the system:
+
+```sh
+mount --options rbind /dev dev
+mount --options bind /sys sys
+mount --types   proc none proc
+env --ignore-environment TERM=$TERM SHELL=/bin/bash HOME=$HOME $(which chroot) . /bin/bash
+```
+
 Then when in Exherbo
 
 ```sh
