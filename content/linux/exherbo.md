@@ -177,8 +177,8 @@ cave sync
 Download the latest stable [kernel][] and verify its signature.
 
 ```sh
-wget kernel.org/pub/linux/kernel/v3.x/linux-3.13.6.tar.xz
-wget kernel.org/pub/linux/kernel/v3.x/linux-3.13.6.tar.sign
+wget kernel.org/pub/linux/kernel/v3.x/linux-3.14.2.tar.xz
+wget kernel.org/pub/linux/kernel/v3.x/linux-3.14.2.tar.sign
 unxz linux*xz
 gpg --verify linux*sign → key ID
 gpg --recv-keys $key_id
@@ -195,15 +195,6 @@ Install the kernel
 
 ```
 cd path-to-kernel; make menuconfig
-```
-
-Activate devtmpfs (udev requires devtmpfs support)
-
-```
-Device Drivers
-  Generic Driver Options
-    [*] Maintain a devtmpfs filesystem to mount at /dev
-    [*] Automount devtmpfs at /dev, after the kernel mounted the rootfs
 ```
 
 ```sh
