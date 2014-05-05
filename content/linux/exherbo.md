@@ -155,7 +155,6 @@ systemd-nspawn
 Then when in Exherbo
 
 ```sh
-source /etc/profile
 PS1=(Exherbo)\ $PS1
 ```
 
