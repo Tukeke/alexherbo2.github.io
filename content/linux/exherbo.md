@@ -164,7 +164,7 @@ PS1=(Exherbo)\ $PS1
 Make sure Paludis is configured correctly
 
 ```sh
-cd /etc/paludis; kak bashrc; kak *conf
+kak /etc/paludis/{bashrc,{*}conf}
 ```
 
 Sync all the trees – now it is safe to sync
