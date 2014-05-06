@@ -13,7 +13,6 @@ If you want to get in touch with me, [email](mailto:alexherbo2@gmail.com) is bes
   [Twitter](https://twitter.com/alexherbo2),
   [Skype](http://skype.com/alexherbo2),
   [VégéWeb](https://vegeweb.org/profil/alexherbo2),
-  [MeetCrunch](http://meetcrunch.com/profil/alexherbo2),
   [lichess](http://lichess.org/@/alexherbo2), and
   [IRC](http://webchat.freenode.net?channels=exherbo).
 
