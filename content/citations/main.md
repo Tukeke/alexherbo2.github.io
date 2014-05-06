@@ -305,3 +305,14 @@ Citations
 > wanna hold your hand.  << Nick and Norah’s Infinite Playlist
 
 %spotify 5uqlDIAv2oIC18IdrKuHCE
+
+
+> — Damn.  
+> — I know. She’s pretty hot.  
+> — That sucks.  Why is it pretty girls… think they can treat people  
+>   like crap and get away with it?  
+> — Centuries of reinforcement.  
+> — You know what?  Screw her.  I don’t care.  If she wants to be that way, fine.  
+> << 500 Days of Summer
+
+%spotify 13McnYo2bDvC50ZS8BFROF
