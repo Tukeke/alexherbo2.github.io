@@ -208,7 +208,7 @@ Citations
 > gratifications sociales, et de moins en moins de temps pour vivre.  Jusqu’à ce
 > qu’un jour, la coupe bien pleine, nous décidons de nous en aller cultiver notre
 > jardin, au propre comme au figuré, comme un petit bouchon, au fil de l’eau, au
-> fil du temps…  << chatlibre.blog.lemonde.fr
+> fil du temps…  << <http://chatlibre.blog.lemonde.fr>
 
 
 > Le rêve semble vrai quand on y est.  Ce n’est qu’au réveil qu’on remarque son
