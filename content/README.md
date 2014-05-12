@@ -1,6 +1,9 @@
 alexherbo2’s user site
 ======================
 
+%flattr-identifier alexherbo2.github.io
+%disqus-identifier alexherbo2.github.io
+
 [![Stormtroopocat](/images/stormtroopocat.png)](https://github.com/alexherbo2)
 
 Hi I’m Alex.  
