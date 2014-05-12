@@ -79,7 +79,7 @@ function main
   begin
     cp layouts/page.haml layouts/partial-page.haml
     cp layouts/base.haml layouts/page.haml
-    replace '$'body'$' 'Haml::Engine.new(File.read("layouts/partial-page.haml")).render' -- layouts/page.haml
+    replace '$'body'$' '=Haml::Engine.new(File.read("layouts/partial-page.haml")).render' -- layouts/page.haml
   end                                                                            1> /dev/null\
                                                                                  2> $LOG
   pass < $LOG
