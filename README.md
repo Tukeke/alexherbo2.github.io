@@ -35,8 +35,7 @@ Source structure
 │       └── pre-push
 ├── layouts
 │   ├── base.haml
-│   ├── page.haml
-│   └── post.haml
+│   └── page.haml
 ├── nginx.conf
 └── CNAME
 ```

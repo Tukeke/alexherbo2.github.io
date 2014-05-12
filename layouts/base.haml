@@ -15,12 +15,13 @@
         = (link_to 'home', '/', :id => 'home'                                                     ) + |
           (link_to '(☊)', 'http://mawww.uni.cx:8000', { :title => 'Open Music', :class => 'raw' } )   |
       %div.top.right
-        :coffee
-          $('<iframe>', { src               : '//api.flattr.com/button/view/?button=compact&uid=alexherbo2&url='+document.URL , \
-                          title             : 'Flattr'                                                                        , \
-                          height            :  20                                                                             , \
-                          width             : 110                                                                             , \
-                        }).css(borderWidth:0).prependTo $('div.top.right')
+        - if $flattr-identifier$
+          :coffee
+            $('<iframe>', { src               : '//api.flattr.com/button/view/?button=compact&uid=alexherbo2&url=$flattr-identifier$' , \
+                            title             : 'Flattr'                                                                              , \
+                            height            :  20                                                                                   , \
+                            width             : 110                                                                                   , \
+                          }).css(borderWidth:0).prependTo $('div.top.right')
         %a.timeago{href: 'https://github.com/alexherbo2/alexherbo2.github.io/commit/$commit$', title: 'View Commit'}
           %time.timeago{datetime: '$commit-iso-date$'}
         %a.raw{href: 'https://raw.github.com/alexherbo2/alexherbo2.github.io/source/content/$path$', title: 'View Raw'}
@@ -33,6 +34,11 @@
         %a.raw{href: 'https://github.com/alexherbo2/alexherbo2.github.io/edit/source/content/$path$', title: 'Edit Page'}
           
     $body$
+    - if $disqus-identifier$
+      %div#disqus_thread
+      :coffee
+        disqus_identifier = '$disqus-identifier$'
+        $('head').append '<script async src=http://alexherbo2.disqus.com/embed.js>'
     %footer
       %div.bottom.left
         %a{href: 'http://github.com/alexherbo2/alexherbo2.github.io'}

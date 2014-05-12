@@ -21,14 +21,14 @@ TODO
 * [✓] [404][]
 * [✓] Shell script handling → Markdown
 * [✓] MPD support
-* [✓] Handle IP updates
+* [✗] Handle IP updates
 * [ ] Replace Python-like namespaces with Haskell-like namespaces
 * [✓] Edit page support
 * [✓] View page on GitHub
 * [✓] Prettify links
 * [✓] License support
 * [✓] Flattr support
-* [ ] Plug-in system
+* [✓] Plug-in system
 
 
 [Jekyll]: http://jekyllrb.com

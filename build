@@ -25,8 +25,7 @@ Source structure
 │       └── pre-push
 ├── layouts
 │   ├── base.haml
-│   ├── page.haml
-│   └── post.haml
+│   └── page.haml
 ├── nginx.conf
 └── CNAME
 
@@ -34,7 +33,7 @@ Building
 ‾‾‾‾‾‾‾‾
  . Main
 1. Working directory
-2. Haml to HTML
+2. Haml Templates
 3. Sass to CSS
 4. CoffeeScript to JavaScript
 5. Kakoune filters
@@ -73,28 +72,14 @@ function main
 
   make tmp
 
-  # 2. Haml to HTML ────────────────────────────────────────────────────────────
+  # 2. Haml Templates ──────────────────────────────────────────────────────────
 
-  printf 'Compiling templates…'
+  printf 'Generate Haml Templates…'
 
   begin
-    set   base_html   base.html
-    set   page_html   page.html
-    set   post_html   post.html
-    set disqus_html disqus.html
-
-    haml --require ./assets/haml/helpers layouts/{}base.haml   $base_html
-    haml --require ./assets/haml/helpers layouts/{}page.haml   $page_html
-    haml --require ./assets/haml/helpers layouts/{}post.haml   $post_html
-    haml --require ./assets/haml/helpers layouts/disqus.haml $disqus_html
-
-    copy   $page_html   $page_html.template
-    copy   $post_html   $post_html.template
-    copy $disqus_html $disqus_html.template
-
-    include '$body$' $base_html $page_html.template                                           >   $page_html
-    include '$body$' $base_html $page_html.template $post_html.template                       >   $post_html
-    include '$body$' $base_html $page_html.template $post_html.template $disqus_html.template > $disqus_html
+    cp layouts/page.haml layouts/partial-page.haml
+    cp layouts/base.haml layouts/page.haml
+    replace '$'body'$' 'Haml::Engine.new(File.read("layouts/partial-page.haml")).render' -- layouts/page.haml
   end                                                                            1> /dev/null\
                                                                                  2> $LOG
   pass < $LOG
@@ -235,13 +220,8 @@ function main
       sub s/'```( *)sh'/'```\1bash'/ $source
 
       if echo $source | egrep '(README|READING)'
-        set template $page_html.copy; cp $page_html $template
-      else
-        if not grep comment-identifier $source
-          set template $post_html.copy; cp $post_html $template
-        else
-          set template $disqus_html.copy; cp $disqus_html $template
-        end
+        set template layouts/base.haml.copy; cp layouts/base.haml $template; else
+        set template layouts/page.haml.copy; cp layouts/page.haml $template;
       end
 
       # Replace in place
@@ -258,6 +238,16 @@ function main
 
       # YouTube
       sub s+'^%youtube (.*)'+'<iframe src=https://youtube.com/embed/\1?theme=light\&color=white        width=420 height=315 frameborder=0></iframe>'+ $source
+
+      # Disqus
+      if not grep disqus-identifier $source
+        replace '$'disqus-identifier'$' nil -- $template
+      end
+
+      # Flattr
+      if not grep flattr-identifier $source
+        replace '$'flattr-identifier'$' nil -- $template
+      end
 
       # Pandoc front matter
       set   regexp_front_matter '^''%''[a-z]''+'
@@ -278,6 +268,10 @@ function main
 
         end
       end
+
+      # Haml to HTML
+
+      haml --require ./assets/haml/helpers $template $template.html; and set template $template.html
 
       # Pandoc title block
       # % title
@@ -318,9 +312,6 @@ function main
     mv $work/site/*        .
     mv $work/CNAME         . # custom domain name
     rm READING
-
-    # Handle IP updates
-    files * | xargs replace __IP__ (dyndns_checkip) -- {}
 
     git add --update
     git add .
@@ -380,31 +371,6 @@ end
 
 function sub
   esed --in-place $argv
-end
-
-function include
-  ruby -e '
-  def main argv
-    string = argv.shift
-    files = argv
-    input = files.map { |file| File.read file }
-    print includes string, input
-  end
-
-  def includes string, input, output=""
-    return output if input.empty?
-    doc = input.shift
-    new_output = output.empty?? doc : output.gsub(string, doc)
-
-    includes string, input, new_output
-  end
-
-  main ARGV
-  ' $argv
-end
-
-function dyndns_checkip
-  curl --silent checkip.dyndns.org | egrep --only-matching '([0-9]+[.]?)+'
 end
 
 
