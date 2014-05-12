@@ -241,12 +241,12 @@ function main
 
       # Disqus
       if not grep disqus-identifier $source
-        replace '$'disqus-identifier'$' nil -- $template
+        replace "'"'$'disqus-identifier'$'"'" nil -- $template
       end
 
       # Flattr
       if not grep flattr-identifier $source
-        replace '$'flattr-identifier'$' nil -- $template
+        replace "'"'$'flattr-identifier'$'"'" nil -- $template
       end
 
       # Pandoc front matter

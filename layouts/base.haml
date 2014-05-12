@@ -15,7 +15,7 @@
         = (link_to 'home', '/', :id => 'home'                                                     ) + |
           (link_to '(☊)', 'http://mawww.uni.cx:8000', { :title => 'Open Music', :class => 'raw' } )   |
       %div.top.right
-        - if $flattr-identifier$
+        - if '$flattr-identifier$'
           :coffee
             $('<iframe>', { src               : '//api.flattr.com/button/view/?button=compact&uid=alexherbo2&url=$flattr-identifier$' , \
                             title             : 'Flattr'                                                                              , \
@@ -34,7 +34,7 @@
         %a.raw{href: 'https://github.com/alexherbo2/alexherbo2.github.io/edit/source/content/$path$', title: 'Edit Page'}
           
     $body$
-    - if $disqus-identifier$
+    - if '$disqus-identifier$'
       %div#disqus_thread
       :coffee
         disqus_identifier = '$disqus-identifier$'
