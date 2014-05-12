@@ -247,12 +247,12 @@ function main
       end
 
       # Disqus
-      if not grep disqus-identifier $source
+      if not grep '^''%'disqus-identifier $source
         replace "'"'$'disqus-identifier'$'"'" nil -- $template
       end
 
       # Flattr
-      if not grep flattr-identifier $source
+      if not grep '^''%'flattr-identifier $source
         replace "'"'$'flattr-identifier'$'"'" nil -- $template
       end
 
