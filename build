@@ -250,7 +250,7 @@ function main
       end
 
       # Pandoc front matter
-      set   regexp_front_matter '^''%''[a-z]''+'
+      set   regexp_front_matter '^''%''[a-z-]''+'
       alias pandoc_front_matter "egrep '$regexp_front_matter' '$source'"
       if pandoc_front_matter
 
