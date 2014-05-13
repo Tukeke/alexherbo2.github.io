@@ -1,6 +1,10 @@
 Exherbo
 =======
 
+%gittip
+%flattr-identifier exherbo
+%disqus-identifier exherbo
+
 [![Zebrapig](/images/zebrapig.svg 'Exherbo')](http://exherbo.org)
 
 What is Exherbo?
