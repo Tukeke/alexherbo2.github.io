@@ -1,6 +1,7 @@
 alexherbo2’s user site
 ======================
 
+%gittip
 %flattr-identifier alexherbo2.github.io
 %disqus-identifier alexherbo2.github.io
 
