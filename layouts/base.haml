@@ -23,26 +23,7 @@
                             width             : 110                                                                                                                      , \
                           }).css(borderWidth:0).prependTo $('div.top.right')
         - if '$gittip$'
-          / <script data-gittip-username=alexherbo2 data-gittip-widget=button src=//gttp.co/v1.js />
-          :sass
-            .gittip
-              background      : #2A8F79
-              background      : -moz-linear-gradient(center top , #2A8F79, #0D4035) repeat-x scroll left bottom #2A8F79
-              border          : 1px solid #0A382E
-              cursor          : pointer
-              display         : inline-block
-              margin          : 0
-              overflow        : visible
-              text-decoration : none
-              vertical-align  : middle
-              width           : auto
-              border-radius   : 3pt 3pt 3pt 3pt
-              font            : 9pt/9pt Lato, sans-serif
-              padding         : 2pt 5pt 3pt
-              color           : white
-          %a{href: 'https://gittip.com/alexherbo2'}
-            %div.gittip{height: 20, width: 110}
-              Gittip
+          %script{data: {gittip: {username: 'alexherbo2', widget: 'button'}}, src: 'http://gttp.co/v1.js'}
         %a.timeago{href: 'https://github.com/alexherbo2/alexherbo2.github.io/commit/$commit$', title: 'View Commit'}
           %time.timeago{datetime: '$commit-iso-date$'}
         %a.raw{href: 'https://raw.github.com/alexherbo2/alexherbo2.github.io/source/content/$path$', title: 'View Raw'}
