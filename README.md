@@ -62,6 +62,8 @@ Plug-in
  * [jQuery](http://jquery.com)
    - [timeago](http://timeago.yarp.com)
    - [scrollIntoView](http://arwid.github.io/jQuery.scrollIntoView)
+ * [Gittip](https://gittip.com)
+ * [Flattr](https://flattr.com)
  * [Disqus](http://disqus.com)
  * [Spotify Play Button](https://developer.spotify.com/technologies/widgets/spotify-play-button)
  * [YouTube Player](https://developers.google.com/youtube)
