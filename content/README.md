@@ -18,6 +18,7 @@ If you want to get in touch with me, [email](mailto:alexherbo2@gmail.com) is bes
   [Twitter](https://twitter.com/alexherbo2),
   [Skype](http://skype.com/alexherbo2),
   [Stack Overflow](http://stackoverflow.com/users/3631151/alexherbo2),
+  [Steam](http://steamcommunity.com/id/alexherbo2),
   [lichess](http://lichess.org/@/alexherbo2), and
   [freenode](http://webchat.freenode.net?channels=exherbo).                      <div><br>
 
