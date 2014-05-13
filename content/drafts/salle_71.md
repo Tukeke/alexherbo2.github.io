@@ -5,6 +5,10 @@ Salle 71
 %date   2009-12-27
 %unlicense
 
+%gittip
+%flattr-identifier salle71
+%disqus-identifier salle71
+
 Flou.  Ses contours étaient flous.  Mise au point.  Toujours pas net.  Encore un
 réglage et les cernes apparurent avec le rictus blasé, le regard distant, l’air
 de s’en moquer.  Rien.  Il ne disait rien.  Pas d’agitation, de coups d’œil
