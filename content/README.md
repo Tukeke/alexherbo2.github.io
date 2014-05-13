@@ -31,13 +31,6 @@ Personal wiki / recipes.                                                  </div>
 
 $list$
 
-<br>
-
-READING
--------
-
-$reading$
-
 
 This site is built thanks to
   [Pandoc](http://johnmacfarlane.net/pandoc),

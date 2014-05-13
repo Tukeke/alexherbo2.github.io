@@ -153,7 +153,7 @@ function main
 
       set output (echo $source | sed s/content//';'s/.md'$'/.html/)
 
-      if echo $source | egrep '(README|READING|HOWTO|.sh$)'
+      if echo $source | egrep '(README|.sh$)'
         continue
       end
 
@@ -182,8 +182,7 @@ function main
   begin
     # fish sucks: Cannot save multi-line output in a variable
     # https://github.com/fish-shell/fish-shell/issues/159
-    sh -c 'replace "\$list\$"    "<div style=white-space:nowrap>`cat     '$list_page'`</div>" -- content/README.md'
-    sh -c 'replace "\$reading\$" "<pre style=border:0          >`cat  content/READING`</pre>" -- content/README.md'
+    sh -c 'replace "\$list\$" "<div style=white-space:nowrap>`cat '$list_page'`</div>" -- content/README.md'
 
     for source in (files content -name '*.sh')
       set output (echo $source | replace .sh .md)
@@ -219,7 +218,7 @@ function main
       # Reason: shell is not recognized
       sub s/'```( *)sh'/'```\1bash'/ $source
 
-      if echo $source | egrep '(README|READING)'
+      if echo $source | grep README
         set template layouts/base.haml.copy; cp layouts/base.haml $template; else
         set template layouts/page.haml.copy; cp layouts/page.haml $template;
       end
@@ -313,7 +312,6 @@ function main
     mv $work/assets/js     .
     mv $work/site/*        .
     mv $work/CNAME         . # custom domain name
-    rm READING
 
     git add --update
     git add .
