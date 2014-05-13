@@ -14,6 +14,7 @@ If you want to get in touch with me, [email](mailto:alexherbo2@gmail.com) is bes
 
 — I’m also on
   [GitHub](https://github.com/alexherbo2),
+  [Bitbucket](https://bitbucket.org/alexherbo2),
   [Twitter](https://twitter.com/alexherbo2),
   [Skype](http://skype.com/alexherbo2),
   [Stack Overflow](http://stackoverflow.com/users/3631151/alexherbo2),
