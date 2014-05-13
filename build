@@ -146,8 +146,7 @@ function main
   printf 'Listing pages…'
 
   begin
-    set index_page tmp/index.md
-    set list_page  tmp/list.md
+    set list_page tmp/list.md
 
     for source in (files content)
 
