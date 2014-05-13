@@ -257,24 +257,19 @@ function main
       end
 
       # Pandoc front matter
-      set   regexp_front_matter '^''%''[a-z-]''+'
-      alias pandoc_front_matter "egrep '$regexp_front_matter' '$source'"
-      if pandoc_front_matter
+      for token in (egrep '^''%''[a-z-]''+' $source)
+        set key   (echo "$token" | tr --squeeze-repeats ' ' | cut --delimiter ' ' --fields 1 | cut --characters 2-)
+        set value (echo "$token" | tr --squeeze-repeats ' ' | cut --delimiter ' ' --fields                      2-)
 
-        sub /"$regexp_front_matter"/d $source
-        for token in (pandoc_front_matter)
-          set key   (echo "$token" | tr --squeeze-repeats ' ' | cut --delimiter ' ' --fields 1 | cut --characters 2-)
-          set value (echo "$token" | tr --squeeze-repeats ' ' | cut --delimiter ' ' --fields                      2-)
-
-          switch $key
-            case unlicense
-              set key license; and set value '[unlicense](http://unlicense.org)'
-          end
-
-          replace '$'$key'$' "$value" -- $template
-
+        switch $key
+          case unlicense
+            set key license; and set value '[unlicense](http://unlicense.org)'
         end
+
+        replace '$'$key'$' "$value" -- $template
       end
+
+      sub /'^''%''[a-z-]''+'/d $source
 
       # Haml to HTML
 
