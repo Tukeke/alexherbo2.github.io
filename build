@@ -179,9 +179,8 @@ function main
   printf 'Compiling pages…'
 
   begin
-    # fish sucks: Cannot save multi-line output in a variable
-    # https://github.com/fish-shell/fish-shell/issues/159
-    sh -c 'replace "\$list\$" "<div style=white-space:nowrap>`cat '$list_page'`</div>" -- content/README.md'
+    cat $list_page | __pipe_set list_page
+    replace '$'list'$' "<div style=white-space:nowrap>$list_page</div>" -- content/README.md
 
     for source in (files content -name '*.sh')
       set output (echo $source | replace .sh .md)
