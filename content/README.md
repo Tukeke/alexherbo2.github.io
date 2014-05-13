@@ -19,7 +19,7 @@ If you want to get in touch with me, [email](mailto:alexherbo2@gmail.com) is bes
   [Skype](http://skype.com/alexherbo2),
   [Stack Overflow](http://stackoverflow.com/users/3631151/alexherbo2),
   [lichess](http://lichess.org/@/alexherbo2), and
-  [IRC](http://webchat.freenode.net?channels=exherbo).                           <div><br>
+  [freenode](http://webchat.freenode.net?channels=exherbo).                      <div><br>
 
 
 Blog,  
