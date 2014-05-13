@@ -3,17 +3,17 @@
   %head
     %link{href: '/images/favicon.ico', rel: 'icon'}
     %link{href: '/css/style.css',      rel: 'stylesheet'}
-    %script{src: 'http://code.jquery.com/jquery-2.1.0.min.js'}
-    %script{src: 'http://timeago.yarp.com/jquery.timeago.js'}
-    %script{src: 'https://raw.github.com/Arwid/jQuery.scrollIntoView/master/jquery.scrollIntoView.min.js'}
+    %script{src: '//code.jquery.com/jquery-2.1.0.min.js'}
+    %script{src: '//timeago.yarp.com/jquery.timeago.js'}
+    %script{src: '//raw.github.com/Arwid/jQuery.scrollIntoView/master/jquery.scrollIntoView.min.js'}
     %script{src: '/js/script.js'}
     %title
       alexherbo2.github.io — $title$
   %body
     %header
       %div.top.left
-        = (link_to 'home', '/', :id => 'home'                                                     ) + |
-          (link_to '(▶)', 'http://mawww.uni.cx:8000', { :title => 'Open Music', :class => 'raw' } )   |
+        = (link_to 'home', '/', :id => 'home'                                                ) + |
+          (link_to '(▶)', '//mawww.uni.cx:8000', { :title => 'Open Music', :class => 'raw' } )   |
       %div.top.right
         - if '$flattr-identifier$'
           :coffee
@@ -23,25 +23,25 @@
                             width             : 110                                                                                                                      , \
                           }).css(borderWidth:0).prependTo $('div.top.right')
         - if '$gittip$'
-          %script{data: {gittip: {username: 'alexherbo2', widget: 'button'}}, src: 'http://gttp.co/v1.js'}
-        %a.timeago{href: 'https://github.com/alexherbo2/alexherbo2.github.io/commit/$commit$', title: 'View Commit'}
+          %script{data: {gittip: {username: 'alexherbo2', widget: 'button'}}, src: '//gttp.co/v1.js'}
+        %a.timeago{href: '//github.com/alexherbo2/alexherbo2.github.io/commit/$commit$', title: 'View Commit'}
           %time.timeago{datetime: '$commit-iso-date$'}
-        %a.raw{href: 'https://raw.github.com/alexherbo2/alexherbo2.github.io/source/content/$path$', title: 'View Raw'}
+        %a.raw{href: '//raw.github.com/alexherbo2/alexherbo2.github.io/source/content/$path$', title: 'View Raw'}
           ❮❯
         %h1#title
-          =link_to 'alexherbo2.github.io', 'https://github.com/alexherbo2/alexherbo2.github.io'
+          =link_to 'alexherbo2.github.io', '//github.com/alexherbo2/alexherbo2.github.io'
           —
-          =link_to '$title$', 'https://github.com/alexherbo2/alexherbo2.github.io/blob/source/content/$path$'
+          =link_to '$title$', '//github.com/alexherbo2/alexherbo2.github.io/blob/source/content/$path$'
 
-        %a.raw{href: 'https://github.com/alexherbo2/alexherbo2.github.io/edit/source/content/$path$', title: 'Edit Page'}
+        %a.raw{href: '//github.com/alexherbo2/alexherbo2.github.io/edit/source/content/$path$', title: 'Edit Page'}
           
     $body$
     - if '$disqus-identifier$'
       %div#disqus_thread
       :coffee
         disqus_identifier = '$disqus-identifier$'
-        $('head').append '<script async src=http://alexherbo2.disqus.com/embed.js>'
+        $('head').append '<script async src=//alexherbo2.disqus.com/embed.js>'
     %footer
       %div.bottom.left
-        %a{href: 'http://github.com/alexherbo2/alexherbo2.github.io'}
+        %a{href: '//github.com/alexherbo2/alexherbo2.github.io'}
           GitHub
