@@ -287,7 +287,7 @@ function main
       pandoc --template $template $source --output $output
 
       # Pandoc + Haml(white space aware) = #fail
-      sub s/^' {2}'// $output
+      sub s/^' {8}'// $output
 
     end
   end                                                                            1> /dev/null\
