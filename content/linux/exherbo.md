@@ -45,7 +45,7 @@ needs and preferences.
 
 ### 2. Boot a live system
 
-[Get Manjaro][] and verify the integrity of the ISO.
+[Get Manjaro][] (or any distribution) and verify the integrity of the ISO.
 
 ```sh
 grep manjaro-xfce-0.8.9-x86_64.iso manjaro-xfce-0.8.9-sha1sum.txt | sha1sum --check
