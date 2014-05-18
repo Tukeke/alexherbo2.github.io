@@ -47,14 +47,20 @@ needs and preferences.
 
 [Get Manjaro][] (or any distribution) and verify the integrity of the ISO.
 
+```
+wget http://downloads.sourceforge.net/project/manjarotorrents/release/<version>/manjaro-xfce-<version>-x86_64.torrent
+wget http://downloads.sourceforge.net/project/manjarolinux/release/<version>/xfce/manjaro-xfce-<version>-x86_64.iso
+wget http://downloads.sourceforge.net/project/manjarolinux/release/<version>/xfce/manjaro-xfce-<version>-sha1sum.txt
+```
+
 ```sh
-grep manjaro-xfce-0.8.9-x86_64.iso manjaro-xfce-0.8.9-sha1sum.txt | sha1sum --check
+grep manjaro-xfce-<version>-x86_64.iso manjaro-xfce-<version>-sha1sum.txt | sha1sum --check
 ```
 
 Then write Manjaro on your device (be careful, it’s `sdb` in my case).
 
 ```sh
-dd if=manjaro-xfce-0.8.9-x86_64.iso of=/dev/sdb
+dd if=manjaro-xfce-<version>-x86_64.iso of=/dev/sdb
 ```
 
 Boot Manjaro then you’re ready to the next step :) [Prepare the hard disk](#prepare-the-hard-disk)
