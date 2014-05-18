@@ -95,6 +95,9 @@ swapon swapfile
 
 Get the latest archive of Exherbo from [Stages][Exherbo Stages] and verify the consistence of the file.
 
+_Note_ [Stages][Exherbo Stages] are being built automatically using
+[Jenkins][Philantrop’s Blog — Jenkins] thanks to [Philantrop][Philantrop’s Blog].
+
 ```sh
 wget http://dev.exherbo.org/stages/exherbo-amd64-current.tar.xz
 wget http://dev.exherbo.org/stages/sha1sum
@@ -551,14 +554,16 @@ Commands and aliases:
 !pq https://github.com/alexherbo2/exheres ::unavailable-unofficial alexherbo2’s supplemental repository
 ```
 
-[Exherbo]:        http://exherbo.org
-[Exherbo Stages]: http://dev.exherbo.org/stages
-[Manjaro]:        http://manjaro.org
-[Get Manjaro]:    http://manjaro.org/get-manjaro
-[LFS]:            http://linuxfromscratch.org
-[Paludis]:        http://paludis.exherbo.org
-[kernel]:         http://kernel.org
-[#exherbo]:       http://webchat.freenode.net/?channels=exherbo
+[Exherbo]:                     http://exherbo.org
+[Exherbo Stages]:              http://dev.exherbo.org/stages
+[Manjaro]:                     http://manjaro.org
+[Get Manjaro]:                 http://manjaro.org/get-manjaro
+[LFS]:                         http://linuxfromscratch.org
+[Paludis]:                     http://paludis.exherbo.org
+[kernel]:                      http://kernel.org
+[#exherbo]:                    http://webchat.freenode.net/?channels=exherbo
+[Philantrop’s Blog]:           https://galileo.mailstation.de
+[Philantrop’s Blog — Jenkins]: https://galileo.mailstation.de/jenkins
 
 
 coffee
