@@ -6,10 +6,8 @@ Static site, with [no Jekyll][Jekyll].
 Design
 ------
 
-Theme is inspired by [text-based web browsers][text-based web browser],
+Theme is inspired by [CLIs][CLI],
 color palette is [Solarized][] and font [Menlo][] (not free).
-
-[![](http://i.imgur.com/yPfzzQrl.png 'Lynx text web browser')](http://i.imgur.com/yPfzzQr.png)
 
 Source structure
 ----------------
@@ -73,6 +71,6 @@ Plug-in
 [source]: https://github.com/alexherbo2/alexherbo2.github.io/tree/source
 [master]: https://github.com/alexherbo2/alexherbo2.github.io/tree/master
 [Jekyll]: http://jekyllrb.com
-[text-based web browser]: http://en.wikipedia.org/wiki/Text-based_web_browser
+[CLI]: http://en.wikipedia.org/wiki/Command-line_interface
 [Solarized]: http://ethanschoonover.com/solarized
 [Menlo]: http://leancrew.com/all-this/2009/10/the-compleat-menlovera-sans-comparison
