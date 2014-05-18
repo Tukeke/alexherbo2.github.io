@@ -204,7 +204,7 @@ make menuconfig
 make; make modules_install; cp arch/x86/boot/bzImage /boot/kernel
 ```
 
-Install and configure bootloader
+Install and configure a boot loader
 
 ```sh
 cave resolve syslinux
