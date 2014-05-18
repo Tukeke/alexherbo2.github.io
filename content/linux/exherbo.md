@@ -188,27 +188,16 @@ cave sync
 
 ### 6. Make bootable
 
-Download the latest stable [kernel][] and verify its signature.
+Clone the latest stable [kernel][].
 
 ```sh
-wget kernel.org/pub/linux/kernel/v3.x/linux-3.14.3.tar.xz
-wget kernel.org/pub/linux/kernel/v3.x/linux-3.14.3.tar.sign
-unxz linux*xz
-gpg --verify linux*sign → key ID
-gpg --recv-keys $key_id
-gpg --verify linux*sign
+git clone git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git linux; cd linux
 ```
 
-Extract
-
-```sh
-tar --extract --preserve-permissions --preserve-order --file linux*tar
-```
-
-Install the kernel
+Configure and install the kernel
 
 ```
-cd path-to-kernel; make menuconfig
+make menuconfig
 ```
 
 ```sh
