@@ -76,13 +76,16 @@ h1, h2, h3, h4
 
 ul, ol
   margin-top                                            : 0
-  margin-left                                           : 2em
   ul, ol
     padding-left                                        : 0
-  li
-    margin-left                                         : 1.5em
-    &:before
-      color                                             : $yellow
+  li:before
+    color                                               : $yellow
+
+@media screen and (min-width: 800px)
+  ul, ol
+    margin-left                                         : 2em
+    li
+      margin-left                                       : 1.5em
 
 ul
   li:before
@@ -93,8 +96,11 @@ ul
     content                                             : '. '
 
 p, pre, li, blockquote, #leaf-content > iframe, #leaf-content > object
-  margin                                                : 1em 4em
-  margin-right                                          : 0
+  margin                                                : 1em 0
+
+@media screen and (min-width: 800px)
+  p, pre, li, blockquote, #leaf-content > iframe, #leaf-content > object
+    margin-left                                         : 4em
 
 em, strong
   color                                                 : lighten($green, 40%)
@@ -166,7 +172,7 @@ footer
 
 article
   padding                                               : 02em 0
-  width                                                 : 52em
+  max-width                                             : 52em
   //:before
   //content                                             : '/ '
   //color                                               : $red
