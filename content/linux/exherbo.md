@@ -33,7 +33,7 @@ Why Exherbo?
 Installing
 ----------
 
-Note that most of you will see below is borrowed from the official [Exherbo
+_Note_ that most of you will see below is borrowed from the official [Exherbo
 Install Guide](http://exherbo.org/docs/install-guide.html) but adapted for my
 needs and preferences.
 
@@ -124,7 +124,7 @@ tmpfs               /var/tmp        tmpfs     noatime,nodev,nosuid              
 tmpfs               /var/log        tmpfs     noatime,nodev,nosuid                             0 0
 ```
 
-Note: my laptop has a SSD, so it takes extra care options to stretch its lifetime.
+_Note_ my laptop has a SSD, so it takes extra care options to stretch its lifetime.
 
  * noatime
  * nobh
