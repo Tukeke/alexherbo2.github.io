@@ -57,7 +57,7 @@ Then write Manjaro on your device (be careful, it’s `sdb` in my case).
 dd if=manjaro-xfce-0.8.9-x86_64.iso of=/dev/sdb
 ```
 
-Boot Manjaro then you’re ready to the next step :) __Prepare the hard disk__
+Boot Manjaro then you’re ready to the next step :) [Prepare the hard disk](#prepare-the-hard-disk)
 
 ### 3. Prepare the hard disk
 
