@@ -11,30 +11,31 @@
       alexherbo2.github.io — $title$
   %body
     %header
-      %div.top.left
-        = (link_to 'home', '/', :id => 'home'                                                ) + |
-          (link_to '(▶)', '//mawww.uni.cx:8000', { :title => 'Open Music', :class => 'raw' } )   |
-      %div.top.right
-        - if '$flattr-identifier$'
-          :coffee
-            $('<iframe>', { src               : '//api.flattr.com/button/view/?button=compact&uid=alexherbo2&url=http://alexherbo2.github.io/flattr/$flattr-identifier$' , \
-                            title             : 'Flattr'                                                                                                                 , \
-                            height            :  20                                                                                                                      , \
-                            width             : 110                                                                                                                      , \
-                          }).css(borderWidth:0).prependTo $('div.top.right')
-        - if '$gittip$'
-          %script{data: {gittip: {username: 'alexherbo2', widget: 'button'}}, src: '//gttp.co/v1.js'}
-        %a.timeago{href: '//github.com/alexherbo2/alexherbo2.github.io/commit/$commit$', title: 'View Commit'}
-          %time.timeago{datetime: '$commit-iso-date$'}
-        %a.raw{href: '//raw.github.com/alexherbo2/alexherbo2.github.io/source/content/$path$', title: 'View Raw'}
-          ❮❯
-        %h1#title
-          =link_to 'alexherbo2.github.io', '//github.com/alexherbo2/alexherbo2.github.io'
-          —
-          =link_to '$title$', '//github.com/alexherbo2/alexherbo2.github.io/blob/source/content/$path$'
+      %div.top
+        %div.left
+          = (link_to 'home', '/', :id => 'home'                                                ) + |
+            (link_to '(▶)', '//mawww.uni.cx:8000', { :title => 'Open Music', :class => 'raw' } )   |
+        %div.right
+          - if '$flattr-identifier$'
+            :coffee
+              $('<iframe>', { src               : '//api.flattr.com/button/view/?button=compact&uid=alexherbo2&url=http://alexherbo2.github.io/flattr/$flattr-identifier$' , \
+                              title             : 'Flattr'                                                                                                                 , \
+                              height            :  20                                                                                                                      , \
+                              width             : 110                                                                                                                      , \
+                            }).css(borderWidth:0).prependTo $('.top .right')
+          - if '$gittip$'
+            %script{data: {gittip: {username: 'alexherbo2', widget: 'button'}}, src: '//gttp.co/v1.js'}
+          %a.timeago{href: '//github.com/alexherbo2/alexherbo2.github.io/commit/$commit$', title: 'View Commit'}
+            %time.timeago{datetime: '$commit-iso-date$'}
+          %a.raw{href: '//raw.github.com/alexherbo2/alexherbo2.github.io/source/content/$path$', title: 'View Raw'}
+            ❮❯
+          %h1#title
+            =link_to 'alexherbo2.github.io', '//github.com/alexherbo2/alexherbo2.github.io'
+            —
+            =link_to '$title$', '//github.com/alexherbo2/alexherbo2.github.io/blob/source/content/$path$'
 
-        %a.raw{href: '//github.com/alexherbo2/alexherbo2.github.io/edit/source/content/$path$', title: 'Edit Page'}
-          
+          %a.raw{href: '//github.com/alexherbo2/alexherbo2.github.io/edit/source/content/$path$', title: 'Edit Page'}
+            
     $body$
     - if '$disqus-identifier$'
       %div#disqus_thread
@@ -42,6 +43,7 @@
         disqus_identifier = '$disqus-identifier$'
         $('head').append '<script async src=//alexherbo2.disqus.com/embed.js>'
     %footer
-      %div.bottom.left
-        %a{href: '//github.com/alexherbo2/alexherbo2.github.io'}
-          GitHub
+      %div.bottom
+        %div.left
+          %a{href: '//github.com/alexherbo2/alexherbo2.github.io'}
+            GitHub
