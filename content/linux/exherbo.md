@@ -290,7 +290,7 @@ passwd root
 Add a new user for daily use
 
 ```sh
-useradd -m -G adm,disk,wheel,cdrom,video,usb,users USERNAME
+useradd --create-home --groups adm,disk,wheel,cdrom,video,usb,users USERNAME
 ```
 
 Set user password
