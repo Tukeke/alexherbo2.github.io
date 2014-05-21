@@ -75,7 +75,7 @@ Create a root (SSD) and home partition.
 fdisk /dev/sd{a,b} → /dev/sd{a,b}1
 ```
 
-Format the filesystems
+Format the file systems
 
 ```sh
 mkfs.ext4 /dev/sd{a,b}1
@@ -119,15 +119,15 @@ unxz --to-stdout exherbo*xz | tar --extract --preserve-permissions --preserve-or
 Update etc/fstab
 
 ```
-<filesystem>        <mountpoint>    <type>    <options>                                        <dump/pass>
-/dev/sda1           /               ext4      noatime,nobh,data=writeback,barrier=0,discard    0 0
-/dev/sdb1           /home           ext4      defaults                                         0 0 # if SSD
-/swapfile           none            swap      defaults                                         0 0 # else (optional)
-tmpfs               /tmp            tmpfs     noatime,nodev,nosuid                             0 0
-tmpfs               /var/spool      tmpfs     noatime,nodev,nosuid                             0 0
-tmpfs               /var/cache      tmpfs     noatime,nodev,nosuid                             0 0
-tmpfs               /var/tmp        tmpfs     noatime,nodev,nosuid                             0 0
-tmpfs               /var/log        tmpfs     noatime,nodev,nosuid                             0 0
+#FILE_SYSTEM        MOUNT_POINT     TYPE     OPTIONS                                          DUMP PASS
+/dev/sda1           /               ext4     noatime,nobh,data=writeback,barrier=0,discard    0    0
+/dev/sdb1           /home           ext4     defaults                                         0    0    # if SSD
+/swapfile           none            swap     defaults                                         0    0    # else (optional)
+tmpfs               /tmp            tmpfs    noatime,nodev,nosuid                             0    0
+tmpfs               /var/spool      tmpfs    noatime,nodev,nosuid                             0    0
+tmpfs               /var/cache      tmpfs    noatime,nodev,nosuid                             0    0
+tmpfs               /var/tmp        tmpfs    noatime,nodev,nosuid                             0    0
+tmpfs               /var/log        tmpfs    noatime,nodev,nosuid                             0    0
 ```
 
 _Note_ my laptop has a SSD, so it takes extra care options to stretch its lifetime.
