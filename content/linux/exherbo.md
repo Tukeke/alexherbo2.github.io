@@ -469,27 +469,6 @@ cave resolve net-www/chromium-dev                                              \
              net-www/chromium-dev-pdf-plugin
 ```
 
-```sh
-cave resolve net-plugins/adobe-flash
-```
-
-```sh
-cave print-id-contents adobe-flash → /opt/netscape/plugins/libflashplayer.so […]
-ln --symbolic /opt/netscape /usr/lib/mozilla
-```
-
-```sh
-cave resolve dev-lang/icedtea-web
-```
-
-```sh
-cave resolve dev-libs/nspluginwrapper
-```
-
-```sh
-nspluginwrapper --verbose --auto --install
-```
-
 ### 8. Contributing
 
  * [Knowing your system — Part 7 — Contributing to Exherbo](http://imagination-land.org/posts/2013-01-03-knowing-your-system---part-7---contributing-to-exherbo.html)
