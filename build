@@ -284,8 +284,13 @@ function main
 
       pandoc --template $template $source --output $output
 
+      # Post compilation
+
       # Pandoc + Haml(white space aware) = #fail
       sub s/^' {8}'// $output
+
+      # Fixes index view
+      sub s_'<p><a(.+?)a>(<br>)<.p>'_'<a\1a>\2'_ $output
 
     end
   end                                                                            1> /dev/null\
