@@ -37,7 +37,7 @@ Building
 3. Sass to CSS
 4. CoffeeScript to JavaScript
 5. Kakoune filters
-6. Index page
+6. Creating index view
 7. Build pages
 8. Deployment
  . Utility
@@ -139,11 +139,9 @@ function main
   }
   write; quit'
 
-  # 6. Index page ──────────────────────────────────────────────────────────────
+  # 6. Creating index view ─────────────────────────────────────────────────────
 
-  # 6.1 List page
-
-  printf 'Listing pages…'
+  printf 'Creating index view…'
 
   begin
     set list_page tmp/list.md
