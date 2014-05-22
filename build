@@ -310,6 +310,7 @@ function main
     mv $work/assets/js     .
     mv $work/site/*        .
     mv $work/CNAME         . # custom domain name
+    mv $work/.gitignore    . # honor Git ignore
 
     git add --update
     git add .
