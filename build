@@ -106,12 +106,7 @@ function main
   printf 'Compiling JS…'
 
   begin
-    set coffee assets/coffee ; and make $coffee
-    set js     assets/js     ; and make $js
-
-    coffee --compile $coffee
-
-    mv $coffee/*.js $js
+    coffee --output site/js --compile assets/coffee
   end                                                                            1> /dev/null\
                                                                                  2> $LOG
   pass < $LOG
@@ -310,7 +305,6 @@ function main
 
     mv $work/assets/images .
     mv $work/assets/fonts  .
-    mv $work/assets/js     .
     mv $work/site/*        .
     mv $work/CNAME         . # custom domain name
     mv $work/.gitignore    . # honor Git ignore
