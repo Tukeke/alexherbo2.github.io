@@ -316,3 +316,7 @@ Citations
 > << 500 Days of Summer
 
 %spotify 13McnYo2bDvC50ZS8BFROF
+
+
+> We don’t live in a world of reality, we live in a world of perceptions.
+> [Forbes Thought Of The Day 408 Game of Thrones] << Gerald J. Simmons
