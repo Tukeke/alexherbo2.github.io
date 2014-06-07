@@ -1,0 +1,47 @@
+#!/bin/bash
+
+usage='usage: blog new URI TITLE
+
+Blog Task Warrior
+'
+
+[[ $# =  0            ]] && { echo $usage; exit 1; }
+[[ $* =~ ^(-h|--help) ]] && { echo $usage; exit 0; }
+
+# New ├─────────────────────────────────────────────────────────────────────────
+
+new() { entry=$1 title=${@:2}
+
+  file=content/blog/$entry
+
+  mkdir --parents $(dirname $file)
+
+  cat <<-EOF | sed s_'	'__ > $file
+	$title
+	$(repeat = ${#title})
+	
+	%author Alex Leferry 2>
+	%date   $(date +%F)
+	%source X
+	%unlicense
+	
+	%gittip
+	%flattr-identifier X
+	%disqus-identifier X
+	EOF
+
+  $EDITOR $file
+}
+
+# Utility ├─────────────────────────────────────────────────────────────────────
+
+repeat() { text=$1 count=${2:-0}
+  echo $(yes $text | head --lines $count | join)
+}
+
+join() { 
+  tr --delete "\n" 
+} 
+
+
+$@
