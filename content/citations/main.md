@@ -320,3 +320,6 @@ Citations
 
 > We don’t live in a world of reality, we live in a world of perceptions.
 > [Forbes Thought Of The Day 408 Game of Thrones] << Gerald J. Simmons
+
+
+> Colore ma vie du chaos des ennuis.  << (500) jours ensemble, Summer.
