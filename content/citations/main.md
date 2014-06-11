@@ -323,3 +323,11 @@ Citations
 
 
 > Colore ma vie du chaos des ennuis.  << (500) jours ensemble, Summer.
+
+
+> On gagne toujours à jouer cartes sur table, surtout quand on a la réputation
+> de cacher son jeu.
+
+> La violence est le dernier refuge de l’incompétence.
+
+> << Isaac Asimov, Fondation (1), Hardin.
