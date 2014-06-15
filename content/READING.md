@@ -18,4 +18,5 @@ TODO    2014-04-05.Sat Fondation (Isaac Asimov) 4,5 [Impressions Enghien Macha|S
 DONE    2014-05-06.Tue Considérations inactuelles (Friedrich Nietzsche) 1/4 [cadeau Laurent]
 TODO    2014-06-02.Mon Les Archives de Roshar (Brandon Sanderson) La Voie des rois 1,2 [jjthrash]
 TODO    2014-06-02.Mon Le Cycle d’Ender (Orson Scott Card) (La Voix des morts, Xénocide, Les Enfants de l’esprit, Ender : L’Exil) [Impressions Enghien jjthrash]
+DONE    2014-06-15.Sun Avengers Tome 1 [cadeau Laurent +usb(2×16) +tv]
 ```
