@@ -6,7 +6,7 @@
 Keyboard layout
 ---------------
 
-`setxkbmap` [qwerty-cyrillic](https://github.com/alexherbo2/alexherbo2.github.io/blob/X11/xkb/symbols/qwerty-cyrillic)
+`setxkbmap` [qwerty-cyrillic](https://github.com/alexherbo2/dotfiles/blob/X11/xkb/symbols/qwerty-cyrillic)
 
 ```
 ╔════╦════╦════╦════╦════╦════╦════╦════╦════╦════╦════╦════╦════╦════╦════╗
