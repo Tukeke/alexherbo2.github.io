@@ -331,3 +331,9 @@ Citations
 > La violence est le dernier refuge de l’incompétence.
 
 > << Isaac Asimov, Fondation (1), Hardin.
+
+
+> Every configuration option in a program is a place where the program is too stupid
+> to figure out for itself what the user really wants, and should be considered a faillure
+> of both the program and the programmer who implemented it.
+> << [fish, Configurability is the root of all evil](http://fishshell.com/docs/2.0/design.html#conf)
