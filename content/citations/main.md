@@ -337,3 +337,11 @@ Citations
 > to figure out for itself what the user really wants, and should be considered a faillure
 > of both the program and the programmer who implemented it.
 > << [fish, Configurability is the root of all evil](http://fishshell.com/docs/2.0/design.html#conf)
+
+
+> – Que penses-tu qu’il va m’arriver maintenant ?  
+> – L’esclavage…  Tu serviras la reine jusqu’à ta mort.  Ce ne sera pas si différent
+>   de ta vie actuelle.  
+> – Tu n’as pas vraiment tort.  Mais c’est la personne que je sers qui m’importe.
+>   Je préfère encore mourir que de suivre les ordres de celui que je ne respecte pas.
+> << Shalnark, Hunter × Hunter (96)
