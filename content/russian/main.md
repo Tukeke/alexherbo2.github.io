@@ -1,6 +1,8 @@
 русский язык
 ============
 
+%disqus-identifier russian
+
 Маша at Mabillon
 
 Keyboard layout
